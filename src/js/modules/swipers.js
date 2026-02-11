@@ -1,7 +1,7 @@
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules'; // 👈 импортируем модуль навигации
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation'; // 👈 стили кнопок навигации
+import 'swiper/css/navigation'; 
 
 function initSwiper(selector) {
   const container = document.querySelector(selector);
