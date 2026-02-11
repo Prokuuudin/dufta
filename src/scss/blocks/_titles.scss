@@ -1,0 +1,36 @@
+h1.title-1 {
+	margin: 1em 0 0.5em;
+	font-size: 80px;
+	// font-size: clamp(2rem, 0.909rem + 5.45vw, 5rem);
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: var(--font-main);
+	color: #fff;
+}
+
+.title-2 {
+	margin: 1em 0 0.5em;
+	font-size:clamp(2.125rem, 1.761rem + 1.82vw, 3.125rem);
+	font-weight: 700;
+	font-family: var(--font-main);
+	text-transform: uppercase;
+	margin-bottom: 40px;
+	text-align: center;	
+	
+}
+
+.title-3 {
+	margin: 1em 0 0.5em;
+	font-size: 26px;
+	font-weight: 700;
+	font-family: var(--font-titles);
+	text-transform: uppercase;
+}
+
+.title-4 {
+	margin: 1em 0 0.5em;
+	font-size: 18px;
+	font-weight: 700;
+	font-family: var(--font-titles);
+}

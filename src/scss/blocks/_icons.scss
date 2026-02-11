@@ -1,0 +1,70 @@
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 22px;
+	height: 22px;
+}
+
+.icon--arrow-left,
+.icon--arrow-right {
+	width: 50px;
+	height: 50px;
+	stroke: #000;
+}
+
+.icon--phone, .icon--email, .icon--youtube, .icon--instagram, .icon--fb, .icon--globe {
+	width: 27px;
+	height: 27px;
+	fill: var(--text-color);	
+	stroke: var(--text-color);
+	flex-shrink: 0;
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		// fill: var(--accent);
+		// stroke: var(--accent);
+		scale: 1.2;
+	}
+
+	@include mobile {
+		width: 20px;
+		height: 20px;
+		margin-right: 0;
+	}
+}
+
+.icon--pot, .icon--flower, .icon--microscope, .icon--goods, .icon--lotos, .icon--certificate, .icon--hand-hearts, .icon--hands-partners, .icon--heart-map, .icon--building, .icon--shelves, .icon--money-grafic, .icon--employments {
+	width: 40px;
+	height: 40px;
+	fill: var(--text-color);
+
+	@include mobile {
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.icon--mastercard, .icon--visa, .icon--paypal, .icon--online-payment, .icon--creditcard, .icon--crypto, .icon--moneytransfer {
+	width: 70px;
+	height: 40px;
+	fill: #000;
+
+	@include mobile {
+		width: 40px;
+		height: 30px;
+	}
+	
+}		
+
+.icon--delivery-clock, .icon--delivery-globe, .icon--delivery-truck {
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+} 
+
+.icon--step1, .icon--step2, .icon--step3, .icon--step4, .icon--step5 {
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	fill: var(--accent);
+}

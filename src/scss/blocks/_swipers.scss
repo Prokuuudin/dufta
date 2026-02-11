@@ -1,0 +1,62 @@
+// .swiper {
+//   position: relative;
+//   /* для кнопок */
+//   width: 100%;
+//   /* вернем нормальную ширину */
+//   max-width: 450px;
+//   /* ограничим по размеру картинки */
+//   margin: 0 auto;
+//   /* центрируем */
+//   overflow: hidden;
+// }
+
+// .swiper-slide {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .swiper-slide img {
+//   display: block;
+//   width: 100%;
+//   height: auto;
+//   border-radius: 6px;
+// }
+
+// /* --- Кнопки --- */
+// .swiper__btns {
+//   position: absolute;
+//   bottom: 10px;
+//   left: 50%;
+//   transform: translateX(-50%);
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 20px;
+//   z-index: 10;
+// }
+
+// .swiper__btn--next,
+// .swiper__btn--prev {
+//   padding: 8px 16px;
+//   background: rgba(255, 255, 255, 0.85);
+//   border-radius: 5px;
+//   cursor: pointer;
+//   font-weight: 700;
+//   font-size: 22px;
+//   user-select: none;
+//   transition: all 0.3s ease;
+
+//   @include mobile {
+//     font-size: 14px;
+//     padding: 6px 12px;
+//   }
+
+
+// }
+
+// .swiper__btn--next:hover,
+// .swiper__btn--prev:hover {
+//   background: rgba(255, 255, 255, 1);
+//   color: var(--accent);
+// }

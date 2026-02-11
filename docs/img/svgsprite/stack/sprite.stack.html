@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SVG stack preview | svg-sprite</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                color: #666;
+                background: #fafafa;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1em;
+                line-height: 1.4;
+            }
+
+            header {
+                display: block;
+                padding: 3em 3em 2em;
+                background-color: #fff;
+            }
+
+            header p {
+                margin: 2em 0 0;
+            }
+
+            section {
+                border-top: 1px solid #eee;
+                padding: 2em 3em 0;
+            }
+
+            section ul {
+                margin: 0;
+                padding: 0;
+            }
+
+            section li {
+                display: inline-block;
+                background-color: #fff;
+                position: relative;
+                margin: 0 2em 2em 0;
+                vertical-align: top;
+                border: 1px solid #ccc;
+                padding: 1em 1em 3em;
+                cursor: default;
+            }
+
+            .icon-box {
+                margin: 0;
+                width: 144px;
+                height: 144px;
+                position: relative;
+                background: #ccc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12'%3E%3Cpath fill='%23fff' d='M6 0h6v6H6zM0 6h6v6H0z'/%3E%3C/svg%3E") top left repeat;
+                border: 1px solid #ccc;
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+            }
+
+            .icon {
+                display: inline-block;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                font-size: 1em;
+                font-weight: 400;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                position: absolute;
+                left: 1em;
+                right: 1em;
+                bottom: 1em;
+            }
+
+            footer {
+                display: block;
+                margin: 0;
+                padding: 0 3em 3em;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: .7em;
+            }
+
+            footer a {
+                color: #0f7595;
+                margin-left: 0;
+            }
+        </style>
+
+<!--
+Sprite shape dimensions
+====================================================================================================
+You will need to set the sprite shape dimensions via CSS when you use them as stack SVGs, otherwise
+they would become a huge 100% in size. You may use the following dimension classes for doing so.
+They might well be outsourced to an external stylesheet of course.
+-->
+
+<style>
+ .svg-arrow-left-dims { width: 800px; height: 800px; }
+ .svg-arrow-right-dims { width: 800px; height: 800px; }
+ .svg-building-dims { width: 145px; height: 104px; }
+ .svg-certificate-dims { width: 187px; height: 238px; }
+ .svg-creditcard-dims { width: 800px; height: 800px; }
+ .svg-creditcard1-dims { width: 800px; height: 800px; }
+ .svg-crypto-dims { width: 512px; height: 512px; }
+ .svg-decor-band1-dims { width: 2000px; height: 116.43px; }
+ .svg-decor-band2-dims { width: 70px; height: 1350px; }
+ .svg-delivery-clock-dims { width: 800px; height: 800px; }
+ .svg-delivery-globe-dims { width: 800px; height: 800px; }
+ .svg-delivery-truck-dims { width: 800px; height: 800px; }
+ .svg-email-dims { width: 800px; height: 800px; }
+ .svg-employments-dims { width: 145px; height: 140px; }
+ .svg-facebook-dims { width: 800px; height: 800px; }
+ .svg-fb-dims { width: 800px; height: 800px; }
+ .svg-flower-dims { width: 188px; height: 238px; }
+ .svg-globe-dims { width: 800px; height: 800px; }
+ .svg-globe1-dims { width: 800px; height: 800px; }
+ .svg-goods-dims { width: 220px; height: 238px; }
+ .svg-hand-hearts-dims { width: 275px; height: 234px; }
+ .svg-hands-partners-dims { width: 238px; height: 238px; }
+ .svg-heart-map-dims { width: 264px; height: 238px; }
+ .svg-instagram-dims { width: 800px; height: 800px; }
+ .svg-lotos-dims { width: 224px; height: 238px; }
+ .svg-mail-dims { width: 800px; height: 800px; }
+ .svg-mastercard-dims { width: 800px; height: 800px; }
+ .svg-microscop-dims { width: 179px; height: 238px; }
+ .svg-microscope-dims { width: 179px; height: 238px; }
+ .svg-money-grafic-dims { width: 140px; height: 122px; }
+ .svg-moneytransfer-dims { width: 800px; height: 800px; }
+ .svg-online-payment-dims { width: 800px; height: 800px; }
+ .svg-online-payment1-dims { width: 800px; height: 800px; }
+ .svg-paypal-dims { width: 800px; height: 800px; }
+ .svg-phone-dims { width: 800px; height: 800px; }
+ .svg-pot-dims { width: 211px; height: 238px; }
+ .svg-shelves-dims { width: 125px; height: 140px; }
+ .svg-visa-dims { width: 800px; height: 800px; }
+ .svg-website-dims { width: 512px; height: 512px; }
+ .svg-youtube-dims { width: 800px; height: 800px; }
+</style>
+
+<!--
+====================================================================================================
+-->
+
+    </head>
+    <body>
+        <header>
+            <h1>SVG stack preview</h1>
+            <p>This preview features an SVG stack. Please have a look at the HTML source for further details and be aware of the following constraints:</p>
+            <ul>
+                <li>Your browser has to <a href="https://caniuse.com/svg-fragment" target="_blank" rel="noopener noreferrer">support SVG fragment identifiers</a> for SVG stacks to work.</li>
+                <li>Support for SVG fragment identifiers hasn't always been that decent. For older browsers you will have to use some prolyfill like <a href="https://github.com/preciousforever/SVG-Stacker/blob/master/fixsvgstack.jquery.js" target="_blank" rel="noopener noreferrer">fixsvgstack.jquery.js</a>.</li>
+            </ul>
+        </header>
+        <section>
+
+<!--
+SVG stack
+====================================================================================================
+These SVG images make use of fragment identifiers (IDs) to reference certain portions of the
+external sprite. By default, all shapes inside the sprite are hidden by CSS. The `:target` pseudo
+selector is used to show the very shape that is referenced by the fragment identifier.
+-->
+
+            <ul>
+
+             <li title="arrow-left">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#arrow-left" class="svg-arrow-left-dims" alt="arrow-left">
+                    </div>
+                    <h2>arrow-left, </h2>
+                </li>
+             <li title="arrow-right">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#arrow-right" class="svg-arrow-right-dims" alt="arrow-right">
+                    </div>
+                    <h2>arrow-right, </h2>
+                </li>
+             <li title="building">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#building" class="svg-building-dims" alt="building">
+                    </div>
+                    <h2>building, </h2>
+                </li>
+             <li title="certificate">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#certificate" class="svg-certificate-dims" alt="certificate">
+                    </div>
+                    <h2>certificate, </h2>
+                </li>
+             <li title="creditcard">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#creditcard" class="svg-creditcard-dims" alt="creditcard">
+                    </div>
+                    <h2>creditcard, </h2>
+                </li>
+             <li title="creditcard1">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#creditcard1" class="svg-creditcard1-dims" alt="creditcard1">
+                    </div>
+                    <h2>creditcard1, </h2>
+                </li>
+             <li title="crypto">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#crypto" class="svg-crypto-dims" alt="crypto">
+                    </div>
+                    <h2>crypto, </h2>
+                </li>
+             <li title="decor-band1">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#decor-band1" class="svg-decor-band1-dims" alt="decor-band1">
+                    </div>
+                    <h2>decor-band1, </h2>
+                </li>
+             <li title="decor-band2">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#decor-band2" class="svg-decor-band2-dims" alt="decor-band2">
+                    </div>
+                    <h2>decor-band2, </h2>
+                </li>
+             <li title="delivery-clock">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#delivery-clock" class="svg-delivery-clock-dims" alt="delivery-clock">
+                    </div>
+                    <h2>delivery-clock, </h2>
+                </li>
+             <li title="delivery-globe">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#delivery-globe" class="svg-delivery-globe-dims" alt="delivery-globe">
+                    </div>
+                    <h2>delivery-globe, </h2>
+                </li>
+             <li title="delivery-truck">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#delivery-truck" class="svg-delivery-truck-dims" alt="delivery-truck">
+                    </div>
+                    <h2>delivery-truck, </h2>
+                </li>
+             <li title="email">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#email" class="svg-email-dims" alt="email">
+                    </div>
+                    <h2>email, </h2>
+                </li>
+             <li title="employments">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#employments" class="svg-employments-dims" alt="employments">
+                    </div>
+                    <h2>employments, </h2>
+                </li>
+             <li title="facebook">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#facebook" class="svg-facebook-dims" alt="facebook">
+                    </div>
+                    <h2>facebook, </h2>
+                </li>
+             <li title="fb">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#fb" class="svg-fb-dims" alt="fb">
+                    </div>
+                    <h2>fb, </h2>
+                </li>
+             <li title="flower">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#flower" class="svg-flower-dims" alt="flower">
+                    </div>
+                    <h2>flower, </h2>
+                </li>
+             <li title="globe">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#globe" class="svg-globe-dims" alt="globe">
+                    </div>
+                    <h2>globe, </h2>
+                </li>
+             <li title="globe1">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#globe1" class="svg-globe1-dims" alt="globe1">
+                    </div>
+                    <h2>globe1, </h2>
+                </li>
+             <li title="goods">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#goods" class="svg-goods-dims" alt="goods">
+                    </div>
+                    <h2>goods, </h2>
+                </li>
+             <li title="hand-hearts">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#hand-hearts" class="svg-hand-hearts-dims" alt="hand-hearts">
+                    </div>
+                    <h2>hand-hearts, </h2>
+                </li>
+             <li title="hands-partners">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#hands-partners" class="svg-hands-partners-dims" alt="hands-partners">
+                    </div>
+                    <h2>hands-partners, </h2>
+                </li>
+             <li title="heart-map">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#heart-map" class="svg-heart-map-dims" alt="heart-map">
+                    </div>
+                    <h2>heart-map, </h2>
+                </li>
+             <li title="instagram">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#instagram" class="svg-instagram-dims" alt="instagram">
+                    </div>
+                    <h2>instagram, </h2>
+                </li>
+             <li title="lotos">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#lotos" class="svg-lotos-dims" alt="lotos">
+                    </div>
+                    <h2>lotos, </h2>
+                </li>
+             <li title="mail">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#mail" class="svg-mail-dims" alt="mail">
+                    </div>
+                    <h2>mail, </h2>
+                </li>
+             <li title="mastercard">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#mastercard" class="svg-mastercard-dims" alt="mastercard">
+                    </div>
+                    <h2>mastercard, </h2>
+                </li>
+             <li title="microscop">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#microscop" class="svg-microscop-dims" alt="microscop">
+                    </div>
+                    <h2>microscop, </h2>
+                </li>
+             <li title="microscope">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#microscope" class="svg-microscope-dims" alt="microscope">
+                    </div>
+                    <h2>microscope, </h2>
+                </li>
+             <li title="money-grafic">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#money-grafic" class="svg-money-grafic-dims" alt="money-grafic">
+                    </div>
+                    <h2>money-grafic, </h2>
+                </li>
+             <li title="moneytransfer">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#moneytransfer" class="svg-moneytransfer-dims" alt="moneytransfer">
+                    </div>
+                    <h2>moneytransfer, </h2>
+                </li>
+             <li title="online-payment">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#online-payment" class="svg-online-payment-dims" alt="online-payment">
+                    </div>
+                    <h2>online-payment, </h2>
+                </li>
+             <li title="online-payment1">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#online-payment1" class="svg-online-payment1-dims" alt="online-payment1">
+                    </div>
+                    <h2>online-payment1, </h2>
+                </li>
+             <li title="paypal">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#paypal" class="svg-paypal-dims" alt="paypal">
+                    </div>
+                    <h2>paypal, </h2>
+                </li>
+             <li title="phone">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#phone" class="svg-phone-dims" alt="phone">
+                    </div>
+                    <h2>phone, </h2>
+                </li>
+             <li title="pot">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#pot" class="svg-pot-dims" alt="pot">
+                    </div>
+                    <h2>pot, </h2>
+                </li>
+             <li title="shelves">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#shelves" class="svg-shelves-dims" alt="shelves">
+                    </div>
+                    <h2>shelves, </h2>
+                </li>
+             <li title="visa">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#visa" class="svg-visa-dims" alt="visa">
+                    </div>
+                    <h2>visa, </h2>
+                </li>
+             <li title="website">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#website" class="svg-website-dims" alt="website">
+                    </div>
+                    <h2>website, </h2>
+                </li>
+             <li title="youtube">
+                    <div class="icon-box">
+                        <img src="svg/sprite.stack.svg#youtube" class="svg-youtube-dims" alt="youtube">
+                    </div>
+                    <h2>youtube, </h2>
+                </li>
+         </ul>
+
+<!--
+====================================================================================================
+-->
+
+        </section>
+        <footer>
+            <p>Generated at Tue, 20 Jan 2026 16:05:40 GMT by <a href="https://github.com/svg-sprite/svg-sprite" target="_blank" rel="noopener noreferrer">svg-sprite</a>.</p>
+        </footer>
+    </body>
+</html>

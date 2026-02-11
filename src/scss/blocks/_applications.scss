@@ -1,0 +1,50 @@
+.applications__content {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.applications__item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* меняем порядок колонок у каждого второго блока */
+.applications__item:nth-child(even) {
+  .applications__textcol {
+    order: 2;
+  }
+  .applications__image {
+    order: 1;
+  }
+}
+
+.applications__textcol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.applications__subtitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.applications__text {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.applications__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}

@@ -1,0 +1,22 @@
+.about__row {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 40px;
+  padding: 20px;
+  align-items: stretch;
+
+  @include tablet {
+    gap: 24px;
+    padding: 20px 0;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 0;
+  }
+}
+
+.about__content {
+  text-align: left;
+}

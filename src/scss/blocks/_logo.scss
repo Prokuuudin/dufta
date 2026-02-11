@@ -1,0 +1,47 @@
+  .logo {
+      width: 150px;
+      height: 100px;
+      display: flex;
+      align-items: center;      
+      background-image: url('./../../img/logo.jpg');
+      background-position: center center; /* x y */
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: width 0.3s ease, height 0.3s ease;
+
+      @include mobile {
+          width: 55px;
+          height: 55px;
+      }
+  }
+
+  .header.small .logo {
+    width: 100px;
+    height: 70px;
+}
+
+.logo.about__logo {
+  width: 100%;
+  height: 100%;
+
+  /* растягиваем по ячейке grid */
+  align-self: stretch;
+  justify-self: stretch;
+
+  display: block;
+
+  background-image: url('./../../img/logo.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer__logo .footer__logo-link{
+  width: 150px;
+  height: 100px;
+  display: flex;
+  align-items: center;      
+  background-image: url('./../../img/logo.jpg');
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+}

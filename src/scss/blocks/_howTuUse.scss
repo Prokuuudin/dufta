@@ -1,0 +1,56 @@
+.how-to-use__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+.how-to-use__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.how-to-use__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.how-to-use__image--step6 {
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: #999;
+  background-image: url('./../../img/logo.jpg');
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+    border-radius: 50%;
+}
+
+.how-to-use__step {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.how-to-use__text {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+}

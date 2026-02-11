@@ -1,0 +1,122 @@
+/* ===== GRID ===== */
+.blog-section__container{
+    margin-bottom: 40px;
+    
+    @include mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.blog-section__content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+    align-items: start;
+    
+    @include tablet {
+        display: flex;
+        flex-direction: column;        
+    }    
+}
+
+.blog-info__text{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left;
+
+    @include mobile {        
+        line-height: 1.2;
+    }
+}
+
+/* ===== SLIDER ===== */
+.blog-slider {
+    position: relative;
+    width: 100%;
+}
+
+.swiper-wrapper {
+    align-items: stretch;
+}
+
+.swiper-slide {
+    height: auto !important;
+}
+
+/* ===== SLIDE ===== */
+.blog-slide {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    height: auto;
+}
+
+.blog-slide__link {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-slide__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.blog-slide__title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 16px 0 8px 0;
+}
+
+.blog-slide__text{
+    font-size: 14px;
+    line-height: 1.5;    
+}
+
+/* ===== ARROWS ===== */
+.blog-slider__btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+
+    background: rgb(255, 255, 255, 0.6);
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 42px;
+    color: var(--text-color);
+
+    transition: all 0.2s ease-in;
+    
+    &:hover {
+        background: rgb(255, 255, 255, 0.9);
+        scale: 1.1;     
+    }
+}
+.blog-slider__btn.swiper__btn--prev{
+    left: 0px;
+}
+.blog-slider__btn.swiper__btn--next{
+    right: 0px;
+}
+
+.blog-link{
+    margin-top: 20px;
+    text-align: center;    
+
+    @include mobile {
+        margin-top: 0;                
+    }
+}
