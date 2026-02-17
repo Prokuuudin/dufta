@@ -1,3 +1,8 @@
+.applications{
+  padding: 20px;
+  background-color: #fff;
+
+}
 .applications__content {
   display: flex;
   flex-direction: column;
@@ -35,11 +40,6 @@
 .applications__subtitle {
   font-size: 22px;
   font-weight: 600;
-}
-
-.applications__text {
-  font-size: 16px;
-  line-height: 1.5;
 }
 
 .applications__image img {

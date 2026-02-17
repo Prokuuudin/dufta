@@ -1,8 +1,13 @@
+.how-to-use {
+}
 .how-to-use__content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin-top: 40px;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 40px;
 
   @include tablet {
     grid-template-columns: repeat(2, 1fr);
@@ -28,19 +33,6 @@
   display: block;
   border-radius: 12px;
   margin-bottom: 16px;
-}
-
-.how-to-use__image--step6 {
-  width: 80px;
-  height: 80px;
-  margin-bottom: 20px;
-  background-color: #999;
-  background-image: url('./../../img/logo.jpg');
-  background-position: center center; /* x y */
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-    border-radius: 50%;
 }
 
 .how-to-use__step {

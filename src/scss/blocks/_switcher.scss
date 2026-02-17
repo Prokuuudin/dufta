@@ -1,118 +1,86 @@
 /* ---------- LANGUAGE SWITCHER ---------- */
-.switcher-wrapper {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 140px;
-    padding: 0 10px;
-    cursor: pointer;
-    font-size: 16px;
-
-    @include mobile {
-        width: auto;
-        height: 20px;
-        padding: 0;
-    }
-}
-
-.switcher-wrapper .switcher {
-    position: relative;
-    flex: 0 0 auto;
-    padding: 3px 6px;
-    min-width: 28px;
-    text-align: center;
-    color: var(--accent);
-    transition: color .25s ease-in-out;
-    z-index: 2;
-    cursor: pointer;
-
-    @include mobile {
-        padding: 1px 3px;
-        font-size: 14px;
-    }
-}
-
-.switcher:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
 
 .switcher-wrapper {
     position: relative;
     display: flex;
     align-items: center;
     height: 35px;
-    width: 140px;
-    padding: 0 10px;
-    cursor: pointer;
+    width: 170px;
+    padding: 0 6px;
     font-size: 14px;
-    
+    font-weight: 600;
+    cursor: pointer;
+
     @include mobile {
-        width: 100px;
-        height: 20px;
-        padding: 0;
+        height: 24px;
+        width: 140px;
+        padding: 0 4px;
     }
 }
 
-.switcher-wrapper:hover {
-    opacity: 1;
-}
-
+/* radio скрываем */
 .switcher-wrapper input[type="radio"] {
     display: none;
 }
 
+/* label */
 .switcher-wrapper .switcher {
-    position: relative;
-    flex: 1 1 calc(100% / 3);
+    flex: 1 1 calc(100% / 5);
     text-align: center;
-    color: var(--accent);
-    transition: color .25s ease-in-out;
+    padding: 3px 0;
     z-index: 2;
-    cursor: pointer;
+    color: var(--accent);
+    transition: color .25s ease;
+
+    @include mobile {
+        font-size: 13px;
+        padding: 1px 0;
+    }
 }
 
-.switcher-wrapper input[type="radio"]:checked+.switcher {
+.switcher-wrapper .switcher:hover {
+    opacity: 0.8;
+}
+
+.switcher-wrapper input:checked + .switcher {
     color: #fff;
 }
 
 .lang-placeholder {
-    width: 30px;
-    height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 12px) / 5);
+    height: 28px;
     border-radius: 50%;
     background: var(--accent);
-    position: absolute;
     z-index: 1;
-    transition: left .25s ease-in-out;
+    transition: left .25s ease;
 
     @include mobile {
-        width: 22px;
-        height: 22px;
-    }    
-}
-
-.switcher-wrapper input[type="radio"]:nth-of-type(1):checked~.lang-placeholder {
-    left: 15px;
-
-    @include mobile {
-        left: 6px;
-
+        width: calc((100% - 8px) / 5);
+        height: 20px;
     }
 }
 
-.switcher-wrapper input[type="radio"]:nth-of-type(2):checked~.lang-placeholder {
-    left: 55px;
-    @include mobile {
-        left: 39px;
-    }
+/* --- позиции для 5 языков --- */
+
+.switcher-wrapper input:nth-of-type(1):checked ~ .lang-placeholder {
+    left: 6px;
 }
 
-.switcher-wrapper input[type="radio"]:nth-of-type(3):checked~.lang-placeholder {
-    left: 95px;
+.switcher-wrapper input:nth-of-type(2):checked ~ .lang-placeholder {
+    left: calc(6px + 1 * ((100% - 12px) / 5));
+}
 
-    @include mobile {
-        left: 72px;
-    }
+.switcher-wrapper input:nth-of-type(3):checked ~ .lang-placeholder {
+    left: calc(6px + 2 * ((100% - 12px) / 5));
+}
 
+.switcher-wrapper input:nth-of-type(4):checked ~ .lang-placeholder {
+    left: calc(6px + 3 * ((100% - 12px) / 5));
+}
+
+.switcher-wrapper input:nth-of-type(5):checked ~ .lang-placeholder {
+    left: calc(6px + 4 * ((100% - 12px) / 5));
 }

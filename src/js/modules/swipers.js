@@ -11,17 +11,13 @@ return new Swiper(container, {
   modules: [Navigation],
 
   loop: true,
-  slidesPerView: 1,
-  centeredSlides: true,
+  slidesPerView: 3,
   spaceBetween: 20,
 
   breakpoints: {
-    760: {
-      slidesPerView: 2,
-    },
-    1024: {
-      slidesPerView: 3,
-    },
+    0: { slidesPerView: 1 },
+    760: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
   },
 
   navigation: {
@@ -36,5 +32,6 @@ export default function initAllSwipers() {
   initSwiper('.swiper-products');
   initSwiper('.swiper-blog');  
 }
+
 
 

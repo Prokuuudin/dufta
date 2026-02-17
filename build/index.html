@@ -23,18 +23,6 @@
 <img src="./img/logo.jpg" alt="Логотип">
 </picture> -->
 					</a>
-					<!-- <div class="header__socials">
-                    <a href="https://www.facebook.com/miksplusveikals" target="_blank">
-                        <svg class="icon icon--facebook">
-                            <use href="./img/svgsprite/sprite.symbol.svg#facebook"></use>
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/miksplusveikals/" target="_blank">
-                        <svg class="icon icon--instagram">
-                            <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
-                        </svg>
-                    </a>
-                </div> -->
 					<nav class="header__nav nav">
 						<ul class="nav__list">
 							<li><a href="index.html#about" class="active" data-key="nav-about">о&#160;Dufta</a></li>
@@ -51,15 +39,20 @@
 						<div class="switcher-wrapper">
 							<input type="radio" name="language" value="lv" id="lang-lv" checked />
 							<label class="switcher" for="lang-lv">LV</label>
+
+							<input type="radio" name="language" value="lt" id="lang-lt" />
+							<label class="switcher" for="lang-lt">LT</label>
+
+							<input type="radio" name="language" value="es" id="lang-es" />
+							<label class="switcher" for="lang-es">ES</label>
+
 							<input type="radio" name="language" value="en" id="lang-eng" />
 							<label class="switcher" for="lang-eng">EN</label>
+
 							<input type="radio" name="language" value="ru" id="lang-ru" />
 							<label class="switcher" for="lang-ru">RU</label>
-							<span class="lang-placeholder"></span>
-							<!-- <label class="switcher" for="lang-es">ES</label>
-                    <span class="lang-placeholder"></span>
-                    <label class="switcher" for="lang-lt">LT</label>
-                    <span class="lang-placeholder"></span> -->
+
+							<div class="lang-placeholder"></div>
 						</div>
 					</div>
 
@@ -296,7 +289,7 @@
 			</section>
 
 			<section class="uses-cases" id="uses-cases">
-				<div class="container">
+				<div class="container uses-cases__container">
 					<h2 class="title-2 uses-cases__title" data-key="uses-cases-title">
 						Возможности Dufta
 					</h2>
@@ -449,12 +442,10 @@
 
 						<!-- Шаг 6 -->
 						<div class="how-to-use__item">
-							<div class="how-to-use__image how-to-use__image--step6">
-								<!-- <picture>
-<source srcset="./img/logo.webp 1x, ./img/logo@2x.webp 2x" type="image/webp">
-<source srcset="./img/logo.jpg 1x, ./img/logo@2x.jpg 2x" type="image/jpeg">
-<img src="./img/logo.jpg" alt="Шаг 6">
-</picture> -->
+							<div class="how-to-use__image">
+								<svg class="icon icon--step6">
+									<use href="./img/svgsprite/sprite.symbol.svg#step6"></use>
+								</svg>
 							</div>
 							<h3 class="how-to-use__step">Шаг 6</h3>
 							<p class="how-to-use__text" data-key="how-to-use-text-6">
@@ -792,11 +783,6 @@
 
 					<div class="delivery-payment__footer">
 						<a href="https://erawadee.com" class="btn-link" target="_blank">
-							<p class="delivery-payment__text">
-								<span data-key="payment-more">
-									Подробнее&#160;&#8212; в&#160;интернет-магазине.
-								</span>
-							</p>
 							<span data-key="shop-link">
 								Перейти в&#160;интернет-магазин
 							</span>
@@ -810,63 +796,48 @@
 				<div class="footer__row">
 					<div class="footer__company">
 						<div class="footer__logo">
-							<a href="index.html" class="footer__logo-link"> </a>
+							<a href="index.html" class="footer__logo-link"></a>
 						</div>
 
 						<div class="footer__info">
-							<h3 class="footer__title" data-key="footer-company-name">&#171;DUFTA&#187;, SIA</h3>
+							<h3 class="footer__title" data-key="footer-company-name">
+								Baltic Pro Company, SIA
+							</h3>
+
 							<span class="footer__text" data-key="footer-company-registration">
-								Регистрационный номер: 40203383879
+								Регистрационный номер: 40203544254
 							</span>
+
 							<span class="footer__text" data-key="footer-company-address">
-								Адрес: Рига, ул.&#160;Кришьяня Барона, 37-11, LV-1011, Латвия
+								Jūrkalnes iela 12, LV-1046 Rīga, Latvija
 							</span>
 						</div>
 
 						<div class="footer__contacts">
-							<a class="footer__link" href="tel:+37127067730" data-key="footer-phone">
-								Tel: +371 27067730
+							<a class="footer__link" href="tel:+37129109868" data-key="footer-phone">
+								Tel: +37129109868
 							</a>
-							<a class="footer__link" href="mailto:office@miksplus.eu" target="_blank" rel="noopener" data-key="footer-email">
-								erawadee@gmail.com
+
+							<a class="footer__link" href="mailto:info@thomas-shop.eu" target="_blank" rel="noopener">
+								info@thomas-shop.eu
 							</a>
-							<a class="footer__link" href="https://hairshop.lv/" target="_blank" rel="noopener" data-key="footer-website">
-								www.dufta.de
+
+							<a class="footer__link" href="https://thomas-shop.eu" target="_blank" rel="noopener">
+								www.thomas-shop.eu
 							</a>
 						</div>
 					</div>
-					<div class="footer__column3">
-						<div>
-							<p class="footer__copyright">
-								Copyright &#169; 2026.
-								<span data-key="footer-rights">Все права защищены</span>
-							</p>
-						</div>
-						<!-- <div class="footer__socials">        
-          <ul class="footer__socials-list">  
-            <li class="contacts__item">
-                <div class="contacts__icon-wrapper">
-                  <svg class="icon icon--instagram">
-                    <use href="./img/svgsprite/sprite.symbol.svg#instagram"></use>
-                  </svg>
-                </div>
-              </li>
-              <li class="contacts__item"> <a class="contacts__link" href="#">
-                <div class="contents__link-img"> <svg class="icon icon--youtube">
-                  <use href="./img/svgsprite/sprite.symbol.svg#youtube"></use>
-                </svg> </div>
-                </a> </li>
-              <li class="contacts__item"> <a class="contacts__link" href="#">
-                <div class="contents__link-img"> <svg class="icon icon--fb">
-                  <use href="./img/svgsprite/sprite.symbol.svg#fb"></use>
-                </svg> </div>
-                </a> </li>
-            </ul>
-          </div> -->
+
+					<div class="footer__meta">
+						<p class="footer__copyright">
+							Copyright &#169; 2026.
+							<span data-key="footer-rights">Все права защищены</span>
+						</p>
 					</div>
 				</div>
 			</div>
 		</footer>
+
 		<script src="./js/index.bundle.js"></script>
 	</body>
 </html>

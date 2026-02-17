@@ -36,7 +36,7 @@ a.btn {
 	display: inline-block;
 	width: fit-content;	
 	color: #fff;
-	background-color: var(--text-color);	
+	background-color: var(--accent);	
 	padding: 6px 10px;
 	border-radius: 6px;
 	font-weight: 500;
@@ -46,11 +46,6 @@ a.btn {
 	
 	&:hover {
 		transform: scale(1.03);
+		background-color: var(--accent2);
 	}
-}
-
-.btn.distribution__contact-btn {
-	margin-top: 15px;
-	padding: 20px;
-	
 }

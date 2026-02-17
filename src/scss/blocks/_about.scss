@@ -3,8 +3,9 @@
   grid-template-columns: 40% 60%;
   gap: 40px;
   padding: 20px;
+  padding-bottom: 40px;
   align-items: stretch;
-
+  
   @include tablet {
     gap: 24px;
     padding: 20px 0;
@@ -20,3 +21,10 @@
 .about__content {
   text-align: left;
 }
+
+p.about__text {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
