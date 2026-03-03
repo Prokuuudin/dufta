@@ -39,7 +39,8 @@
 .card-benefit {
     display: flex;
     flex-direction: column;          
-    background: var(--text-color);    
+    background: rgb(26, 173, 18);    
+    background: var(--accent2);    
     padding: 20px;    
     text-align: left;   
     align-items: flex-start; /* текст и шапка по левому краю */

@@ -39,9 +39,14 @@ const translations = {
     "product-tea": "Целебные чаи",
     "product-coconut": "Кокосовое масло",
     "product-collagen": "Коллагеновые продукты",
+    "products-retail-title": "Для розницы:",
+    "products-business-title": "Для бизнеса:",
+    "products-text-1": "Выбирайте нужное средство и оформляйте заказ в нашем интернет-магазине. Вы также можете приобрести Dufta у нас в офисе.",
+    "products-text-2": "Хотите заключить договор на регулярные поставки или стать дистрибьютором Dufta? Свяжитесь с нами в разделе Контакты — обсудим индивидуальные условия.",
     "products-text":
       "В нашем ассортименте десятки товаров, основанных на традиционной тайской медицине. Особой популярностью пользуются бальзамы, натуральная косметика и эфирные масла. Тысячи покупателей по всему миру выбирают Erawadee. Подробнее — на странице каталога в интернет-магазине.",
-    "products-link": "Перейти в каталог на erawadee.com",
+    "products-link": "Перейти в интернет магазин",
+    "products-contact-link": "Перейти в контакты",
 
     //DiSTRIBUTION
     "distribution-title": "Франшиза и дистрибуция",
@@ -55,40 +60,40 @@ const translations = {
     "benefits-text":
       "Вся продукция Erawadee производится из растительных ингредиентов. Компания представляет собой заповедник, на территории которого в естественных условиях произрастают будущие компоненты препаратов, косметических средств и лечебных чаев. Мы не используем пестициды, стимуляторы роста, минеральные удобрения и теплицы — только тропическое солнце и дожди. Наша продукция экологически чистая и полностью сертифицированная. Все травы собираются вручную. Площадь фабрики составляет 20000 кв.м., и трудятся на ней более 300 человек.",
 
-    "benefit-traditions": "Тайские традиции",
-    "benefit-traditions-text":
+    "benefit-item-1-title": "Тайские традиции",
+    "benefit-item-1-text":
       "Рецепты, проверенные вековой историей Таиланда, в основе каждого продукта",
 
-    "benefit-natural": "Натуральные ингредиенты",
-    "benefit-natural-text":
+    "benefit-item-2-title": "Натуральные ингредиенты",
+    "benefit-item-2-text":
       "Только природные компоненты, проверенные на безопасность",
 
-    "benefit-science": "Научные инновации",
-    "benefit-science-text":
+    "benefit-item-3-title": "Научные инновации",
+    "benefit-item-3-text":
       "Современные технологии, раскрывающие весь потенциал природы",
 
-    "benefit-assortment": "Широкий ассортимент",
-    "benefit-assortment-text":
+    "benefit-item-4-title": "Широкий ассортимент",
+    "benefit-item-4-text":
       "Разнообразная продукция для здоровья, молодости и красоты",
 
-    "benefit-roots": "Исторические корни",
-    "benefit-roots-text": "Рецепты, передаваемые из поколения в поколение",
+    "benefit-item-5-title": "Исторические корни",
+    "benefit-item-5-text": "Рецепты, передаваемые из поколения в поколение",
 
-    "benefit-competence": "Компетентность и квалификация",
-    "benefit-competence-text":
-      "Опытные специалисты в области тайской традиционной медицины",
-
-    "benefit-effectiveness": "Доказанная эффективность",
-    "benefit-effectiveness-text":
-      "Высокие оценки как от профессионалов, так и от конечных потребителей",
-
-    "benefit-ethics": "Этичный и устойчивый бизнес",
-    "benefit-ethics-text":
-      "Активно участвуем в социальных и благотворительных проектах",
-
-    "benefit-recognition": "Международное признание",
-    "benefit-recognition-text":
+    "benefit-item-6-title": "Международное признание",
+    "benefit-item-6-text":
       "Продукция экспортируется в ряд европейских стран и страны Азии",
+
+    // CONSIST
+    "consist-title": "Состав Dufta",
+    "consist-lead": "Эффективность Dufta обусловлена силой природы, а не агрессивной химией.",
+    "consist-item-1-title": "Растительные энзимы",
+    "consist-item-1-text": "Расщепляют молекулы запаха на нейтральные составляющие.",
+    "consist-item-2-title": "Очищенная вода",
+    "consist-item-2-text": "Основа для глубокого проникновения в поры материала.",
+    "consist-item-3-title": "Пищевые консерванты",
+    "consist-item-3-text": "В минимальном количестве для сохранения активности ферментов.",
+    "consist-note-title": "Без агрессивной химии",
+    "consist-note-text": "Не содержит фосфатов, фенолов, агрессивных ПАВ, растворителей и формальдегидов.",
 
     // NUMBERS
 
@@ -228,9 +233,14 @@ const translations = {
     "product-tea": "Dziedinošās tējas",
     "product-coconut": "Kokosriekstu eļļa",
     "product-collagen": "Kolagēna produkti",
+    "products-retail-title": "Mazumtirdzniecībai:",
+    "products-business-title": "Biznesam:",
+    "products-text-1": "Izvēlieties nepieciešamo līdzekli un noformējiet pasūtījumu mūsu interneta veikalā. Dufta produktus varat iegādāties arī mūsu birojā.",
+    "products-text-2": "Vēlaties noslēgt līgumu par regulārām piegādēm vai kļūt par Dufta izplatītāju? Sazinieties ar mums sadaļā Kontakti — apspriedīsim individuālus sadarbības nosacījumus.",
     "products-text":
       "Mūsu klāstā ir desmitiem produktu, kas balstīti uz tradicionālo taju medicīnu. Īpaši populāri ir balzami, dabīgā kosmētika un ēteriskās eļļas. Tūkstošiem cilvēku visā pasaulē izvēlas Erawadee. Sīkāka informācija ir sadaļā par katalogu interneta veikalā.",
-      "products-link": "Pāriet uz katalogu erawadee.com",
+      "products-link": "Pāriet uz interneta veikalu",
+      "products-contact-link": "Pāriet uz kontaktiem",
 
     // DISTRIBUCIJA
     "distribution-title": "Franšīze un izplatīšana",
@@ -244,39 +254,39 @@ const translations = {
     "benefits-text":
       "Visa Erawadee produkcija ir izgatavota no augu izcelsmes sastāvdaļām. Uzņēmums ir rezervāts, kurā dabiskos apstākļos aug nākotnes preparātu, kosmētikas līdzekļu un ārstniecisko tēju komponenti. Mēs neizmantojam pesticīdus, augšanas stimulatorus, minerālmēslus un siltumnīcas — tikai tropisko sauli un lietus. Mūsu produkti ir videi draudzīgi un pilnībā sertificēti. Visas zāles tiek vāktas manuāli. Fabrikas platība ir 20000 kv.m., un tajā strādā vairāk nekā 300 cilvēki.",
 
-    "benefit-traditions": "Taizemes tradīcijas",
-    "benefit-traditions-text":
+    "benefit-item-1-title": "Taizemes tradīcijas",
+    "benefit-item-1-text":
       "Receptes, kas pārbaudītas gadsimtu laikā Taizemē, ir katra produkta pamats",
 
-    "benefit-natural": "Dabīgas sastāvdaļas",
-    "benefit-natural-text": "Tikai dabīgas sastāvdaļas, pārbaudītas drošībai",
+    "benefit-item-2-title": "Dabīgas sastāvdaļas",
+    "benefit-item-2-text": "Tikai dabīgas sastāvdaļas, pārbaudītas drošībai",
 
-    "benefit-science": "Zinātniskās inovācijas",
-    "benefit-science-text":
+    "benefit-item-3-title": "Zinātniskās inovācijas",
+    "benefit-item-3-text":
       "Mūsdienīgas tehnoloģijas, kas atklāj dabas pilno potenciālu",
 
-    "benefit-assortment": "Plašs sortiments",
-    "benefit-assortment-text":
+    "benefit-item-4-title": "Plašs sortiments",
+    "benefit-item-4-text":
       "Daudzveidīgi produkti veselībai, jaunībai un skaistumam",
 
-    "benefit-roots": "Vēsturiskas saknes",
-    "benefit-roots-text": "Receptes, kas tiek nodotas no paaudzes paaudzē",
+    "benefit-item-5-title": "Vēsturiskas saknes",
+    "benefit-item-5-text": "Receptes, kas tiek nodotas no paaudzes paaudzē",
 
-    "benefit-competence": "Kompetence un kvalifikācija",
-    "benefit-competence-text":
-      "Pieredzējuši speciālisti Taizemes tradicionālās medicīnas jomā",
-
-    "benefit-effectiveness": "Pierādīta efektivitāte",
-    "benefit-effectiveness-text":
-      "Augsti novērtējumi gan no profesionāļiem, gan no gala patērētājiem",
-
-    "benefit-ethics": "Ētiska un ilgtspējīga uzņēmējdarbība",
-    "benefit-ethics-text":
-      "Aktīvi piedalāmies sociālajos un labdarības projektos",
-
-    "benefit-recognition": "Starptautiska atzīšana",
-    "benefit-recognition-text":
+    "benefit-item-6-title": "Starptautiska atzīšana",
+    "benefit-item-6-text":
       "Produkcija tiek eksportēta uz vairākām Eiropas un Āzijas valstīm",
+
+    // CONSIST
+    "consist-title": "Dufta sastāvs",
+    "consist-lead": "Dufta efektivitāti nodrošina dabas spēks, nevis agresīva ķīmija.",
+    "consist-item-1-title": "Augu enzīmi",
+    "consist-item-1-text": "Sašķeļ smaku molekulas neitrālās sastāvdaļās.",
+    "consist-item-2-title": "Attīrīts ūdens",
+    "consist-item-2-text": "Bāze dziļai iesūkšanai materiāla porās.",
+    "consist-item-3-title": "Pārtikas konservanti",
+    "consist-item-3-text": "Minimālā daudzumā fermentu aktivitātes saglabāšanai.",
+    "consist-note-title": "Bez agresīvas ķīmijas",
+    "consist-note-text": "Nesatur fosfātus, fenolus, agresīvas virsmaktīvās vielas, šķīdinātājus un formaldehīdus.",
 
     // NUMBERS
     "numbers-area": "20.000 m²",
@@ -415,9 +425,14 @@ const translations = {
     "product-tea": "Healing Teas",
     "product-coconut": "Coconut Oil",
     "product-collagen": "Collagen Products",
+    "products-retail-title": "For retail:",
+    "products-business-title": "For business:",
+    "products-text-1": "Choose the right product and place your order in our online store. You can also purchase Dufta at our office.",
+    "products-text-2": "Want to sign a contract for regular deliveries or become a Dufta distributor? Contact us in the Contacts section — we will discuss individual terms.",
     "products-text":
       "Our assortment includes dozens of products based on traditional Thai medicine. Balms, natural cosmetics and essential oils are among the most popular categories. Thousands of customers worldwide choose Erawadee. More details are available on the catalog page in the online store.",
-    "products-link": "Go to catalog on erawadee.com",
+    "products-link": "Go to online store",
+    "products-contact-link": "Go to contacts",
 
     // DICTRIBUTION
     "distribution-title": "Franchise & Distribution",
@@ -432,39 +447,39 @@ const translations = {
     "benefits-text":
       "All Erawadee products are made from plant-based ingredients. The company is a sanctuary where future components of remedies, cosmetics, and healing teas grow in natural conditions. We do not use pesticides, growth stimulants, mineral fertilizers, or greenhouses — only tropical sun and rain. Our products are environmentally friendly and fully certified. All herbs are hand-picked. The factory covers an area of 20,000 sq.m., employing over 300 people.",
 
-    "benefit-traditions": "Thai Traditions",
-    "benefit-traditions-text":
+    "benefit-item-1-title": "Thai Traditions",
+    "benefit-item-1-text":
       "Recipes, tested by centuries of Thai history, form the basis of each product",
 
-    "benefit-natural": "Natural Ingredients",
-    "benefit-natural-text": "Only natural components, tested for safety",
+    "benefit-item-2-title": "Natural Ingredients",
+    "benefit-item-2-text": "Only natural components, tested for safety",
 
-    "benefit-science": "Scientific Innovations",
-    "benefit-science-text":
+    "benefit-item-3-title": "Scientific Innovations",
+    "benefit-item-3-text":
       "Modern technologies that unlock the full potential of nature",
 
-    "benefit-assortment": "Wide Assortment",
-    "benefit-assortment-text":
+    "benefit-item-4-title": "Wide Assortment",
+    "benefit-item-4-text":
       "A diverse range of products for health, youth, and beauty",
 
-    "benefit-roots": "Historical Roots",
-    "benefit-roots-text": "Recipes passed down from generation to generation",
+    "benefit-item-5-title": "Historical Roots",
+    "benefit-item-5-text": "Recipes passed down from generation to generation",
 
-    "benefit-competence": "Competence & Expertise",
-    "benefit-competence-text":
-      "Experienced specialists in the field of Thai traditional medicine",
-
-    "benefit-effectiveness": "Proven Effectiveness",
-    "benefit-effectiveness-text":
-      "Highly rated by both professionals and end consumers",
-
-    "benefit-ethics": "Ethical & Sustainable Business",
-    "benefit-ethics-text":
-      "Actively participate in social and charitable projects",
-
-    "benefit-recognition": "International Recognition",
-    "benefit-recognition-text":
+    "benefit-item-6-title": "International Recognition",
+    "benefit-item-6-text":
       "Products are exported to several European and Asian countries",
+
+    // CONSIST
+    "consist-title": "Dufta Composition",
+    "consist-lead": "Dufta effectiveness comes from the power of nature, not aggressive chemicals.",
+    "consist-item-1-title": "Plant Enzymes",
+    "consist-item-1-text": "Break down odor molecules into neutral compounds.",
+    "consist-item-2-title": "Purified Water",
+    "consist-item-2-text": "A base for deep penetration into material pores.",
+    "consist-item-3-title": "Food-Grade Preservatives",
+    "consist-item-3-text": "In minimal amounts to preserve enzyme activity.",
+    "consist-note-title": "No Aggressive Chemicals",
+    "consist-note-text": "Contains no phosphates, phenols, aggressive surfactants, solvents, or formaldehyde.",
 
     // NUMBERS
     "numbers-area": "20,000 m²",
