@@ -102,6 +102,12 @@ const translations = {
     "consist-note-title": "Без агрессивной химии",
     "consist-note-text":
       "Не содержит фосфатов, фенолов, агрессивных ПАВ, растворителей и формальдегидов.",
+    "consist-note-2-title": "Состав Dufta полностью гипоаллергенен",
+    "consist-note-2-text":
+      "Средства соответствуют строгим европейским стандартам экологической безопасности.",
+    "consist-note-3-title": "Экологично и безопасно",
+    "consist-note-3-text":
+      "Нашими средствами можно обрабатывать детские манежи, лежанки животных и даже кухонные поверхности, не опасаясь за здоровье близких.",
 
     // NUMBERS
 
@@ -171,7 +177,7 @@ const translations = {
       "Компания Erawadee доставляет продукцию по всему миру. У нас нет минимальной суммы заказа. Все посылки отправляются напрямую со склада фабрики в Таиланде на ваш адрес. Каждая посылка снабжается кодом отслеживания — за её передвижением можно следить в личном кабинете Erawadee, на сайте почты вашей страны или на одном из трекинговых сервисов.",
     "delivery-more":
       "Подробнее — по ссылке на раздел доставки в интернет-магазине.",
-    "delivery-link": "Перейти в раздел доставки на erawadee.com",
+    "delivery-link": "В раздел доставки",
 
     "payment-title": "Способы оплаты",
     "payment-item-online": "Онлайн-платёж на сайте",
@@ -307,6 +313,12 @@ const translations = {
     "consist-note-title": "Bez agresīvas ķīmijas",
     "consist-note-text":
       "Nesatur fosfātus, fenolus, agresīvas virsmaktīvās vielas, šķīdinātājus un formaldehīdus.",
+    "consist-note-2-title": "Dufta sastāvs ir pilnībā hipoalerģisks",
+    "consist-note-2-text":
+      "Līdzekļi atbilst stingriem Eiropas ekoloģiskās drošības standartiem.",
+    "consist-note-3-title": "Ekoloģiski un droši",
+    "consist-note-3-text":
+      "Ar mūsu līdzekļiem var apstrādāt bērnu manēžas, dzīvnieku guļvietas un pat virtuves virsmas, neuztraucoties par tuvinieku veselību.",
 
     // NUMBERS
     "numbers-area": "20.000 m²",
@@ -375,7 +387,7 @@ const translations = {
       "Erawadee piegādā produktus visā pasaulē. Nav minimālās pasūtījuma summas. Visas pakas tiek nosūtītas tieši no fabrikas noliktavas Taizemē uz jūsu adresi. Katru pakas sūtījumu var izsekot ar izsekošanas kodu — tiešsaistē Erawadee kontā, jūsu pasta mājaslapā vai kādā no izsekošanas servisiem. ",
     "delivery-more":
       "Sīkāka informācija ir sadaļā par piegādi interneta veikalā.",
-    "delivery-link": "Pāriet uz piegādes sadaļu erawadee.com",
+    "delivery-link": "Uz piegādes sadaļu",
 
     "payment-title": "Apmaksas veidi",
     "payment-item-online": "Tiešsaistes maksājums vietnē",
@@ -510,6 +522,12 @@ const translations = {
     "consist-note-title": "No Aggressive Chemicals",
     "consist-note-text":
       "Contains no phosphates, phenols, aggressive surfactants, solvents, or formaldehyde.",
+    "consist-note-2-title": "Dufta composition is fully hypoallergenic",
+    "consist-note-2-text":
+      "The products comply with strict European environmental safety standards.",
+    "consist-note-3-title": "Eco-friendly and safe",
+    "consist-note-3-text":
+      "Our products can be used on children's playpens, pet beds, and even kitchen surfaces without concern for your loved ones' health.",
 
     // NUMBERS
     "numbers-area": "20,000 m²",
@@ -576,7 +594,7 @@ const translations = {
       "Erawadee delivers products worldwide. There is no minimum order amount. All packages are shipped directly from the factory warehouse in Thailand to your address. Each package is provided with a tracking code — you can follow its movement in your Erawadee account, on your country's postal website, or via one of the tracking services.",
     "delivery-more":
       "Details are available in the delivery section of the online store.",
-    "delivery-link": "Go to the delivery section on erawadee.com",
+    "delivery-link": "Go to delivery",
 
     "payment-title": "Payment Methods",
     "payment-item-online": "Online payment on the website",
