@@ -1,3 +1,8 @@
+/* ===== SECTION DIVIDER ===== */
+.blog-section {
+    position: static;
+}
+
 /* ===== GRID ===== */
 .blog-section__container{
     margin-bottom: 40px;
@@ -8,26 +13,13 @@
 }
 
 .blog-section__content {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 40px;
-    align-items: start;
-    
-    @include tablet {
-        display: flex;
-        flex-direction: column;        
-    }    
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
-.blog-info__text{
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+.blog-info__text{    
     text-align: left;
-
-    @include mobile {        
-        line-height: 1.2;
-    }
 }
 
 /* ===== SLIDER ===== */
