@@ -1,6 +1,7 @@
 .benefits {
     padding: 40px 0;
     
+    
     @include mobile {
         padding: 20px 0;
     }
@@ -11,7 +12,7 @@
     font-size: 16px;
     line-height: 1.5;
     color: var(--color);
-
+    
     @include mobile {
         font-size: 14px;
         line-height: 1.2;
@@ -24,6 +25,8 @@
     grid-template-rows: repeat(3, auto);    
     margin-top: 30px;
     color: #FFF;
+    border-radius: 12px;
+    background: var(--accent2);    
 
     @include tablet {
         grid-template-columns: 1fr 1fr;
@@ -39,8 +42,6 @@
 .card-benefit {
     display: flex;
     flex-direction: column;          
-    background: rgb(26, 173, 18);    
-    background: var(--accent2);    
     padding: 20px;    
     text-align: left;   
     align-items: flex-start; /* текст и шапка по левому краю */

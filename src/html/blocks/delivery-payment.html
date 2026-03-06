@@ -1,21 +1,47 @@
 <section class="delivery-payment">
     <div class="delivery-payment__container container">
-        <!-- <h2 class="delivery-payment__title title-2 text-center" data-key="delivery-title">
-            доставка и оплата
-        </h2> -->
         <div class="delivery-payment__grid">
             
             <div class="delivery-payment__item delivery-payment__item--delivery">
                 <div class="delivery__content">
-                    <h2 class="title-2">Доставка Dufta</h2>                   
+                    <h2 class="title-2">Доставка Dufta</h2>
+                    <p class="delivery-payment__text">
+                        Мы гарантируем, что ваш заказ будет доставлен в целости и сохранности в
+                        кратчайшие сроки.
+                    </p>
 
-                    <ul class="delivery-payment__text-list">
-                        <li class="delivery-payment__text-item">Мы осуществляем доставку продукции по всей Европе.</li>
-                        <li class="delivery-payment__text-item">Минимальная сумма заказа не требуется — вы можете оформить покупку на любой объём.</li>
-                        <li class="delivery-payment__text-item">Все заказы отправляются напрямую с нашего склада в Латвии производителя на указанный вами адрес.</li>
-                        <li class="delivery-payment__text-item">Доставка по Балтии обычно занимает 1-2 рабочих дня, а в другие страны Европы 3-7 рабочих дней.</li>
-                        <li class="delivery-payment__text-item">Для заказа пожалуйста перейдите в наш интернет-магазин.</li>
-                    </ul>                  
+                    <ul class="delivery-payment__list">
+                        <li class="delivery-payment__list-item">
+                            <svg class="icon icon--map">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#map"></use>
+                            </svg>
+                            <span>Доставляем продукцию по всей Европе</span>
+                        </li>
+                        <li class="delivery-payment__list-item">
+                            <svg class="icon icon--money">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#money"></use>
+                            </svg>
+                            <span>Минимальная сумма заказа не требуется</span>
+                        </li>
+                        <li class="delivery-payment__list-item">
+                            <svg class="icon icon--truck">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#truck"></use>
+                            </svg>
+                            <span>Заказы отправляются со склада производителя</span>
+                        </li>
+                        <li class="delivery-payment__list-item">
+                            <svg class="icon icon--clock">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#delivery-clock"></use>
+                            </svg>
+                            <span>Доставка по Балтии - 1-2 рабочих дня</span>
+                        </li>
+                        <li class="delivery-payment__list-item">
+                            <svg class="icon icon--welcome">
+                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#welcome"></use>
+                            </svg>
+                            <span>Для заказа перейдите в интернет-магазин</span>
+                        </li>
+                    </ul>
                 </div>
 
                 <div class="delivery-payment__footer">
@@ -28,56 +54,59 @@
             </div>
 
             <div class="delivery-payment__item delivery-payment__item--payment">
+                <div class="payment__content">
                 <h2 class="title-2">Оплата Dufta</h2>
                 <p class="delivery-payment__text" data-key="payment-text">
                     Мы принимаем платежи в EUR, товар будет отправлен сразу после получения оплаты.
                     Возможные варианты платежей:
                 </p>
-                
-                <ul class="delivery-payment__list">
-                    <li class="delivery-payment__list-item">
-                        <svg class="icon icon--online-payment">
-                            <use href="./img/svgsprite/sprite.symbol.svg#online-payment"></use>
-                        </svg>
-                        <span data-key="payment-item-online">Онлайн-платёж Playsera</span>
-                    </li>
 
-                    <li class="delivery-payment__list-item">
-                        <svg class="icon icon--mastercard">
-                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#mastercard"></use>
-                        </svg>
-                        <span data-key="payment-item-visa-mastercard">
-                            Оплата картами Visa любых банков
-                        </span>
-                    </li>
+    <ul class="delivery-payment__list">
+        <li class="delivery-payment__list-item">
+            <svg class="icon icon--online-payment">
+                <use href="./img/svgsprite/sprite.symbol.svg#online-payment"></use>
+            </svg>
+            <span data-key="payment-item-online">Онлайн-платёж Playsera</span>
+        </li>
+        
+        <li class="delivery-payment__list-item">
+            <svg class="icon icon--mastercard">
+                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#mastercard"></use>
+            </svg>
+            <span data-key="payment-item-visa-mastercard">
+                Оплата картами Visa любых банков
+            </span>
+        </li>
+        
+        <li class="delivery-payment__list-item">
+            <svg class="icon icon--visa">
+                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#visa"></use>
+            </svg>
+            <span data-key="payment-item-mastercard">
+                Оплата картами Mastercard любых банков
+            </span>
+        </li>
+        
+        <li class="delivery-payment__list-item">
+            <svg class="icon icon--moneytransfer">
+                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#moneytransfer"></use>
+            </svg>
+            <span data-key="payment-item-bank-moneytransfer">
+                Банковские переводы
+            </span>
+        </li>
+        
+        <li class="delivery-payment__list-item">
+            <svg class="icon icon--cash">
+                <use href="./img/svgsprite/sprite.symbol.svg#cash"></use>
+            </svg>
+            <span data-key="payment-item-cash">Оплата в нашем офисе
+            </span>
+        </li>
+    </ul>
+</div>
 
-                    <li class="delivery-payment__list-item">
-                        <svg class="icon icon--visa">
-                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#visa"></use>
-                        </svg>
-                        <span data-key="payment-item-mastercard">
-                            Оплата картами Mastercard любых банков
-                        </span>
-                    </li>                   
-
-                    <li class="delivery-payment__list-item">
-                        <svg class="icon icon--moneytransfer">
-                            <use href="./img/svgsprite/stack/svg/sprite.stack.svg#moneytransfer"></use>
-                        </svg>
-                        <span data-key="payment-item-bank-moneytransfer">
-                            Банковские переводы
-                        </span>
-                    </li>                   
-
-                    <li class="delivery-payment__list-item">
-                        <svg class="icon icon--cash">
-                            <use href="./img/svgsprite/sprite.symbol.svg#cash"></use>
-                        </svg>
-                        <span data-key="payment-item-cash">Оплата в нашем офисе                           
-                        </span>
-                    </li>
-                </ul>
-        <div class="delivery-payment__footer">
+                <div class="delivery-payment__footer">
                     <a href="https://erawadee.com" class="btn-link" target="_blank">
                         <span data-key="payment-link">
                             В раздел оплаты

@@ -1,8 +1,9 @@
 .how-to-use {
 }
 .how-to-use__content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 40px;
   margin-top: 40px;
   background-color: #fff;
@@ -10,21 +11,91 @@
   padding: 40px;
 
   @include tablet {
-    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
   @include mobile {
-    grid-template-columns: 1fr;
     gap: 16px;
   }
 }
 
 .how-to-use__item {
+  position: relative;
+  flex: 0 0 calc((100% - 80px) / 3);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-top: 30px;
+}
+
+@include tablet {
+  .how-to-use__item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@include mobile {
+  .how-to-use__item {
+    flex-basis: 100%;
+  }
+}
+
+.how-to-use__item::before {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.14);
+}
+
+.how-to-use__item:nth-child(1)::before {
+  content: "1";
+}
+
+.how-to-use__item:nth-child(2)::before {
+  content: "2";
+}
+
+.how-to-use__item:nth-child(3)::before {
+  content: "3";
+}
+
+.how-to-use__item:not(:nth-child(3n))::after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  right: -20px;
+  width: 2px;
+  height: calc(100% - 6px);
+  background: linear-gradient(180deg, transparent 0%, var(--accent) 12%, var(--accent) 88%, transparent 100%);
+}
+
+@include tablet {
+  .how-to-use__item::after {
+    display: none;
+  }
+
+  .how-to-use__item:not(:nth-child(2n))::after {
+    display: block;
+    right: -12px;
+  }
+}
+
+@include mobile {
+  .how-to-use__item::after {
+    display: none;
+  }
 }
 
 .how-to-use__image img {
@@ -45,4 +116,44 @@
   font-size: 14px;
   line-height: 1.5;
   color: #333;
+}
+
+.how-to-use__pro-tip {
+  position: relative;
+  margin-top: 28px;
+  padding: 22px 24px 20px 28px;
+  border-left: 4px solid var(--accent);
+  border-radius: 10px;
+  background: linear-gradient(90deg, rgba(240, 169, 1, 0.12) 0%, #fff 42%);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.how-to-use__pro-tip::before {
+  content: "PRO";
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background-color: var(--accent);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.how-to-use__pro-tip-title {
+  margin-bottom: 10px;
+  color: #111;
+}
+
+.how-to-use__pro-tip-text {
+  margin-bottom: 0;
+}
+
+@include mobile {
+  .how-to-use__pro-tip {
+    margin-top: 20px;
+    padding: 20px 16px 16px 18px;
+  }
 }
