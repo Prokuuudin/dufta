@@ -1,8 +1,7 @@
 h1.title-1 {
 	margin: 1em 0 0.5em;
-	font-size: 80px;
 	// font-size: clamp(2rem, 0.909rem + 5.45vw, 5rem);
-	font-size: 66px;
+	font-size: 34px;
 	font-weight: 300;
 	text-transform: uppercase;
 	font-family: var(--font-main);
@@ -18,7 +17,29 @@ h1.title-1 {
 	text-transform: capitalize;
 	margin-bottom: 40px;
 	text-align: center;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+
+	&::before {
+		content: "";
+		width: 22px;
+		height: 16px;
+		display: inline-block;
+		border-radius: 100% 0 100% 0;
+		transform: rotate(-35deg);
+		background: linear-gradient(135deg, #97C11F 0%, #4E9A06 100%);
+		box-shadow: inset -2px -2px 0 rgba(255, 255, 255, 0.45);
+		flex-shrink: 0;
+	}
 	
+}
+
+.delivery-payment .title-2 {
+	&::before {
+		display: none;
+	}
 }
 
 .title-3 {
