@@ -42,6 +42,7 @@
     border-radius: 12px;
     overflow: hidden;
     height: auto;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .blog-slide__link {
@@ -55,6 +56,16 @@
     width: 100%;
     height: auto;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+.blog-slide:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 18px rgba(25, 32, 44, 0.12);
+}
+
+.blog-slide:hover .blog-slide__image img {
+    transform: scale(1.02);
 }
 
 .blog-slide__title{

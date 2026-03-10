@@ -1,19 +1,17 @@
-import initAllSwipers from './modules/swipers.js';
+import initAllSwipers from "./modules/swipers.js";
 initAllSwipers();
 
 // import setLanguage from './modules/setLanguage.js';
 // setLanguage();
 
-import headerScroll from './modules/header-scroll.js';
+import headerScroll from "./modules/header-scroll.js";
 headerScroll();
 
-// import scrollReveal from './modules/scrollReveal.js';
-// scrollReveal();
+import scrollReveal from "./modules/scrollReveal.js";
+scrollReveal();
 
-import mobileNav from './modules/mobile-nav.js';
+import mobileNav from "./modules/mobile-nav.js";
 mobileNav();
 
-import getCookiesConsent from './modules/agreement-cookies.js';
+import getCookiesConsent from "./modules/agreement-cookies.js";
 getCookiesConsent();
-
-

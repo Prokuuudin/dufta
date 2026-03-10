@@ -12,6 +12,25 @@
   padding: 36px 20px 0;
   color: #000;
   position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -30% auto -30% -45%;
+    width: 30%;
+    background: linear-gradient(
+      115deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.24) 48%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: translateX(-240%) skewX(-18deg);
+    filter: blur(1.5px);
+    animation: heroGlint 5.2s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+  }
 
   @include tablet-small {
     background-size: contain;
@@ -29,6 +48,10 @@
   transform: translateX(-50%);
   width: min(980px, calc(100% - 40px));
   text-align: center;
+  z-index: 2;
+  opacity: 0;
+  transform: translate(-50%, 12px);
+  animation: heroFadeIn 0.7s ease-out 0.12s forwards;
 
   @include mobile {
     width: calc(100% - 24px);
@@ -50,6 +73,40 @@ h1.hero__title.title-1 {
   @include mobile {
     font-size: 16px;
     margin-top: 8px;
+  }
+}
+
+@keyframes heroFadeIn {
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes heroGlint {
+  0% {
+    transform: translateX(-240%) skewX(-18deg);
+  }
+
+  14% {
+    transform: translateX(520%) skewX(-18deg);
+  }
+
+  100% {
+    transform: translateX(520%) skewX(-18deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero__inner::after {
+    animation: none;
+    opacity: 0;
+  }
+
+  .hero__content {
+    opacity: 1;
+    transform: translateX(-50%);
+    animation: none;
   }
 }
 

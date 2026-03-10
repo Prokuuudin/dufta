@@ -1,38 +1,58 @@
-import ScrollReveal from 'scrollreveal';
+import ScrollReveal from "scrollreveal";
 
 // Базовые настройки
 ScrollReveal({
-	distance: '30px',
-	duration: 2800,
-	// reset: true,
+  distance: "24px",
+  duration: 700,
+  easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+  viewFactor: 0.15,
+  // reset: true,
 });
 
-function scrollRevealFunc() {	
-	ScrollReveal().reveal(`.title-1, .numbers-text, .awards__text`, {
-		delay: 800,
-		distance: '0px',
-		opacity: 0,
-	});
+function scrollRevealFunc() {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return;
+  }
 
-	ScrollReveal().reveal(`.header__row`, {
-		origin: 'top',
-	});
+  ScrollReveal().reveal(`.hero__title, .hero__slogan`, {
+    delay: 220,
+    distance: "0px",
+    duration: 650,
+    scale: 0.98,
+    opacity: 0,
+  });
 
-	ScrollReveal().reveal(`.title-2`, {
-		delay: 300,
-		origin: 'top',
-	});
+  ScrollReveal().reveal(`.title-2`, {
+    delay: 100,
+    origin: "top",
+    distance: "18px",
+  });
 
-	ScrollReveal().reveal(`.hero__title, .about__text, .products-info__text, .distribution__text, .card-benefit__header, .numbers__img, .tradition-card__body, .delivery__images, .delivery-payment__text, .delivery-payment__list, .contacts, .footer__company, .swiper, .contacts__links`, {
-		delay: 400,
-		origin: 'left',
-	});
+  ScrollReveal().reveal(
+    `.about__image, .applications__image, .uses-cases__image`,
+    {
+      delay: 120,
+      origin: "left",
+    },
+  );
 
-	ScrollReveal().reveal(`.hero__slogan, .btn-link, .about__container, .distribution__benefits, .distribution__contact, .card-benefit__text, .numbers__content, .tradition-card__img, .blog-info__text, .blog-link, .footer__copyright, .footer__socials`, {
-		delay: 600,
-		origin: 'bottom',
-	});
+  ScrollReveal().reveal(
+    `.about__content, .applications__textcol, .uses-cases__text, .products-info__column, .blog-info__text, .how-to-use__pro-tip`,
+    {
+      delay: 150,
+      origin: "right",
+    },
+  );
 
+  ScrollReveal().reveal(
+    `.products-slider__slide, .blog-slide, .benefits__item, .how-to-use__item, .btn-link`,
+    {
+      delay: 120,
+      interval: 80,
+      origin: "bottom",
+      distance: "20px",
+    },
+  );
 }
 
 export default scrollRevealFunc;

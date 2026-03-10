@@ -30,6 +30,55 @@
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: -25% auto -25% -55%;
+    width: 36%;
+    background: linear-gradient(
+      115deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.42) 48%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    transform: translateX(-220%) skewX(-18deg);
+    filter: blur(1px);
+    animation: usesCasesGlint 6.6s linear infinite;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    z-index: 3;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.uses-cases__item:nth-child(2)::after {
+  animation-delay: 2.2s;
+}
+
+.uses-cases__item:nth-child(3)::after {
+  animation-delay: 4.4s;
+}
+
+@keyframes usesCasesGlint {
+  0% {
+    transform: translateX(-220%) skewX(-18deg);
+  }
+
+  12% {
+    transform: translateX(460%) skewX(-18deg);
+  }
+
+  100% {
+    transform: translateX(460%) skewX(-18deg);
+  }
 }
 
 .uses-cases__image {
@@ -91,4 +140,11 @@
 .uses-cases__accent {
   color: var(--accent);
   text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .uses-cases__item::after {
+    animation: none;
+    opacity: 0;
+  }
 }
