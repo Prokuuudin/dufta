@@ -13,13 +13,6 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: ArialCEItalic;
-	font-display: swap;
-	src: url("../fonts/ArialCEItalic.woff2") format("woff2"), url("../fonts/ArialCEItalic.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
 	font-family: ArialCEBoldItalic;
 	font-display: swap;
 	src: url("../fonts/ArialCEBoldItalic.woff2") format("woff2"), url("../fonts/ArialCEBoldItalic.woff") format("woff");
@@ -27,9 +20,9 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: ArialMdm;
+	font-family: ArialCEItalic;
 	font-display: swap;
-	src: url("../fonts/ArialMdm.woff2") format("woff2"), url("../fonts/ArialMdm.woff") format("woff");
+	src: url("../fonts/ArialCEItalic.woff2") format("woff2"), url("../fonts/ArialCEItalic.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
@@ -37,6 +30,13 @@
 	font-family: ArialCEMTBlack;
 	font-display: swap;
 	src: url("../fonts/ArialCEMTBlack.woff2") format("woff2"), url("../fonts/ArialCEMTBlack.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: ArialMdm;
+	font-display: swap;
+	src: url("../fonts/ArialMdm.woff2") format("woff2"), url("../fonts/ArialMdm.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
