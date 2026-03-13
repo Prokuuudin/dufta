@@ -6,15 +6,53 @@
   }
 }
 
+// .hero__inner {
+//   background: url("../../img/svgsprite/stack/svg/sprite.stack.svg#logo-bg") center center / cover no-repeat;
+//   min-height: 100vh;
+//   padding: 36px 20px 0;
+//   color: #000;
+//   position: relative;
+//   overflow: hidden;
+
+//   &::after {
+//     content: "";
+//     position: absolute;
+//     inset: -30% auto -30% -45%;
+//     width: 30%;
+//     background: linear-gradient(
+//       115deg,
+//       rgba(255, 255, 255, 0) 0%,
+//       rgba(255, 255, 255, 0.24) 48%,
+//       rgba(255, 255, 255, 0) 100%
+//     );
+//     transform: translateX(-240%) skewX(-18deg);
+//     filter: blur(1.5px);
+//     animation: heroGlint 5.2s linear infinite;
+//     pointer-events: none;
+//     z-index: 1;
+//   }
+
+//   @include tablet-small {
+//     background-size: contain;
+//   }
+
+//   @include mobile {
+//     padding: 20px 12px 0;
+//   }
+// }
 .hero__inner {
-  background: url("../../img/svgsprite/stack/svg/sprite.stack.svg#logo-bg") center center / cover no-repeat;
+  background-color: #999;
+  background-image: url('./../../img/bg-main@2x.png');
+  background-position: center center; /* x y */
+  background-size: cover;
+  background-repeat: no-repeat;
   min-height: 100vh;
   padding: 36px 20px 0;
   color: #000;
   position: relative;
   overflow: hidden;
 
-  &::after {
+   &::after {
     content: "";
     position: absolute;
     inset: -30% auto -30% -45%;
@@ -32,10 +70,6 @@
     z-index: 1;
   }
 
-  @include tablet-small {
-    background-size: contain;
-  }
-
   @include mobile {
     padding: 20px 12px 0;
   }
@@ -43,19 +77,36 @@
 
 .hero__content {
   position: absolute;
-  left: 50%;
-  bottom: 12px;
-  transform: translateX(-50%);
-  width: min(980px, calc(100% - 40px));
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  right: 40px;
+  bottom: 40px;
+  width: min(calc(100% - 80px), max(60vw, 560px));
+  text-align: right;
   z-index: 2;
   opacity: 0;
-  transform: translate(-50%, 12px);
+  transform: translateY(12px);
   animation: heroFadeIn 0.7s ease-out 0.12s forwards;
 
   @include mobile {
-    width: calc(100% - 24px);
+    right: 12px;
     bottom: 8px;
+    width: calc(100% - 24px);
+    text-align: center;
+  }
+}
+
+.hero__logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 124.72 / 34.02;
+  margin: 0 0 16px auto;
+  fill: #000;
+
+  @include mobile {
+    margin: 0 auto 12px;
   }
 }
 
@@ -79,7 +130,7 @@ h1.hero__title.title-1 {
 @keyframes heroFadeIn {
   to {
     opacity: 1;
-    transform: translate(-50%, 0);
+    transform: translateY(0);
   }
 }
 
@@ -105,7 +156,7 @@ h1.hero__title.title-1 {
 
   .hero__content {
     opacity: 1;
-    transform: translateX(-50%);
+    transform: none;
     animation: none;
   }
 }
