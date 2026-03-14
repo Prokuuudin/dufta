@@ -14,8 +14,6 @@
 .consist__text {
 	max-width: 760px;
 	margin: 15px auto 0;
-	font-size: 16px;
-	line-height: 1.5;
 
 	@include mobile {
 		margin-top: 10px;
@@ -40,7 +38,6 @@
 		min-height: 360px;
 	}
 }
-
 
 .consist__list {
 	list-style: disc;
@@ -108,7 +105,6 @@
 	background: var(--gradient);
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
 	text-align: left;
-	
 
 	@include mobile {
 		padding: 16px 14px;
@@ -126,9 +122,7 @@
 
 .consist__note-text {
 	margin-top: 10px;
-	font-size: 16px;
-	line-height: 1.6;
-
+	
 	@include mobile {
 		font-size: 14px;
 		line-height: 1.4;

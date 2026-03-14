@@ -6,19 +6,7 @@
         padding: 20px 0;
     }
 }
-
-.benefits-text {
-    margin-top: 15px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--color);
-    
-    @include mobile {
-        font-size: 14px;
-        line-height: 1.2;
-        margin-top: 0;    
-    }
-}   
+ 
 .benefits__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,15 +32,13 @@
     flex-direction: column;          
     padding: 20px;    
     text-align: left;   
-    align-items: flex-start; /* текст и шапка по левому краю */
+    align-items: flex-start; /* Ñ‚ÐµÐºÑÑ‚ Ð¸ ÑˆÐ°Ð¿ÐºÐ° Ð¿Ð¾ Ð»ÐµÐ²Ð¾Ð¼Ñƒ ÐºÑ€Ð°ÑŽ */
     gap: 12px; 
     
     @include mobile {
         padding: 10px;
-        padding-bottom: 0;        
-        
-    }
-        
+        padding-bottom: 0;                
+    }        
 }
 
 .card-benefit__header {
@@ -60,7 +46,6 @@
     align-items: center;
     gap: 12px;    
 }
-
 
 .card-benefit__image {    
     flex-shrink: 0; 
@@ -86,28 +71,20 @@
     
     @include mobile {
         gap: 10px;
-    }
-    
+    }    
 }
 
 .card-benefit__title {
-    font-size: 20px;
+    font-size: 18px;
     margin: 15px 0 10px;
+    font-weight: 600;
 
     @include mobile {
-        font-size: 16px;
     }
 }
 
 .card-benefit__text {
-    font-size: 15px;
-    line-height: 1.5;
     
     @include mobile {
-        font-size: 14px;
-        line-height: 1.2;    
     }
 }
-
-
-
