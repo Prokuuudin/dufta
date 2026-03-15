@@ -15,3 +15,6 @@ mobileNav();
 
 import getCookiesConsent from "./modules/agreement-cookies.js";
 getCookiesConsent();
+
+import initAboutLeavesParallax from "./modules/about-leaves-parallax.js";
+initAboutLeavesParallax();
