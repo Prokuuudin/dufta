@@ -1,19 +1,33 @@
+.how-to-use {
+  padding: 48px 0;
+
+  @include tablet {
+    padding: 40px 0;
+  }
+
+  @include mobile {
+    padding: 28px 0;
+  }
+}
+
 .how-to-use__content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 24px;
   background-color: #fff;
   border-radius: 12px;
   padding: 40px;
 
   @include tablet {
     gap: 24px;
+    padding: 30px 24px;
   }
 
   @include mobile {
     gap: 16px;
+    padding: 20px 14px;
   }
 }
 
@@ -25,6 +39,10 @@
   align-items: center;
   text-align: center;
   padding-top: 30px;
+
+  @include mobile {
+    padding-top: 24px;
+  }
 }
 
 @include tablet {
@@ -36,6 +54,7 @@
 @include mobile {
   .how-to-use__item {
     flex-basis: 100%;
+    padding-bottom: 14px;
   }
 }
 
@@ -92,6 +111,42 @@
 
 @include mobile {
   .how-to-use__item::after {
+    display: none;
+  }
+
+  .how-to-use__item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    width: 72%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, var(--accent) 12%, var(--accent) 88%, transparent 100%);
+  }
+
+  .how-to-use__item:not(:nth-child(3n))::after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: auto;
+    right: auto;
+    left: 50%;
+    bottom: -8px;
+    transform: translateX(-50%);
+    width: 72%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 0%, var(--accent) 12%, var(--accent) 88%, transparent 100%);
+  }
+
+  .how-to-use__item:not(:nth-child(2n))::after {
+    display: block;
+  }
+
+  .how-to-use__item:last-child::after {
     display: none;
   }
 }

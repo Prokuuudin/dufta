@@ -46,6 +46,30 @@
   align-items: center;
 }
 
+@media (max-width: 425px) {
+  .footer__row {
+    gap: 10px;
+    padding: 14px 0;
+  }
+
+  .footer__company {
+    gap: 12px;
+  }
+
+  .footer__logo {
+    justify-self: center;
+  }
+
+  .footer__logo-link {
+    margin: 0 auto;
+  }
+
+  .footer__info,
+  .footer__contacts {
+    gap: 6px;
+  }
+}
+
 .footer__logo-img {
   display: block;
   max-height: 70px;

@@ -1,7 +1,12 @@
 .consist {
-	padding: 40px 0;
+	padding: 48px 0;
+
+	@include tablet {
+		padding: 40px 0;
+	}
+
 	@include mobile {
-		padding: 20px 0;
+		padding: 28px 0;
 	}
 }
 
@@ -9,6 +14,14 @@
 	background-color: #fff;
 	border-radius: 12px;
 	padding: 40px;
+
+	@include tablet {
+		padding: 30px 24px;
+	}
+
+	@include mobile {
+		padding: 20px 14px;
+	}
 }
 
 .consist__text {
@@ -36,6 +49,10 @@
 		padding: 18px;
 		justify-content: center;
 		min-height: 360px;
+	}
+
+	@include mobile {
+		margin-top: 20px;
 	}
 }
 

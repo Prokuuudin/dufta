@@ -58,6 +58,12 @@
     gap: 20px;
 }
 
+.header .logo {
+    @include mobile {
+        display: none;
+    }
+}
+
 .header__socials {
     display: flex;    
     margin-top: 5px;

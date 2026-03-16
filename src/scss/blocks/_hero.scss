@@ -1,8 +1,12 @@
 .hero {
   margin: -30px 0 40px;
 
+  @include tablet {
+    margin-bottom: 32px;
+  }
+
   @include mobile {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
   }
 }
 
