@@ -11,11 +11,11 @@
     font-weight: 500;
     cursor: pointer;
 
-    @include mobile {
-        height: 24px;
-        width: 140px;
-        padding: 0 4px;
-    }
+    // @include mobile {
+    //     height: 24px;
+    //     width: 140px;
+    //     padding: 0 4px;
+    // }
 }
 
 /* radio скрываем */
@@ -32,10 +32,10 @@
     color: var(--accent);
     transition: color .25s ease;
 
-    @include mobile {
-        font-size: 13px;
-        padding: 1px 0;
-    }
+    // @include mobile {
+    //     font-size: 13px;
+    //     padding: 1px 0;
+    // }
 }
 
 .switcher-wrapper .switcher:hover {
@@ -57,10 +57,11 @@
     z-index: 1;
     transition: left .25s ease;
 
-    @include mobile {
-        width: calc((100% - 8px) / 5);
-        height: 20px;
-    }
+    // @include mobile {
+    //     width: calc((100% - 8px) / 5);
+    //     height: 26px;
+    //     overflow: visible;
+    // }
 }
 
 /* --- позиции для 5 языков --- */

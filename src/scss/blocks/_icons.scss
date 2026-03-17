@@ -68,4 +68,10 @@
 	padding: 20px;
 	fill: var(--accent);
 
+	@include mobile {
+		width: 70px;
+		height: 70px;
+		padding: 8px;
+	}
+
 }

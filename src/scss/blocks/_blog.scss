@@ -112,11 +112,21 @@
     text-transform: capitalize;
     font-weight: 600;
     margin: 16px 0 8px 0;
+
+    	@include mobile {
+		font-size: 16px;
+		line-height: 1.4;
+	}
 }
 
 .blog-slide__text{
     font-size: 18px;
-    line-height: 1.5;    
+    line-height: 1.5;
+    
+    	@include mobile {
+		font-size: 16px;
+		line-height: 1.4;
+	}
 }
 
 /* ===== ARROWS ===== */

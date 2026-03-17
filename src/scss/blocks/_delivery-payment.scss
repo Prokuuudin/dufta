@@ -97,6 +97,12 @@ li.delivery-payment__list-item {
     margin: 0;
     text-align: left;
     font-size: 18px;
+
+    @include mobile {
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
 }
 
 .delivery-payment__bottom {

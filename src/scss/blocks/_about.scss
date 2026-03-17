@@ -38,31 +38,31 @@
 
 .about__leaf--1 {
   top: 7%;
-  left: 4%;
+  left: 10%;
   --leaf-transform: rotate(-12deg) scale(1.4);
 }
 
 .about__leaf--2 {
   top: 14%;
-  right: 8%;
+  right: 14%;
   --leaf-transform: rotate(22deg) scale(1.22);
 }
 
 .about__leaf--3 {
-  bottom: 18%;
-  left: 11%;
+  bottom: 13%;
+  left: 46%;
   --leaf-transform: rotate(-34deg) scale(1.34);
 }
 
 .about__leaf--4 {
   bottom: 10%;
-  right: 6%;
+  right: 12%;
   --leaf-transform: rotate(42deg) scale(1.52);
 }
 
 .about__leaf--5 {
   top: 47%;
-  right: 34%;
+  right: 38%;
   --leaf-transform: rotate(8deg) scale(1.18);
   opacity: 0.72;
 }
@@ -119,7 +119,7 @@
   justify-self: stretch;
   background-image: url('./../../img/products/about.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 
   @include tablet {

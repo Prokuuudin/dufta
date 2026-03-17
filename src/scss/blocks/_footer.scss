@@ -1,7 +1,8 @@
 .footer {
   border-top: 1px solid rgba(0, 0, 0, .08);
-  box-shadow: 0 -10px 30px rgba(0, 0, 0, .08);
-  background-color: #fff;
+  box-shadow: 0 -10px 30px rgba(0, 0, 0, .08);  
+  background-color: pink;
+
 }
 
 .footer__container {
@@ -48,12 +49,12 @@
 
 @media (max-width: 425px) {
   .footer__row {
-    gap: 10px;
+    gap: 15px;
     padding: 14px 0;
   }
 
   .footer__company {
-    gap: 12px;
+    gap: 15px;
   }
 
   .footer__logo {

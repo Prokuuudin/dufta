@@ -162,9 +162,13 @@
 
 .products-info__subtitle {
     display: block;
-    font-size: 18px;
-    // margin-bottom: 10px;
+    font-size: 18px;    
     text-align: center;
+
+    	@include mobile {
+		font-size: 16px;
+		line-height: 1.4;
+	}
 }
 
 .products-info__text {
@@ -172,11 +176,12 @@
     width: 100%;
     text-align: left;
 
-    @include mobile {        
-        line-height: 1.45;
+    	@include mobile {
+		font-size: 16px;
+		line-height: 1.4;
         text-align: center;
         padding: 0;
-    }
+	}    
 }
 
 .products-link {
