@@ -1,120 +1,53 @@
-<section class="delivery-payment">
-    <div class="delivery-payment__container container">
-        <div class="delivery-payment__grid">
-            
-            <div class="delivery-payment__item delivery-payment__item--delivery">
-                <div class="delivery__content">
-                    <h2 class="title-2">Доставка</h2>
-                    <p class="delivery-payment__text">
-                        Мы гарантируем, что ваш заказ будет доставлен в целости и сохранности в
-                        кратчайшие сроки.
-                    </p>
+<section class="delivery-payment" id="delivery-payment">
+	<div class="container delivery-payment__container">
+		<h2 class="title-2 delivery-payment__title" data-key="delivery-payment-title">Доставка и оплата</h2>
 
-                    <ul class="delivery-payment__list">
-                        <li class="delivery-payment__list-item">
-                            <svg class="icon icon--map">
-                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#map"></use>
-                            </svg>
-                            <span>Доставляем продукцию по всей Европе</span>
-                        </li>
-                        <li class="delivery-payment__list-item">
-                            <svg class="icon icon--money">
-                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#money"></use>
-                            </svg>
-                            <span>Минимальная сумма заказа не требуется</span>
-                        </li>
-                        <li class="delivery-payment__list-item">
-                            <svg class="icon icon--truck">
-                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#truck"></use>
-                            </svg>
-                            <span>Заказы отправляются со склада производителя</span>
-                        </li>
-                        <li class="delivery-payment__list-item">
-                            <svg class="icon icon--clock">
-                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#delivery-clock"></use>
-                            </svg>
-                            <span>Доставка по Балтии - 1-2 рабочих дня</span>
-                        </li>
-                        <li class="delivery-payment__list-item">
-                            <svg class="icon icon--welcome">
-                                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#welcome"></use>
-                            </svg>
-                            <span>Для заказа перейдите в интернет-магазин</span>
-                        </li>
-                    </ul>
-                </div>
+		<div class="delivery-payment__grid">
+			<article class="delivery-payment__card">
+				<div class="delivery-payment__card-head">
+					<h3 class="delivery-payment__card-title" data-key="delivery-payment-delivery-title">Доставка</h3>
+					<svg class="delivery-payment__card-icon icon icon--truck" aria-hidden="true" focusable="false">
+						<use href="./img/svgsprite/sprite.symbol.svg#truck"></use>
+					</svg>
+				</div>
+				<ul class="delivery-payment__list">
+					<li class="delivery-payment__item" data-key="delivery-payment-delivery-1">1-2 рабочих дня по Балтии</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-delivery-2">Доставка в пакоматы</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-delivery-3">Доставка по всей Европе</li>
+				</ul>
+			</article>
 
-                <div class="delivery-payment__footer">
-                    <a href="https://erawadee.com" class="btn-link" target="_blank">
-                        <span data-key="delivery-link">
-                            В раздел доставки
-                        </span>
-                    </a>
-                </div>
-            </div>
+			<article class="delivery-payment__card">
+				<div class="delivery-payment__card-head">
+					<h3 class="delivery-payment__card-title" data-key="delivery-payment-payment-title">Оплата</h3>
+					<svg class="delivery-payment__card-icon icon icon--creditcard" aria-hidden="true" focusable="false">
+						<use href="./img/svgsprite/sprite.symbol.svg#creditcard"></use>
+					</svg>
+				</div>
+				<ul class="delivery-payment__list">
+					<li class="delivery-payment__item" data-key="delivery-payment-payment-1">Банковский перевод</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-payment-2">Visa / Mastercard</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-payment-3">Оплата в офисе</li>
+				</ul>
+			</article>
 
-            <div class="delivery-payment__item delivery-payment__item--payment">
-                <div class="payment__content">
-                <h2 class="title-2">Оплата</h2>
-                <p class="delivery-payment__text" data-key="payment-text">
-                    Мы принимаем платежи в EUR, товар будет отправлен сразу после получения оплаты.
-                    Возможные варианты платежей:
-                </p>
+			<article class="delivery-payment__card">
+				<div class="delivery-payment__card-head">
+					<h3 class="delivery-payment__card-title" data-key="delivery-payment-business-title">Для бизнеса</h3>
+					<svg class="icon icon--partnership">
+						<use href="./img/svgsprite/sprite.symbol.svg#partnership"></use>
+					</svg>
+				</div>
+				<ul class="delivery-payment__list">
+					<li class="delivery-payment__item" data-key="delivery-payment-business-1">Оптовые поставки</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-business-2">Индивидуальные условия</li>
+					<li class="delivery-payment__item" data-key="delivery-payment-business-3">Дистрибьюция</li>
+				</ul>
+			</article>
+		</div>
 
-    <ul class="delivery-payment__list">
-        <li class="delivery-payment__list-item">
-            <svg class="icon icon--online-payment">
-                <use href="./img/svgsprite/sprite.symbol.svg#online-payment"></use>
-            </svg>
-            <span data-key="payment-item-online">Онлайн-платёж Playsera</span>
-        </li>
-        
-        <li class="delivery-payment__list-item">
-            <svg class="icon icon--mastercard">
-                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#mastercard"></use>
-            </svg>
-            <span data-key="payment-item-visa-mastercard">
-                Оплата картами Visa любых банков
-            </span>
-        </li>
-        
-        <li class="delivery-payment__list-item">
-            <svg class="icon icon--visa">
-                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#visa"></use>
-            </svg>
-            <span data-key="payment-item-mastercard">
-                Оплата картами Mastercard любых банков
-            </span>
-        </li>
-        
-        <li class="delivery-payment__list-item">
-            <svg class="icon icon--moneytransfer">
-                <use href="./img/svgsprite/stack/svg/sprite.stack.svg#moneytransfer"></use>
-            </svg>
-            <span data-key="payment-item-bank-moneytransfer">
-                Банковские переводы
-            </span>
-        </li>
-        
-        <li class="delivery-payment__list-item">
-            <svg class="icon icon--cash">
-                <use href="./img/svgsprite/sprite.symbol.svg#cash"></use>
-            </svg>
-            <span data-key="payment-item-cash">Оплата в нашем офисе
-            </span>
-        </li>
-    </ul>
-</div>
-
-                <div class="delivery-payment__footer">
-                    <a href="https://erawadee.com" class="btn-link" target="_blank">
-                        <span data-key="payment-link">
-                            В раздел оплаты
-                        </span>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </div>
+		<div class="delivery-payment__actions">
+			<a href="https://thomas-shop.eu" class="btn-link" target="_blank" rel="noopener" data-key="delivery-payment-link">Перейти в интернет-магазин</a>
+		</div>
+	</div>
 </section>

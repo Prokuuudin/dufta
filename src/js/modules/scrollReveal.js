@@ -14,6 +14,27 @@ function scrollRevealFunc() {
     return;
   }
 
+  const headerAnimatedElements = Array.from(
+    document.querySelectorAll(
+      ".header .logo, .header__nav, .header__right-side, .mobile-nav-btn",
+    ),
+  );
+
+  headerAnimatedElements.forEach((element, index) => {
+    element.animate(
+      [
+        { opacity: 0, transform: "translateY(-14px)" },
+        { opacity: 1, transform: "translateY(0)" },
+      ],
+      {
+        delay: 80 + index * 70,
+        duration: 600,
+        easing: "cubic-bezier(0.22, 1, 0.36, 1)",
+        fill: "both",
+      },
+    );
+  });
+
   ScrollReveal().reveal(`.hero__title, .hero__slogan`, {
     delay: 220,
     distance: "0px",
@@ -28,16 +49,13 @@ function scrollRevealFunc() {
     distance: "18px",
   });
 
-  ScrollReveal().reveal(
-    `.about__image, .applications__image, .uses-cases__image`,
-    {
-      delay: 120,
-      origin: "left",
-    },
-  );
+  ScrollReveal().reveal(`.about__image, .applications__image`, {
+    delay: 120,
+    origin: "left",
+  });
 
   ScrollReveal().reveal(
-    `.about__content, .applications__textcol, .uses-cases__text, .products-info__column, .blog-info__text, .how-to-use__pro-tip`,
+    `.about__content, .applications__textcol, .products-info__column, .blog-info__text, .how-to-use__pro-tip`,
     {
       delay: 150,
       origin: "right",
@@ -45,12 +63,76 @@ function scrollRevealFunc() {
   );
 
   ScrollReveal().reveal(
-    `.products-slider__slide, .blog-slide, .benefits__item, .how-to-use__item, .btn-link`,
+    `.products-slider__slide, .blog-slide, .how-to-use__item, .uses-cases__item, .btn-link`,
     {
       delay: 120,
       interval: 80,
       origin: "bottom",
       distance: "20px",
+    },
+  );
+
+  const benefitsItems = Array.from(
+    document.querySelectorAll(".benefits__item"),
+  );
+  const benefitsGrid = document.querySelector(".benefits__content");
+
+  if (benefitsGrid && benefitsItems.length) {
+    const benefitsIconInterval = 220;
+
+    const runBenefitsIconAnimation = () => {
+      benefitsItems.forEach((item, index) => {
+        setTimeout(() => {
+          item.classList.remove("benefits__item--revealed");
+          void item.offsetWidth;
+          item.classList.add("benefits__item--revealed");
+        }, index * benefitsIconInterval);
+      });
+    };
+
+    if ("IntersectionObserver" in window) {
+      const benefitsObserver = new IntersectionObserver(
+        (entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              runBenefitsIconAnimation();
+              observer.disconnect();
+            }
+          });
+        },
+        { threshold: 0.25 },
+      );
+
+      benefitsObserver.observe(benefitsGrid);
+    } else {
+      runBenefitsIconAnimation();
+    }
+  }
+
+  ScrollReveal().reveal(`.about__how-step, .uses-cases__description-text`, {
+    delay: 130,
+    interval: 80,
+    origin: "bottom",
+    distance: "16px",
+  });
+
+  ScrollReveal().reveal(
+    `.benefits__content, .delivery-payment__card, .consist__list-item, .consist__note`,
+    {
+      delay: 120,
+      interval: 90,
+      origin: "bottom",
+      distance: "20px",
+    },
+  );
+
+  ScrollReveal().reveal(
+    `.delivery-payment__actions, .footer__info, .footer__contacts, .footer__meta`,
+    {
+      delay: 140,
+      interval: 100,
+      origin: "bottom",
+      distance: "18px",
     },
   );
 }

@@ -11,21 +11,22 @@ h1.title-1 {
 	margin: 1em 0 0.5em;	
 	font-size: clamp(1.75rem, 1.477rem + 1.36vw, 2.5rem);	
 	font-weight: 500;
+	line-height: 1.2;
 	font-family: var(--font-main);
 	text-transform: capitalize;
 	margin-bottom: 40px;
 	text-align: center;	
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: center;
 	gap: 10px;
 
 	@include tablet {
-		margin-bottom: 32px;
+		margin: 32px;
 	}
 
 	@include mobile {
-		margin-bottom: 24px;
+		margin: 15px;
 		gap: 8px;
 	}
 
@@ -34,6 +35,7 @@ h1.title-1 {
 		width: 22px;
 		height: 16px;
 		display: inline-block;
+		margin-top: calc((1.2em - 16px) / 2);
 		border-radius: 100% 0 100% 0;
 		transform: rotate(-35deg);
 		background: linear-gradient(135deg, #97C11F 0%, #4E9A06 100%);
@@ -43,17 +45,11 @@ h1.title-1 {
 		@include mobile {
 			width: 18px;
 			height: 12px;
+			margin-top: calc((1.2em - 12px) / 2);
 		}
 	}
 	
 }
-
-.delivery-payment .title-2 {
-	&::before {
-		display: none;
-	}
-}
-
 .title-3 {
 	margin: 1em 0 0.5em;
 	font-size: clamp(1.313rem, 1.199rem + 0.57vw, 1.625rem);
@@ -63,8 +59,37 @@ h1.title-1 {
 	text-align: center;
 }
 
-h3.applications__subtitle{
+h1.hero__title.title-1 {
+  color: #000;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+h3.applications__subtitle,
+h3.uses-cases__subtitle {
+	text-align: left;
+	font-size: 22px;
+    font-weight: 600;
+
+	  @include mobile-large {
+    font-size: 20px;
+  }
+
+  @include mobile {
+    font-size: 18px;
+	margin-bottom: 0;
 	text-align: center;
+  }
+}
+
+h3.delivery-payment__card-title {
+	text-align: left;
+	
+	@include mobile {
+		font-size: 20px;
+		text-align: center;
+	}
+
 }
 
 .title-4 {
@@ -72,4 +97,8 @@ h3.applications__subtitle{
 	font-size: 18px;
 	font-weight: 700;
 	font-family: var(--font-titles);
+
+	@include mobile {
+		margin: 0;
+	}
 }

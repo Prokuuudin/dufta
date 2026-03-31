@@ -1,20 +1,20 @@
 import initAllSwipers from "./modules/swipers.js";
 initAllSwipers();
 
-// import setLanguage from './modules/setLanguage.js';
-// setLanguage();
+import setLanguage from "./modules/setLanguage.js";
+setLanguage();
+
+import initAdminOverrides from "./modules/admin-overrides.js";
+initAdminOverrides();
 
 import headerScroll from "./modules/header-scroll.js";
 headerScroll();
 
-// import scrollReveal from "./modules/scrollReveal.js";
-// scrollReveal();
+import scrollReveal from "./modules/scrollReveal.js";
+scrollReveal();
 
 import mobileNav from "./modules/mobile-nav.js";
 mobileNav();
 
 import getCookiesConsent from "./modules/agreement-cookies.js";
 getCookiesConsent();
-
-import initAboutLeavesParallax from "./modules/about-leaves-parallax.js";
-initAboutLeavesParallax();

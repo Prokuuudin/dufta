@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width="800"
+	height="800"
+	viewBox="0 0 400 400"
+	fill="none"
+>
+	<circle
+		cx="200"
+		cy="200"
+		r="176"
+		fill="none"
+		stroke="#000000"
+		stroke-width="14"
+	/>
+	<path
+		d="M125 203 L175 253 L280 148"
+		fill="none"
+		stroke="#000000"
+		stroke-width="14"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+</svg>

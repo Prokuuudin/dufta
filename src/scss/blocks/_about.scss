@@ -1,6 +1,4 @@
 .about {
-  position: relative;
-  isolation: isolate;
   padding: 48px 0;
   background-color: #fff;
 
@@ -13,75 +11,15 @@
   }
 }
 
-.about__bg-leaves {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.about__leaf {
-  position: absolute;
-  width: 96px;
-  height: 72px;
-  display: block;
-  --leaf-parallax-x: 0px;
-  --leaf-parallax-y: 0px;
-  --leaf-transform: rotate(0deg) scale(1);
-  border-radius: 100% 0 100% 0;
-  background: linear-gradient(135deg, rgba(151, 193, 31, 0.78) 0%, rgba(78, 154, 6, 0.62) 100%);
-  box-shadow: inset -2px -2px 0 rgba(255, 255, 255, 0.5);
-  opacity: 0.86;
-  will-change: transform;
-  transform: var(--leaf-transform) translate3d(var(--leaf-parallax-x), var(--leaf-parallax-y), 0);
-}
-
-.about__leaf--1 {
-  top: 7%;
-  left: 10%;
-  --leaf-transform: rotate(-12deg) scale(1.4);
-}
-
-.about__leaf--2 {
-  top: 14%;
-  right: 14%;
-  --leaf-transform: rotate(22deg) scale(1.22);
-}
-
-.about__leaf--3 {
-  bottom: 13%;
-  left: 46%;
-  --leaf-transform: rotate(-34deg) scale(1.34);
-}
-
-.about__leaf--4 {
-  bottom: 10%;
-  right: 12%;
-  --leaf-transform: rotate(42deg) scale(1.52);
-}
-
-.about__leaf--5 {
-  top: 47%;
-  right: 38%;
-  --leaf-transform: rotate(8deg) scale(1.18);
-  opacity: 0.72;
-}
-
-.about__title,
-.about__container {
-  position: relative;
-  z-index: 1;
-}
-
 .about__row {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
   gap: 40px;
   padding: 20px 0 40px;
   align-items: stretch;
   
   @include tablet {
-    grid-template-columns: 45% 55%;
+    grid-template-columns: minmax(0, 45fr) minmax(0, 55fr);
     gap: 24px;
     padding: 20px 0;
   }
@@ -101,6 +39,7 @@
 .about__content {
   text-align: left;
   padding: 20px;
+  min-width: 0;
 
   @include tablet {
     padding: 12px;
@@ -113,6 +52,7 @@
 
 .about__image {
   width: 100%;
+  min-width: 0;
   height: 100%;
   min-height: 360px;
   align-self: stretch;
@@ -145,24 +85,97 @@ p.about__text {
   }
 
   @include mobile {
+    line-height: 1.35;
     padding: 0;
   }
 }
 
-@include mobile {
-  .about__leaf {
-    width: 62px;
-    height: 46px;
-    opacity: 0.65;
-  }
+.about__how {
+  margin-top: 20px;
+  padding: 18px 20px 20px;
+  border-radius: 12px;
+  background: var(--accent2);
+  border-left: 4px solid var(--accent);
 
-  .about__leaf--2,
-  .about__leaf--3 {
-    display: none;
-  }
-
-  .about__leaf--5 {
-    display: none;
+  @include mobile {
+    padding: 10px 10px 12px;
   }
 }
 
+.about__how-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: #111;
+
+  @include mobile {
+    text-align: center;
+  }
+}
+
+.about__how-subtitle {
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 14px;
+  line-height: 1.5;
+}
+
+.about__how-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  counter-reset: how-steps;
+}
+
+.about__how-step {
+  counter-increment: how-steps;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 34px;
+  position: relative;
+
+  &::before {
+    content: counter(how-steps);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.about__how-step-name {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #111;
+}
+
+.about__how-step-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.45;
+}
+
+.about__content .btn-link {
+  margin-top: 24px;
+
+  @include mobile {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

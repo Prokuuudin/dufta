@@ -1,64 +1,90 @@
+.applications__desc {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 20px;
+  padding:  0 25px 25px 25px ;
+  
+  @include mobile {
+      padding: 0 15px 15px 15px;
+      gap: 10px;
+  }
+}
+
+.applications__list {
+  list-style: disc;
+  margin: 0;
+  padding-left: 1.2em;
+  gap: 8px;
+  margin-top: auto;
+
+  @include tablet-small {
+    gap: 10px;
+  }
+}
+ 
 .applications{
-  padding: 40px 0;
+  padding: 48px 0;
   background-color: #fff;
 
   @include tablet-small {
-    padding: 32px 0;
+    padding: 40px 0;
   }
-
+  
   @include mobile {
-    padding: 24px 0;
+    padding: 28px 0;
   }
 }
 
 .applications__content {
   display: flex;
-  flex-direction: column;
-  gap: 60px;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
 
   @include tablet {
-    gap: 48px;
+    gap: 24px;
   }
 
   @include tablet-small {
-    gap: 36px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
   @include mobile {
-    gap: 28px;
+    gap: 12px;
   }
 }
 
 .applications__item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 340px;
+  min-width: 260px;
+  max-width: 340px;
+  gap: 20px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+  overflow: hidden;
+  
   @include tablet {
-    gap: 28px;
+    gap: 16px;
+    min-width: 220px;
+    max-width: 100%;
   }
 
   @include tablet-small {
-    grid-template-columns: 1fr;
-    gap: 20px;
+    flex: none;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
-   
+  
   @include mobile {
-    gap: 16px;
-  }
-}
-
-@media (min-width: 811px) {
-  /* Чередуем текст и картинку только в двухколоночной сетке */
-  .applications__item:nth-child(even) {
-    .applications__textcol {
-      order: 2;
-    }
-
-    .applications__image {
-      order: 1;
-    }
+    gap: 12px;
   }
 }
 
@@ -66,34 +92,23 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-
-  @include tablet-small {
-    gap: 10px;
-  }
+  flex: 1 1 0;
   
 }
 
-.applications__subtitle {
-  font-size: 22px;
-  font-weight: 600;
-
-  @include mobile-large {
-    font-size: 20px;
-  }
-
-  @include mobile {
-    font-size: 18px;
-  }
-}
-
-.applications__text {
+ul li.applications__text {
   line-height: 1.5;
+  list-style: disc;
+  
 }
 
 .applications__image img {
   width: 100%;
-  height: auto;
+  min-height: 160px;
+  height: 180px;
   display: block;
-  border-radius: 12px;
+  border-radius: 0;
   object-fit: cover;
+  max-width: 100%;
+  margin: 0;
 }

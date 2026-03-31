@@ -10,51 +10,28 @@
   }
 }
 
-// .hero__inner {
-//   background: url("../../img/svgsprite/stack/svg/sprite.stack.svg#logo-bg") center center / cover no-repeat;
-//   min-height: 100vh;
-//   padding: 36px 20px 0;
-//   color: #000;
-//   position: relative;
-//   overflow: hidden;
-
-//   &::after {
-//     content: "";
-//     position: absolute;
-//     inset: -30% auto -30% -45%;
-//     width: 30%;
-//     background: linear-gradient(
-//       115deg,
-//       rgba(255, 255, 255, 0) 0%,
-//       rgba(255, 255, 255, 0.24) 48%,
-//       rgba(255, 255, 255, 0) 100%
-//     );
-//     transform: translateX(-240%) skewX(-18deg);
-//     filter: blur(1.5px);
-//     animation: heroGlint 5.2s linear infinite;
-//     pointer-events: none;
-//     z-index: 1;
-//   }
-
-//   @include tablet-small {
-//     background-size: contain;
-//   }
-
-//   @include mobile {
-//     padding: 20px 12px 0;
-//   }
-// }
 .hero__inner {
-  background-color: #999;
-  background-image: url('./../../img/bg-main.png');
-  background-position: center center; /* x y */
-  background-size: cover;
+  margin-top: 100px;
+  background: pink;;
+  background-image: url('./../../img/bg-main.jpg');
+  background-position: center;
+  background-size: 107% auto;
   background-repeat: no-repeat;
   min-height: 100vh;
   padding: 36px 20px 0;
   color: #000;
   position: relative;
   overflow: hidden;
+
+  @include tablet {
+    background-size: cover;
+    background-position: center top;
+  }
+
+  @include mobile {
+    background-size: cover;
+    background-position: -200px -150px;
+  }
 
    &::after {
     content: "";
@@ -83,10 +60,10 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  gap: 30px;
   right: 40px;
-  bottom: 40px;
-  width: min(calc(100% - 80px), max(60vw, 560px));
+  bottom: 150px;
+  width: min(calc(100% - 80px), max(60vw, 530px));
+  width: 55%;
   text-align: right;
   z-index: 2;
   opacity: 0;
@@ -107,27 +84,24 @@
   height: auto;
   aspect-ratio: 124.72 / 34.02;
   margin: 0 0 16px auto;
-  fill: #000;
+  fill: #000;  
+  margin-bottom: 20px;
 
   @include mobile {
     margin: 0 auto 12px;
   }
 }
 
-h1.hero__title.title-1 {
-  color: #000;
-  margin: 0;
-}
-
 .hero__slogan {
-  margin-top: 10px;
+  margin: 0 0 10px;
   font-size: 18px;
   line-height: 1.4;
-  color: #000;
+  color: #000;  
+  margin-bottom: 50px;
 
   @include mobile {
     font-size: 16px;
-    margin-top: 8px;
+    margin-bottom: 8px;
   }
 }
 

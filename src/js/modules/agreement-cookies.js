@@ -11,7 +11,7 @@ function getCookiesConsent() {
         if (!localStorage.getItem("cookieBannerDisplayed")) {
             document.querySelector('.cookiebg').classList.add('appear');
         }
-    }, 3000);
+    }, 1500);
 }
 
 export default getCookiesConsent

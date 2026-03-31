@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	width="800"
+	height="800"
+	viewBox="0 0 32 32"
+	fill="none"
+>
+	<title>hot-surface</title>
+	<path
+		d="M8 4C10.5 8 5.5 10 8 14"
+		fill="none"
+		stroke="#000000"
+		stroke-width="1"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+	<path
+		d="M16 4C18.5 8 13.5 10 16 14"
+		fill="none"
+		stroke="#000000"
+		stroke-width="1"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+	<path
+		d="M24 4C26.5 8 21.5 10 24 14"
+		fill="none"
+		stroke="#000000"
+		stroke-width="1"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+	<path
+		d="M2 24c1.8 0 1.8-2 3.6-2s1.8 2 3.6 2 1.8-2 3.6-2 1.8 2 3.6 2 1.8-2 3.6-2 1.8 2 3.6 2 1.8-2 3.6-2"
+		fill="none"
+		stroke="#000000"
+		stroke-width="1"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+	<path
+		d="M2 28h28"
+		fill="none"
+		stroke="#000000"
+		stroke-width="1"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+	/>
+</svg>

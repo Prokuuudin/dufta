@@ -42,6 +42,10 @@
         grid-template-rows: auto;
         gap: 10px;
     }
+
+    @include mobile {
+        gap: 6px;
+    }
 }
 
 .card-benefit {
@@ -52,19 +56,16 @@
     text-align: left;
     align-items: flex-start;
     gap: 12px;
-    border: 1px solid rgba(29, 33, 40, 0.08);
+    border: none;
+    border-bottom: 1px solid rgba(29, 33, 40, 0.14);
     border-radius: 14px;
-    background: linear-gradient(180deg, rgba(255, 252, 244, 0.98) 0%, rgba(249, 243, 232, 0.96) 100%);
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-
-    &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
-    }
+    background: #fff;
+    box-shadow: none;
+    transition: none;
 
     @include mobile {
-        padding: 14px 12px;
+        padding: 10px 8px;
+        gap: 6px;
     }
 }
 
@@ -76,11 +77,11 @@
 
 .card-benefit__image {
     flex-shrink: 0;
-    background: var(--accent);
+    // background: var(--accent);
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    // border-radius: 50%;
+    // box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
 
     display: flex;
     align-items: center;
@@ -89,6 +90,27 @@
     @include mobile {
         width: 40px;
         height: 40px;
+    }
+}
+
+.benefits__item--revealed .card-benefit__image {
+    animation: benefitIconPop 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes benefitIconPop {
+    0% {
+        opacity: 0;
+        transform: scale(0.78) rotate(-10deg);
+    }
+
+    65% {
+        opacity: 1;
+        transform: scale(1.08) rotate(2deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
     }
 }
 

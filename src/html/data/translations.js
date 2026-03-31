@@ -1,104 +1,125 @@
 const translations = {
   ru: {
     "desc-content":
-      "Erawadee - Тайская традиционная медицина и косметика в Латвии",
+      "Dufta - немецкое средство против неприятных запахов. Подходит для текстиля, мебели, обуви и других материалов.",
     "keywords-content":
-      "Erawadee, тайская медицина, тайская косметика, традиционная медицина, натуральная косметика, интернет-магазин, Латвия",
-    "landing-title":
-      "Erawadee - Тайская традиционная медицина и косметика в Латвии",
+      "Dufta, удаление запахов, энзимный спрей, текстиль, мебель, обувь",
+    "landing-title": "Dufta - немецкое средство против неприятных запахов",
 
-    // HEADER NAVIGATION
-    "nav-about": "о нас",
+    "nav-about": "о Dufta",
     "nav-shop": "интернет-магазин",
-    "nav-blog": "блог",
-    "nav-franchise": "франшиза и дистрибуция",
+    "nav-products": "Удалители запахов",
+    "nav-blog": "статьи",
     "nav-contacts": "контакты",
 
-    // HERO BLOCK
-    "hero-title": "Традиционная тайская медицина и косметика в Латвии",
-    "hero-slogan": "Здоровье. Красота. Сила.",
+    "hero-title": "надежное средство против неприятных запахов",
+    "hero-slogan": "Натурально. Эффективно. Безопасно.",
 
-    // ABOUT BLOCK
-    about__title: "Что такое Erawadee",
-    "about-text":
-      "Компания Erawadee – это интернет-магазин и сеть аптек тайской традиционной медицины и натуральной косметики. В 1997 году в провинции Канчанабури, Таиланд, в районе легендарной реки Квай появилось наше производство. Долгое время продукцию Erawadee можно было купить только там. Чтобы быть ближе к нашим покупателям, в 2012 году мы открыли аптеку в городе Паттайя, на Северной улице. На данный момент у нас сеть аптек в Таиланде, работающий на всех континентах интернет-магазин, а также сеть дистрибьюторов во многих странах Европы и Азии.  Ежемесячно мы обслуживаем тысячи клиентов. Наша цель — дать возможность покупателям со всего мира ощутить силу тайской традиционной медицины и косметики. Теперь мы работаем и в Латвии!",
+    about__title: "Что такое Dufta",
+    "about-text1":
+      "Dufta - гипоаллергенное, биоразлагаемое немецкое средство для удаления запахов органического происхождения.",
+    "about-text3": "Безопасно для людей и домашних животных.",
+    "about-how-title": "Как Dufta устраняет запахи",
+    "about-how-step-1-name": "Находит источник",
+    "about-how-step-1-desc":
+      "Энзимы (ферменты) распознают органические загрязнения - мочу, пот, остатки еды.",
+    "about-how-step-2-name": "Разлагает молекулы",
+    "about-how-step-2-desc":
+      "Активные компоненты расщепляют соединения, вызывающие запах.",
+    "about-how-step-3-name": "Полностью устраняет запах",
+    "about-how-step-3-desc": "Источник исчезает - запах не возвращается.",
+    "about-shop-link": "Перейти в интернет-магазин",
 
-    // VIDEO SECTION
-    "video-hidden-title": "Видео о бренде Erawadee",
-    "video-title": "История бренда",
+    "agreement-header": "Мы ценим вашу приватность",
+    "agreement-text":
+      'Мы используем файлы cookie, чтобы улучшить качество ваших просмотров, персонализируя для вас рекламу и контент на основе анализа трафика. Нажимая "Принять", вы соглашаетесь с использованием файлов cookie. ',
+    "agreement-link": "Политика cookie.",
+    "accept-btn": "Принять",
+    "reject-btn": "Отклонить",
 
-    // PRODUCTS SECTION
-    "products-title": "Продукция Erawadee",
-    "product-spices": "Тайские приправы и специи для кулинарии",
-    "product-snake": "Змеиная тайская медицина",
-    "product-balms": "Тайские бальзамы",
-    "product-cosmetics": "Натуральная косметика",
-    "product-healing": "Оздоровительные комплексы",
-    "product-aroma": "Эфирные масла",
-    "product-traditional": "Традиционная медицина",
-    "product-care": "Средства гигиены",
-    "product-tea": "Целебные чаи",
-    "product-coconut": "Кокосовое масло",
-    "product-collagen": "Коллагеновые продукты",
-    "products-retail-title": "Для розницы:",
-    "products-business-title": "Для бизнеса:",
-    "products-text-1":
-      "Выбирайте нужное средство и оформляйте заказ в нашем интернет-магазине. Вы также можете приобрести Dufta у нас в офисе.",
-    "products-text-2":
-      "Хотите заключить договор на регулярные поставки или стать дистрибьютором Dufta? Свяжитесь с нами в разделе Контакты — обсудим индивидуальные условия.",
-    "products-text":
-      "В нашем ассортименте десятки товаров, основанных на традиционной тайской медицине. Особой популярностью пользуются бальзамы, натуральная косметика и эфирные масла. Тысячи покупателей по всему миру выбирают Erawadee. Подробнее — на странице каталога в интернет-магазине.",
+    "applications-title": "Где применяют Dufta",
+    "applications-subtitle-1": "Дом и повседневная жизнь",
+    "applications-subtitle-2": "Общественные пространства",
+    "applications-subtitle-3": "Бизнес и коммерция",
+    "applications-list-1-1": "Запахи животных, пота и еды",
+    "applications-list-1-2": "Мебель, ковры, матрасы",
+    "applications-list-1-3": "Обувь и одежда",
+    "applications-list-2-1": "Больницы и дома престарелых",
+    "applications-list-2-2": "Детсады, школы, офисы",
+    "applications-list-2-3": "Раздевалки и спортзалы",
+    "applications-list-3-1": "Отели и рестораны",
+    "applications-list-3-2": "Клиники и салоны",
+    "applications-list-3-3": "Производственные помещения",
+
+    "products-title": "Выберите средство Dufta под вашу задачу",
+    "product-item1": "DuftaFresh 500 ml удалитель запаха",
+    "product-item2": "DuftaFresh 1L удалитель запаха",
+    "product-item3": "DuftaPet 500 ml удалитель запаха для животных",
+    "product-item4": "DuftaPet 1L удалитель запаха для животных",
     "products-link": "Перейти в интернет магазин",
-    "products-contact-link": "Перейти в контакты",
 
-    //DiSTRIBUTION
-    "distribution-title": "Франшиза и дистрибуция",
-    "distribution-text":
-      "Компания Erawadee предлагает выгодные условия для сотрудничества по франшизе и дистрибуции нашей продукции. Мы предоставляем полный пакет поддержки, включая консультации по товарам, брендбук и обучающие материалы. Если вы заинтересованы в расширении ассортимента вашего магазина или аптеки с помощью качественной тайской традиционной медицины и косметики, свяжитесь с нами для обсуждения деталей сотрудничества.",
-    "distribution-contact-text": "Свяжитесь с нами для обсуждения партнёрства",
-    "distribution-contact-btn": "Связаться с Erawadee",
+    "uses-cases-title": "Какие запахи удаляет Dufta",
+    "uses-cases-subtitle-1": "Человек",
+    "uses-cases-subtitle-2": "Животные",
+    "uses-cases-subtitle-3": "Помещения",
+    "uses-cases-list-1-1": "Пот и моча",
+    "uses-cases-list-1-2": "Одежда и обувь",
+    "uses-cases-list-1-3": "Табак",
+    "uses-cases-list-1-4": "Косметика",
+    "uses-cases-list-1-5": "и др.",
+    "uses-cases-list-2-1": "Кошачья моча",
+    "uses-cases-list-2-2": "Шерсть и лежанка",
+    "uses-cases-list-2-3": "Клетки и лотки",
+    "uses-cases-list-2-4": "Испорченный корм",
+    "uses-cases-list-2-5": "и др.",
+    "uses-cases-list-3-1": "Мусор и кухня",
+    "uses-cases-list-3-2": "Сырость и плесень",
+    "uses-cases-list-3-3": "Дым и гарь",
+    "uses-cases-list-3-4": "Туалет",
+    "uses-cases-list-3-5": "и др.",
+    "uses-cases-description-text":
+      "Dufta не маскирует неприятный запах, как это делают обычные освежители, а уничтожает его источник.",
+    "uses-cases-description-text-2":
+      "Безопасен для людей и животных, не содержит токсичных веществ.",
 
-    // BENEFITS
-    "benefits-title": "Почему Erawadee",
-    "benefits-text":
-      "Вся продукция Erawadee производится из растительных ингредиентов. Компания представляет собой заповедник, на территории которого в естественных условиях произрастают будущие компоненты препаратов, косметических средств и лечебных чаев. Мы не используем пестициды, стимуляторы роста, минеральные удобрения и теплицы — только тропическое солнце и дожди. Наша продукция экологически чистая и полностью сертифицированная. Все травы собираются вручную. Площадь фабрики составляет 20000 кв.м., и трудятся на ней более 300 человек.",
-
-    "benefit-item-1-title": "Тайские традиции",
+    "benefits-title": "Почему выбирают Dufta",
+    "benefit-item-1-title": "Простота и эффективность",
     "benefit-item-1-text":
-      "Рецепты, проверенные вековой историей Таиланда, в основе каждого продукта",
-
-    "benefit-item-2-title": "Натуральные ингредиенты",
+      "Не маскирует запахи ароматами, а устраняет их источник.",
+    "benefit-item-2-title": "Удаляет пятна",
     "benefit-item-2-text":
-      "Только природные компоненты, проверенные на безопасность",
-
-    "benefit-item-3-title": "Научные инновации",
+      "Одновременно нейтрализует запахи и удаляет органические пятна.",
+    "benefit-item-3-title": "100% биологическая формула",
     "benefit-item-3-text":
-      "Современные технологии, раскрывающие весь потенциал природы",
-
-    "benefit-item-4-title": "Широкий ассортимент",
+      "В основе - растительные ферменты без агрессивной химии.",
+    "benefit-item-4-title": "Безопасно для семьи",
     "benefit-item-4-text":
-      "Разнообразная продукция для здоровья, молодости и красоты",
-
-    "benefit-item-5-title": "Исторические корни",
-    "benefit-item-5-text": "Рецепты, передаваемые из поколения в поколение",
-
-    "benefit-item-6-title": "Международное признание",
+      "Подходит для детей, аллергиков и домашних животных.",
+    "benefit-item-5-title": "Веганский состав",
+    "benefit-item-5-text": "Не содержит ингредиентов животного происхождения.",
+    "benefit-item-6-title": "Биоразлагаемость",
     "benefit-item-6-text":
-      "Продукция экспортируется в ряд европейских стран и страны Азии",
+      "Полностью разлагается и безопасен для окружающей среды",
+    "benefit-item-7-title": "Эффект с первого применения",
+    "benefit-item-7-text":
+      "Заметный результат сразу после первого использования.",
+    "benefit-item-8-title": "Для любых поверхностей",
+    "benefit-item-8-text":
+      "Подходит для текстиля, мебели, обуви и других материалов.",
+    "benefit-item-9-title": "Более 3000 запахов",
+    "benefit-item-9-text":
+      "Работает с тысячами органических запахов в разных ситуациях.",
 
-    // CONSIST
-    "consist-title": "Состав Dufta",
-    "consist-lead":
-      "Эффективность Dufta обусловлена силой природы, а не агрессивной химией.",
+    "consist-title": "Простой и безопасный состав",
     "consist-item-1-title": "Растительные энзимы",
     "consist-item-1-text":
-      "Расщепляют молекулы запаха на нейтральные составляющие.",
-    "consist-item-2-title": "Очищенная вода",
+      "Органические белки расщепляют молекулы, создающие запах на нейтральные составляющие.",
+    "consist-item-2-title": "Водная основа",
     "consist-item-2-text":
-      "Основа для глубокого проникновения в поры материала.",
+      "Помогает средству проникать на всю глубину загрязнения.",
     "consist-item-3-title": "Пищевые консерванты",
     "consist-item-3-text":
-      "В минимальном количестве для сохранения активности ферментов.",
+      "Сохраняют активность энзимов, применяются в минимальном количестве, безопасном для здоровья.",
     "consist-note-title": "Без агрессивной химии",
     "consist-note-text":
       "Не содержит фосфатов, фенолов, агрессивных ПАВ, растворителей и формальдегидов.",
@@ -107,527 +128,744 @@ const translations = {
       "Средства соответствуют строгим европейским стандартам экологической безопасности.",
     "consist-note-3-title": "Экологично и безопасно",
     "consist-note-3-text":
-      "Нашими средствами можно обрабатывать детские манежи, лежанки животных и даже кухонные поверхности, не опасаясь за здоровье близких.",
+      "Можно обрабатывать детские манежи, лежанки животных и кухонные поверхности.",
 
-    // NUMBERS
+    "how-to-use-title": "Избавляемся от запаха за 3 шага",
+    "how-to-use-text-1":
+      "Распылите средство непосредственно на источник запаха. Если это мягкая мебель (диван, ковер, салон авто), важно, чтобы средство проникло на ту же глубину, что и загрязнение.",
+    "how-to-use-text-2":
+      "Дайте энзимам поработать. Для усиления эффекта на сложных поверхностях накройте место обработки пленкой на 60-90 минут.",
+    "how-to-use-text-3":
+      "Просто дайте поверхности высохнуть естественным путем. Смывать средство водой не нужно - оно полностью биоразлагаемо.",
+    "how-to-use-important-title": "Профессиональные советы:",
+    "how-to-use-important-1":
+      "Dufta работает только на источнике запаха - обрабатывайте именно загрязнение.",
+    "how-to-use-important-2":
+      "Если запах сильный, нанесите средство повторно через 24 часа для полного устранения.",
 
-    "numbers-area": "20.000 м²",
-    "numbers-area-text": "площадь собственного производства в Таиланде",
+    "blog-title": "Блог Dufta: советы и решения",
+    "blog-article-1-title": "Запах кошачьей мочи: как от него избавиться",
+    "blog-link": "Перейти в блог",
 
-    "numbers-production": ">4.000 м²",
-    "numbers-production-text": "площадь собственного производства в Таиланде",
+    "delivery-payment-title": "Доставка и оплата",
+    "delivery-payment-delivery-title": "Доставка",
+    "delivery-payment-delivery-1": "1-2 рабочих дня по Балтии",
+    "delivery-payment-delivery-2": "Доставка в пакоматы",
+    "delivery-payment-delivery-3": "Доставка по всей Европе",
+    "delivery-payment-payment-title": "Оплата",
+    "delivery-payment-payment-1": "Банковский перевод",
+    "delivery-payment-payment-2": "Visa / Mastercard",
+    "delivery-payment-payment-3": "Оплата в офисе",
+    "delivery-payment-business-title": "Для бизнеса",
+    "delivery-payment-business-1": "Оптовые поставки",
+    "delivery-payment-business-2": "Индивидуальные условия",
+    "delivery-payment-business-3": "Дистрибьюция",
+    "delivery-payment-link": "Перейти в интернет-магазин",
 
-    "numbers-traffic": ">1000 чел",
-    "numbers-traffic-text": "ежедневный трафик на ERAWADEE.com",
-
-    "numbers-staff": ">300",
-    "numbers-staff-text": "сотрудников работает в компании",
-
-    // TRADITIONS
-    "tradition-title": "Традиции",
-
-    "tradition-card1-title": "Наследие",
-    "tradition-card1-text":
-      "Наша компания осуществляет свою деятельность при поддержке королевской семьи Таиланда, а именно Принцессы Чулабхорн Валаилак, активно поддерживающей развитие медицины. Мы производим препараты высочайшего качества по древним рецептам, возраст которых – более 3000 лет. В нашем музее при главной аптеке Erawadee в Паттайе можно узнать, как готовились целебные снадобья в древности: из местных трав и минералов, с использованием знаний о балансе и гармонии. Здесь представлены исторические инструменты, оригинальные рецептурные свитки и история тайской медицины, передаваемая из поколения в поколение. Сегодня мы сохраняем эти традиции, сочетая древние рецепты с современными технологиями, чтобы сделать уникальное тайское наследие доступным для всего мира.",
-
-    "tradition-card2-title": "ЛЕГЕНДА БРЕНДА",
-    "tradition-card2-text":
-      "Богатая мифология Таиланда отражает глубокие духовные и культурные ценности, передающиеся из поколения в поколение. Один из её центральных символов — Эраван (Airavata), величественный трёхголовый слон и священное ездовое животное бога Индры, покровителя дождя, грома и плодородия. В тайской традиции Эраван олицетворяет мудрость, благополучие, защиту и гармонию с природой.\n\nЛегенда гласит, что Эраван появился во время «взбивания Молочного океана», когда боги и демоны искали эликсир бессмертия. Его три головы символизируют единство прошлого, настоящего и будущего, а также баланс между небом, землёй и подземным миром — основу тайского мировосприятия. В Таиланде образ слона, особенно белого, издавна считается знаком небесного благословения, процветания и справедливого правления.\n\nВажную роль в мифологии играет и его мать — небесная слониха Иравати, воплощающая силу, сочувствие и материнскую любовь.\n\nОбраз Эравана и сегодня живёт в культуре Таиланда — ему посвящены храмы и священные места, куда люди приходят с молитвами о здоровье, любви и благополучии. Эта древняя легенда вдохновила создателей бренда ERAWADEE объединить мудрость и силу культурного наследия Таиланда с уважением к природе, балансу и внутренней гармонии человека.",
-
-    // MARQUEE
-    "marquee-title": "Наши награды",
-
-    award1: "Лучший продукт года 2016",
-    award2: "За продвижение наследия Короля Рамы IX",
-    award3: "За развитие отношений стран ASEAN",
-    award4: "За сохранение наследия тайской культуры",
-    award5: "Лучший продукт 2017 года",
-    award6: "За развитие отношений Таиланда и Камбоджи",
-    award7: "Награда Национального совета женщин Таиланда",
-    award8: '"Золотой колокол". Персона года, 2017',
-    award9: "AEC - TOP CEO Awards 2018",
-    award10: "Лучший продукт 2018 года",
-    award11: "Лучший продукт стран ASEAN ",
-    award12: "TOP BRAND AWARDS 2025",
-    award13: "CEO THAILAND AWARDS, 2018",
-    "awards-text":
-      "За вклад в сохранение и популяризацию тайского наследия компания Erawadee отмечена многими наградами:",
-    "award-king-rama-ix": "Национальная награда имени Короля Рамы IX",
-    "award-product-year": "Продукт года",
-    "award-thai-heritage": "Награда за приумножение тайского наследия",
-    "award-asean-biz": "ASEAN Best BIZ &amp; Product",
-    "award-thai-tradition": "Награда за развитие тайской традиции",
-    "award-other": "и многие другие",
-    "awards-subtext":
-      "*Примечание: ASEAN — Ассоциация государств Юго-Восточной Азии, в которую входят Индонезия, Малайзия, Филиппины, Сингапур, Таиланд, Бруней, Вьетнам, Лаос, Мьянма, Камбоджа.",
-
-    // BLOG
-    "blog-title": "Наш блог",
-    "blog-article-1-title":
-      "Центелла Азиатская - польза, свойства и применение",
-    "blog-article-1-text":
-      'Центелла считается "травой долголетия" и является одним из основных продуктов традиционной тайской, китайской и аюрведической медицины...',
-    "blog-info-text":
-      "В нашем блоге вы найдёте десятки подробных и познавательных статей, посвящённых продукции Erawadee и традициям тайской медицины. Мы рассказываем о составе и свойствах натуральных средств, делимся знаниями о древних рецептурах, принципах оздоровления и философии тайского подхода к заботе о теле и душе. В полном объеме материалы доступны на сайте интернет-магазина.",
-    "blog-link": "Перейти в блог erewadee.com",
-
-    // DELIVERY AND PAYMENT
-    "delivery-title": "доставка",
-    "delivery-text":
-      "Компания Erawadee доставляет продукцию по всему миру. У нас нет минимальной суммы заказа. Все посылки отправляются напрямую со склада фабрики в Таиланде на ваш адрес. Каждая посылка снабжается кодом отслеживания — за её передвижением можно следить в личном кабинете Erawadee, на сайте почты вашей страны или на одном из трекинговых сервисов.",
-    "delivery-more":
-      "Подробнее — по ссылке на раздел доставки в интернет-магазине.",
-    "delivery-link": "В раздел доставки",
-
-    "payment-title": "Способы оплаты",
-    "payment-item-online": "Онлайн-платёж на сайте",
-    "payment-item-visa-mastercard": "Оплата картами Visa любых банков",
-    "payment-item-mastercard": "Оплата картами Mastercard любых банков",
-    "payment-item-paypal": "PayPal",
-    "payment-item-bank-moneytransfer": "Банковские переводы",
-    "payment-item-bank-crypto": "Криптовалюта",
-    "payment-item-card": "Другие банковские карты",
-    "payment-more":
-      "Подробнее — по ссылке на раздел оплаты в интернет-магазине.",
-    "payment-link": "Перейти в раздел оплаты на erawadee.com",
-
-    // <CONTACTS
-    "contacts-title": "Контакты",
-
-    // FOOTER
-    "footer-logo-alt": "Логотип",
-    "footer-company-name": '"Erawadee", SIA',
-    "footer-company-registration": "Регистрационный номер: 40203383879",
-    "footer-company-address":
-      "Адрес: Рига, ул. Кришьяня Барона, 37-11, LV-1011, Латвия",
-    "footer-phone": "Tel: +371 27067730",
-    "footer-email": "erawadee@gmail.com",
-    "footer-website": "www.erawadee.com",
+    "footer-company-name": "Baltic Pro Company, SIA",
+    "footer-company-registration": "Рег. номер: 40203544254",
+    "footer-company-address": "Юркалнес 12, LV-1046, Рига, Латвия",
+    "contacts-title": "Свяжитесь с нами",
+    "footer-phone": "+37129109868 (чат)",
     "footer-rights": "Все права защищены",
 
-    // MOBILE NAV
-    "mobile-nav-about": "о нас",
-    "mobile-nav-shop": "интернет-магазин",
-    "mobile-nav-blog": "блог",
-    "mobile-nav-distribution": "дистрибуция и франшиза",
-    "mobile-nav-contacts": "контакты",
+    "mobile-nav-about": "О Dufta",
+    "mobile-nav-shop": "Интернет-магазин",
+    "mobile-nav-products": "Удалители запаха",
+    "mobile-nav-blog": "Статьи",
+    "mobile-nav-contacts": "Контакты",
   },
 
   lv: {
-    "landing-title": "Erawadee - Taizemes medicīnas produkti Latvijā",
+    "desc-content":
+      "Dufta — vācu līdzeklis nepatīkamu smaku noņemšanai. Piemērots tekstilam, mēbelēm, apaviem un citām virsmām.",
     "keywords-content":
-      "Erawadee, Taizemes medicīna, Taizemes kosmētika, tradicionālā medicīna, dabīgā kosmētika, interneta veikals, Latvija",
-    "desc-content": "Erawadee - Taizemes medicīnas produkti Latvijā",
+      "Dufta, smaku noņemšana, enzīmisks sprejs, tekstils, mēbeles, apavi",
+    "landing-title": "Dufta — vācu līdzeklis nepatīkamu smaku noņemšanai",
 
-    // HEADER NAVIGATION
-    "nav-about": "par mums",
-    "nav-shop": "interneta veikals",
-    "nav-blog": "blogs",
-    "nav-franchise": "franšīze un izplatīšana",
-    "nav-contacts": "kontakti",
+    "nav-about": "Par Dufta",
+    "nav-shop": "Interneta veikals",
+    "nav-products": "Smaku noņēmēji",
+    "nav-blog": "Raksti",
+    "nav-contacts": "Kontakti",
 
-    // HERO BLOCK
-    "hero-title": "Tradicionālā Taizemes medicīna un kosmētika Latvijā",
-    "hero-slogan": "Veselība. Skaistums. Spēks.",
+    "hero-title": "Uzticams līdzeklis pret nepatīkamu smaku",
+    "hero-slogan": "Dabīgs. Efektīvs. Drošs.",
 
-    // ABOUT BLOCK
-    about__title: "Kas ir Erawadee",
+    about__title: "Kas ir Dufta",
+    "about-text1":
+      "Dufta ir hipoalerģisks, bioloģiski noārdāms vācu līdzeklis organiskas izcelsmes smaku noņemšanai.",
+    "about-text3": "Drošs cilvēkiem un mājdzīvniekiem.",
+    "about-how-title": "Kā Dufta novērš smakas",
+    "about-how-step-1-name": "Atrod avotu",
+    "about-how-step-1-desc":
+      "Enzīmi atpazīst organisko piesārņojumu — urīnu, sviedrus, ēdiena atlikumus.",
+    "about-how-step-2-name": "Sadala molekulas",
+    "about-how-step-2-desc":
+      "Aktīvās sastāvdaļas sadala savienojumus, kas izraisa smaku.",
+    "about-how-step-3-name": "Pilnībā novērš smaku",
+    "about-how-step-3-desc": "Avots pazūd — smaka neatgriežas.",
+    "about-shop-link": "Pāriet uz interneta veikalu",
 
-    "about-text":
-      "Uzņēmums Erawadee ir interneta veikals un aptieku tīkls, kas specializējas Taizemes tradicionālajā medicīnā un dabīgajā kosmētikā. 1997. gadā Taizemes Kančanaburi provincē, leģendārās Kvai upes apkārtnē, tika atklāta mūsu ražošana. Ilgu laiku Erawadee produktus varēja iegādāties tikai tur. Lai būtu tuvāk mūsu klientiem, 2012. gadā mēs atvērām aptieku Pattajas pilsētā, Ziemeļu ielā. Pašlaik mums ir aptieku tīkls Taizemē, interneta veikals, kas darbojas visos kontinentos, kā arī izplatītāju tīkls daudzās Eiropas un Āzijas valstīs. Mēs apkalpojam tūkstošiem klientu katru mēnesi. Mūsu mērķis ir dot iespēju klientiem visā pasaulē sajust Taizemes tradicionālās medicīnas un kosmētikas spēku. Tagad mēs darbojamies arī Latvijā!",
+    "agreement-header": "Mēs cienām jūsu privātumu",
+    "agreement-text":
+      "Mēs izmantojam sīkfailus (cookies), lai uzlabotu jūsu pieredzi, personalizētu reklāmu un saturu, kā arī analizētu trafiku. Nospiežot 'Pieņemt', jūs piekrītat sīkfailu izmantošanai. ",
+    "agreement-link": "Sīkfailu politika.",
+    "accept-btn": "Pieņemt",
+    "reject-btn": "Noraidīt",
 
-    // VIDEO SECTION
-    "video-hidden-title": "Video par Erawadee zīmolu",
-    "video-title": "Zīmola vēsture",
+    "applications-title": "Kur izmanto Dufta",
+    "applications-subtitle-1": "Mājās un ikdienas vidē",
+    "applications-subtitle-2": "Publiskās telpās",
+    "applications-subtitle-3": "Bizness un komercija",
+    "applications-list-1-1": "Dzīvnieku, sviedru un ēdiena smakas",
+    "applications-list-1-2": "Mēbeles, paklāji, matrači",
+    "applications-list-1-3": "Apavi un apģērbs",
+    "applications-list-2-1": "Slimnīcas un aprūpes nami",
+    "applications-list-2-2": "Bērnudārzi, skolas, biroji",
+    "applications-list-2-3": "Ģērbtuves un sporta zāles",
+    "applications-list-3-1": "Viesnīcas un restorāni",
+    "applications-list-3-2": "Klīnikas un saloni",
+    "applications-list-3-3": "Ražošanas telpas",
 
-    //PRODUCTS SECTION
-    "products-title": "Erawadee produkcija",
-    "product-spices": "Taju garšvielas un maisījumi ēdieniem",
-    "product-snake": "Taju čūsku medicīna",
-    "product-balms": "Taju balzami",
-    "product-cosmetics": "Dabīgā kosmētika",
-    "product-healing": "Veselības kompleksi",
-    "product-aroma": "Ēteriskās eļļas",
-    "product-traditional": "Tradicionālā medicīna",
-    "product-care": "Higiēnas līdzekļi",
-    "product-tea": "Dziedinošās tējas",
-    "product-coconut": "Kokosriekstu eļļa",
-    "product-collagen": "Kolagēna produkti",
-    "products-retail-title": "Mazumtirdzniecībai:",
-    "products-business-title": "Biznesam:",
-    "products-text-1":
-      "Izvēlieties nepieciešamo līdzekli un noformējiet pasūtījumu mūsu interneta veikalā. Dufta produktus varat iegādāties arī mūsu birojā.",
-    "products-text-2":
-      "Vēlaties noslēgt līgumu par regulārām piegādēm vai kļūt par Dufta izplatītāju? Sazinieties ar mums sadaļā Kontakti — apspriedīsim individuālus sadarbības nosacījumus.",
-    "products-text":
-      "Mūsu klāstā ir desmitiem produktu, kas balstīti uz tradicionālo taju medicīnu. Īpaši populāri ir balzami, dabīgā kosmētika un ēteriskās eļļas. Tūkstošiem cilvēku visā pasaulē izvēlas Erawadee. Sīkāka informācija ir sadaļā par katalogu interneta veikalā.",
+    "products-title": "Izvēlieties Dufta līdzekli savam uzdevumam",
+    "product-item1": "DuftaFresh 500 ml smaku noņēmējs",
+    "product-item2": "DuftaFresh 1 L smaku noņēmējs",
+    "product-item3": "DuftaPet 500 ml smaku noņēmējs dzīvniekiem",
+    "product-item4": "DuftaPet 1 L smaku noņēmējs dzīvniekiem",
     "products-link": "Pāriet uz interneta veikalu",
-    "products-contact-link": "Pāriet uz kontaktiem",
 
-    // DISTRIBUCIJA
-    "distribution-title": "Franšīze un izplatīšana",
-    "distribution-text":
-      "Uzņēmums Erawadee piedāvā izdevīgus sadarbības nosacījumus franšīzes un izplatīšanas jomā. Mēs nodrošinām pilnu atbalsta paketi, ieskaitot konsultācijas par produktiem, zīmolu rokasgrāmatu un mācību materiālus. Ja vēlaties paplašināt sava veikala vai aptiekas sortimentu ar kvalitatīvu Taizemes tradicionālo medicīnu un kosmētiku, sazinieties ar mums, lai apspriestu sadarbības detaļas.",
-    "distribution-contact-text":
-      "Sazinieties ar mums, lai apspriestu partnerību",
-    "distribution-contact-btn": "Sazināties ar Erawadee",
+    "uses-cases-title": "Kādas smakas noņem Dufta",
+    "uses-cases-subtitle-1": "Cilvēks",
+    "uses-cases-subtitle-2": "Dzīvnieki",
+    "uses-cases-subtitle-3": "Telpas",
+    "uses-cases-list-1-1": "Sviedri un urīns",
+    "uses-cases-list-1-2": "Apģērbs un apavi",
+    "uses-cases-list-1-3": "Tabaka",
+    "uses-cases-list-1-4": "Kosmētika",
+    "uses-cases-list-1-5": "u.c.",
+    "uses-cases-list-2-1": "Kaķu urīns",
+    "uses-cases-list-2-2": "Spalva un guļvieta",
+    "uses-cases-list-2-3": "Būri un paplātes",
+    "uses-cases-list-2-4": "Sabojāta barība",
+    "uses-cases-list-2-5": "u.c.",
+    "uses-cases-list-3-1": "Atkritumi un virtuve",
+    "uses-cases-list-3-2": "Mitrums un pelējums",
+    "uses-cases-list-3-3": "Dūmi un deguma smaka",
+    "uses-cases-list-3-4": "Tualete",
+    "uses-cases-list-3-5": "u.c.",
+    "uses-cases-description-text":
+      "Dufta nemaskē nepatīkamu smaku, kā to dara parastie gaisa atsvaidzinātāji, bet iznīcina tā avotu.",
+    "uses-cases-description-text-2":
+      "Drošs cilvēkiem un dzīvniekiem, nesatur toksiskas vielas.",
 
-    // BENEFITS
-    "benefits-title": "Kāpēc Erawadee",
-    "benefits-text":
-      "Visa Erawadee produkcija ir izgatavota no augu izcelsmes sastāvdaļām. Uzņēmums ir rezervāts, kurā dabiskos apstākļos aug nākotnes preparātu, kosmētikas līdzekļu un ārstniecisko tēju komponenti. Mēs neizmantojam pesticīdus, augšanas stimulatorus, minerālmēslus un siltumnīcas — tikai tropisko sauli un lietus. Mūsu produkti ir videi draudzīgi un pilnībā sertificēti. Visas zāles tiek vāktas manuāli. Fabrikas platība ir 20000 kv.m., un tajā strādā vairāk nekā 300 cilvēki.",
-
-    "benefit-item-1-title": "Taizemes tradīcijas",
-    "benefit-item-1-text":
-      "Receptes, kas pārbaudītas gadsimtu laikā Taizemē, ir katra produkta pamats",
-
-    "benefit-item-2-title": "Dabīgas sastāvdaļas",
-    "benefit-item-2-text": "Tikai dabīgas sastāvdaļas, pārbaudītas drošībai",
-
-    "benefit-item-3-title": "Zinātniskās inovācijas",
-    "benefit-item-3-text":
-      "Mūsdienīgas tehnoloģijas, kas atklāj dabas pilno potenciālu",
-
-    "benefit-item-4-title": "Plašs sortiments",
+    "benefits-title": "Kāpēc izvēlas Dufta",
+    "benefit-item-1-title": "Vienkārši un efektīvi",
+    "benefit-item-1-text": "Nemaskē smaku ar aromātiem, bet noņem cēloni.",
+    "benefit-item-2-title": "Noņem traipus",
+    "benefit-item-2-text":
+      "Vienlaikus neitralizē smakas un noņem organiskus traipus.",
+    "benefit-item-3-title": "100% bioloģiska formula",
+    "benefit-item-3-text": "Pamatā ir augu fermenti bez agresīvas ķīmijas.",
+    "benefit-item-4-title": "Drošs ģimenei",
     "benefit-item-4-text":
-      "Daudzveidīgi produkti veselībai, jaunībai un skaistumam",
+      "Piemērots bērniem, alerģiskiem cilvēkiem un mājdzīvniekiem.",
+    "benefit-item-5-title": "Vegānisks sastāvs",
+    "benefit-item-5-text": "Nesatur dzīvnieku izcelsmes sastāvdaļas.",
+    "benefit-item-6-title": "Bioloģiski noārdāms",
+    "benefit-item-6-text": "Pilnībā noārdās un ir drošs videi.",
+    "benefit-item-7-title": "Efekts no pirmās lietošanas",
+    "benefit-item-7-text": "Pamanāms rezultāts uzreiz pēc pirmās lietošanas.",
+    "benefit-item-8-title": "Jebkurām virsmām",
+    "benefit-item-8-text":
+      "Piemērots tekstilam, mēbelēm, apaviem un citiem materiāliem.",
+    "benefit-item-9-title": "Vairāk nekā 3000 smaku",
+    "benefit-item-9-text":
+      "Darbojas ar tūkstošiem organisku smaku dažādās situācijās.",
 
-    "benefit-item-5-title": "Vēsturiskas saknes",
-    "benefit-item-5-text": "Receptes, kas tiek nodotas no paaudzes paaudzē",
-
-    "benefit-item-6-title": "Starptautiska atzīšana",
-    "benefit-item-6-text":
-      "Produkcija tiek eksportēta uz vairākām Eiropas un Āzijas valstīm",
-
-    // CONSIST
-    "consist-title": "Dufta sastāvs",
-    "consist-lead":
-      "Dufta efektivitāti nodrošina dabas spēks, nevis agresīva ķīmija.",
+    "consist-title": "Vienkāršs un drošs sastāvs",
     "consist-item-1-title": "Augu enzīmi",
-    "consist-item-1-text": "Sašķeļ smaku molekulas neitrālās sastāvdaļās.",
-    "consist-item-2-title": "Attīrīts ūdens",
-    "consist-item-2-text": "Bāze dziļai iesūkšanai materiāla porās.",
+    "consist-item-1-text":
+      "Organiskie proteīni sašķeļ smaku molekulas neitrālās sastāvdaļās.",
+    "consist-item-2-title": "Ūdens bāze",
+    "consist-item-2-text": "Palīdz līdzeklim iesūkties piesārņojuma dziļumā.",
     "consist-item-3-title": "Pārtikas konservanti",
     "consist-item-3-text":
-      "Minimālā daudzumā fermentu aktivitātes saglabāšanai.",
+      "Saglabā enzīmu aktivitāti, tiek izmantoti minimālā drošā daudzumā.",
     "consist-note-title": "Bez agresīvas ķīmijas",
     "consist-note-text":
-      "Nesatur fosfātus, fenolus, agresīvas virsmaktīvās vielas, šķīdinātājus un formaldehīdus.",
+      "Nesatur fosfātus, fenolus, agresīvus PAV, šķīdinātājus un formaldehīdu.",
     "consist-note-2-title": "Dufta sastāvs ir pilnībā hipoalerģisks",
     "consist-note-2-text":
-      "Līdzekļi atbilst stingriem Eiropas ekoloģiskās drošības standartiem.",
+      "Līdzeklis atbilst stingriem Eiropas ekoloģiskās drošības standartiem.",
     "consist-note-3-title": "Ekoloģiski un droši",
     "consist-note-3-text":
-      "Ar mūsu līdzekļiem var apstrādāt bērnu manēžas, dzīvnieku guļvietas un pat virtuves virsmas, neuztraucoties par tuvinieku veselību.",
+      "Var apstrādāt bērnu manēžas, dzīvnieku guļvietas un virtuves virsmas.",
 
-    // NUMBERS
-    "numbers-area": "20.000 m²",
-    "numbers-area-text": "vieta pašu ražošanai Taizemē",
+    "how-to-use-title": "Atbrīvojamies no smakas 3 soļos",
+    "how-to-use-text-1":
+      "Izsmidziniet līdzekli tieši uz smakas avotu. Ja tā ir mīksta mēbele (dīvāns, paklājs, auto salons), svarīgi, lai līdzeklis iekļūtu tādā pašā dziļumā kā piesārņojums.",
+    "how-to-use-text-2":
+      "Dodiet enzīmiem laiku darboties. Sarežģītos gadījumos apstrādāto vietu pārklājiet ar plēvi uz 60–90 minūtēm.",
+    "how-to-use-text-3":
+      "Vienkārši ļaujiet virsmai izžūt dabiski. Noskalot ar ūdeni nav nepieciešams — līdzeklis ir bioloģiski noārdāms.",
+    "how-to-use-important-title": "Profesionālie padomi:",
+    "how-to-use-important-1":
+      "Dufta darbojas tikai uz smakas avotu — apstrādājiet tieši piesārņojumu.",
+    "how-to-use-important-2":
+      "Ja smaka ir stipra, uzklājiet līdzekli atkārtoti pēc 24 stundām.",
 
-    "numbers-production": ">4.000 m²",
-    "numbers-production-text": "vieta pašu ražošanai Taizemē",
+    "blog-title": "Dufta blogs: padomi un risinājumi",
+    "blog-article-1-title": "Kaķa urīna smaka: kā no tās atbrīvoties",
+    "blog-link": "Pāriet uz blogu",
 
-    "numbers-traffic": ">1000 cilvēku",
-    "numbers-traffic-text": "ikdienas trafiks ERAWADEE.com vietnē",
+    "delivery-payment-title": "Piegāde un apmaksa",
+    "delivery-payment-delivery-title": "Piegāde",
+    "delivery-payment-delivery-1": "1–2 darba dienas Baltijā",
+    "delivery-payment-delivery-2": "Piegāde uz pakomātiem",
+    "delivery-payment-delivery-3": "Piegāde visā Eiropā",
+    "delivery-payment-payment-title": "Apmaksa",
+    "delivery-payment-payment-1": "Bankas pārskaitījums",
+    "delivery-payment-payment-2": "Visa / Mastercard",
+    "delivery-payment-payment-3": "Apmaksa birojā",
+    "delivery-payment-business-title": "Biznesam",
+    "delivery-payment-business-1": "Vairumtirdzniecības piegādes",
+    "delivery-payment-business-2": "Individuāli nosacījumi",
+    "delivery-payment-business-3": "Distribūcija",
+    "delivery-payment-link": "Pāriet uz interneta veikalu",
 
-    "numbers-staff": ">300",
-    "numbers-staff-text": "darbinieki strādā uzņēmumā",
-
-    // TRADITIONS
-    "tradition-title": "Tradīcijas",
-
-    "tradition-card1-title": "mantojums",
-    "tradition-card1-text":
-      "Mūsu uzņēmums darbojas ar Taizemes karaļnama atbalstu, īpaši Princesei Čulabhornai Valailak, kura aktīvi veicina medicīnas attīstību. Mēs ražojam augstākās kvalitātes preparātus pēc senām receptēm, kuru vecums pārsniedz 3000 gadus. Mūsu muzejā pie galvenās Erawadee aptiekas Pattajā var uzzināt, kā agrāk tika gatavoti dziedinoši līdzekļi: no vietējām zālēm un minerāliem, izmantojot zināšanas par līdzsvaru un harmoniju. Šeit ir eksponēti vēsturiskie instrumenti, oriģinālie recepšu rullīši un Taizemes medicīnas vēsture, kas tiek nodota no paaudzes paaudzē. Mūsdienās mēs saglabājam šīs tradīcijas, apvienojot senās receptes ar mūsdienu tehnoloģijām, lai padarītu unikālo Taizemes mantojumu pieejamu visai pasaulei.",
-
-    "tradition-card2-title": "ZĪMOLA LEĢENDA",
-    "tradition-card2-text":
-      "Bagātā Taizemes mitoloģija atspoguļo dziļas garīgās un kultūras vērtības, kas nodotas no paaudzes paaudzē. Viens no tās centrālajiem simboliem ir Eravāns (Airavata) — majestātisks trīsgalvains zilonis, dieva Indras svētais jājamdzīvnieks, lietus, pērkona un auglības aizbildnis. Taizemiešu tradīcijā Eravāns iemieso gudrību, labklājību, aizsardzību un harmoniju ar dabu.\n\nLeģenda vēsta, ka Eravāns parādījās “Piena okeāna kulšanas” laikā, kad dievi un dēmoni meklēja nemirstības eliksīru. Viņa trīs galvas simbolizē pagātnes, tagadnes un nākotnes vienotību, kā arī līdzsvaru starp debesīm, zemi un pazemes pasauli — Taizemes pasaules uztveres pamatu. Taizemē ziloņa tēls, īpaši baltā ziloņa, izsenis tiek uzskatīts par debesu svētības, labklājības un taisnīgas valdīšanas zīmi.\n\nSvarīga loma mitoloģijā ir arī viņa mātei — debesu ziloņmātei Irāvati, kas iemieso spēku, līdzcietību un mātes mīlestību. Viņa simbolizē rūpes, iekšējo stabilitāti un dzīvības enerģiju, bez kurām nav iespējama patiesa harmonija.\n\nEravāna tēls joprojām dzīvo Taizemes kultūrā — viņam veltīti tempļi un svētvietas, kur cilvēki lūdzas par veselību, mīlestību un labklājību. Šī senā leģenda iedvesmoja zīmola ERAWADEE radītājus, apvienojot Taizemes kultūras mantojuma gudrību un spēku ar cieņu pret dabu, līdzsvaru un cilvēka iekšējo harmoniju.",
-
-    // MARQUEE
-    "marquee-title": "Mūsu apbalvojumi",
-    award1: "Gada labākais produkts 2016",
-    award2: "Par ieguldījumu Karalis Rama IX mantojuma veicināšanā",
-    award3: "Par ASEAN valstu attiecību attīstīšanu",
-    award4: "Par Taizemes kultūras mantojuma saglabāšanu",
-    award5: "Gada labākais produkts 2017",
-    award6: "Par Taizemes un Kambodžas attiecību attīstīšanu",
-    award7: "Taizemes Nacionālās sieviešu padomes apbalvojums",
-    award8: '"Zelta zvans". Gada personība, 2017',
-    award9: "AEC - TOP CEO Awards 2018",
-    award10: "Gada labākais produkts 2018",
-    award11: "ASEAN labākais produkts",
-    award12: "TOP BRAND AWARDS 2025",
-    award13: "CEO THAILAND AWARDS, 2018",
-
-    "awards-text":
-      "Par ieguldījumu Taizemes mantojuma saglabāšanā un popularizēšanā uzņēmums Erawadee ir saņēmis vairākus apbalvojumus:",
-    "award-king-rama-ix": "Nacionālā balva Karalis Rama IX vārdā",
-    "award-product-year": "Gada produkts",
-    "award-thai-heritage": "Balva par Taizemes mantojuma bagātināšanu",
-    "award-asean-biz": "ASEAN Best BIZ &amp; Product",
-    "award-thai-tradition": "Balva par Taizemes tradīciju attīstību",
-    "award-other": "un daudzi citi",
-    "awards-subtext":
-      "*Piezīme: ASEAN — Dienvidaustrumu Āzijas Valstu Asociācija, kurā ietilpst Indonēzija, Malaizija, Filipīnas, Singapūra, Taizeme, Brunēja, Vjetnama, Laosa, Mjanma, Kambodža.",
-
-    // BLOG
-    "blog-title": "Mūsu blogs",
-    "blog-article-1-title":
-      "Centella asiatica - priekšrocības, īpašības un pielietojums",
-    "blog-article-1-text":
-      'Centella tiek uzskatīta par "ilgmūžības zāli" un ir viens no galvenajiem tradicionālās Taizemes, ķīniešu un ajurvēdas medicīnas produktiem...',
-    "blog-info-text":
-      "Mūsu blogā jūs atradīsiet desmitiem detalizētu un izglītojošu rakstu par Erawadee produktiem un Taizemes medicīnas tradīcijām. Mēs stāstām par dabisko līdzekļu sastāvu un īpašībām, dalāmies zināšanās par senajām receptēm, veselības principiem un Taizemes pieejas filozofiju ķermeņa un dvēseles kopšanā. Pilnā apjomā materiāli ir pieejami interneta veikala vietnē.",
-    "blog-link": "Pāriet uz blogu erewadee.com",
-
-    // DELIVERY AND PAYMENT
-    "delivery-title": "piegāde",
-    "delivery-text":
-      "Erawadee piegādā produktus visā pasaulē. Nav minimālās pasūtījuma summas. Visas pakas tiek nosūtītas tieši no fabrikas noliktavas Taizemē uz jūsu adresi. Katru pakas sūtījumu var izsekot ar izsekošanas kodu — tiešsaistē Erawadee kontā, jūsu pasta mājaslapā vai kādā no izsekošanas servisiem. ",
-    "delivery-more":
-      "Sīkāka informācija ir sadaļā par piegādi interneta veikalā.",
-    "delivery-link": "Uz piegādes sadaļu",
-
-    "payment-title": "Apmaksas veidi",
-    "payment-item-online": "Tiešsaistes maksājums vietnē",
-    "payment-item-visa-mastercard":
-      "Maksājums ar Visa kartēm no jebkuras bankas",
-    "payment-item-mastercard":
-      "Maksājums ar Mastercard kartēm no jebkuras bankas",
-    "payment-item-paypal": "PayPal",
-    "payment-item-bank-moneytransfer": "Bankas pārskaitījumi",
-    "payment-item-bank-crypto": "Kriptovalūta",
-    "payment-item-card": "Citas bankas kartes",
-    "payment-more": "Sīkāka informācija atbilstošajā interneta veikala sadaļā.",
-    "payment-link": "Pāriet uz maksājumu sadaļu erawadee.com",
-
-    // <CONTACTS
-    "contacts-title": "Kontakti",
-
-    // FOOTER
-    "footer-logo-alt": "Logo",
-    "footer-company-name": '"Erawadee", SIA',
-    "footer-company-registration": "Reģistrācijas numurs: 40203383879",
-    "footer-company-address":
-      "Adrese: Rīga, Krišjāņa Barona iela 37-11, LV-1011, Latvija",
-    "footer-phone": "Tel: +371 27067730",
-    "footer-email": "erawadee@gmail.com",
-    "footer-website": "www.erawadee.com",
+    "footer-company-name": "Baltic Pro Company, SIA",
+    "footer-company-registration": "Reģ. nr.: 40203544254",
+    "footer-company-address": "Jūrkalnes iela 12, LV-1046 Rīga, Latvija",
+    "contacts-title": "Sazinieties ar mums",
+    "footer-phone": "+37129109868 (čats)",
     "footer-rights": "Visas tiesības aizsargātas",
 
-    // MOBILE NAV
-    "mobile-nav-about": "par mums",
-    "mobile-nav-shop": "interneta veikals",
-    "mobile-nav-blog": "blogs",
-    "mobile-nav-distribution": "distribūcija un franšīze",
-    "mobile-nav-contacts": "kontakti",
+    "mobile-nav-about": "Par Dufta",
+    "mobile-nav-shop": "Interneta veikals",
+    "mobile-nav-products": "Smaku noņēmēji",
+    "mobile-nav-blog": "Raksti",
+    "mobile-nav-contacts": "Kontakti",
+  },
+
+  lt: {
+    "desc-content":
+      "Dufta – vokiška kvapų šalinimo priemonė. Tinka tekstilei, baldams, avalynei ir kitiems paviršiams.",
+    "keywords-content":
+      "Dufta, kvapų šalinimas, enzimatinė priemonė, tekstilė, baldai, avalynė",
+    "landing-title": "Dufta – vokiška priemonė nuo nemalonių kvapų",
+
+    "nav-about": "Apie Dufta",
+    "nav-shop": "Internetinė parduotuvė",
+    "nav-products": "Kvapų šalinimo priemonės",
+    "nav-blog": "Straipsniai",
+    "nav-contacts": "Kontaktai",
+
+    "hero-title": "Patikima priemonė nuo nemalonių kvapų",
+    "hero-slogan": "Natūralu. Veiksminga. Saugu.",
+
+    about__title: "Kas yra Dufta",
+    "about-text1":
+      "Dufta – hipoalerginė, biologiškai suyranti vokiška priemonė organinės kilmės kvapams šalinti.",
+    "about-text3": "Saugu žmonėms ir augintiniams.",
+    "about-how-title": "Kaip Dufta pašalina kvapus",
+    "about-how-step-1-name": "Randa šaltinį",
+    "about-how-step-1-desc":
+      "Enzimai atpažįsta organinius teršalus – šlapimą, prakaitą, maisto likučius.",
+    "about-how-step-2-name": "Suskaido molekules",
+    "about-how-step-2-desc":
+      "Aktyviosios medžiagos suskaido junginius, sukeliančius kvapą.",
+    "about-how-step-3-name": "Visiškai panaikina kvapą",
+    "about-how-step-3-desc": "Šaltinis išnyksta – kvapas nebegrįžta.",
+    "about-shop-link": "Pereiti į internetinę parduotuvę",
+
+    "agreement-header": "Mes vertiname jūsų privatumą",
+    "agreement-text":
+      "Naudojame slapukus, kad pagerintume naršymo patirtį, suasmenintume reklamą ir turinį bei analizuotume srautą. Spausdami „Priimti“ sutinkate su slapukų naudojimu. ",
+    "agreement-link": "Slapukų politika.",
+    "accept-btn": "Priimti",
+    "reject-btn": "Atmesti",
+
+    "applications-title": "Kur naudojama Dufta",
+    "applications-subtitle-1": "Namai ir kasdienė aplinka",
+    "applications-subtitle-2": "Viešosios erdvės",
+    "applications-subtitle-3": "Verslas ir komercija",
+    "applications-list-1-1": "Gyvūnų, prakaito ir maisto kvapai",
+    "applications-list-1-2": "Baldai, kilimai, čiužiniai",
+    "applications-list-1-3": "Avalynė ir drabužiai",
+    "applications-list-2-1": "Ligoninės ir slaugos namai",
+    "applications-list-2-2": "Darželiai, mokyklos, biurai",
+    "applications-list-2-3": "Persirengimo kambariai ir sporto salės",
+    "applications-list-3-1": "Viešbučiai ir restoranai",
+    "applications-list-3-2": "Klinikos ir salonai",
+    "applications-list-3-3": "Gamybinės patalpos",
+
+    "products-title": "Pasirinkite Dufta priemonę savo užduočiai",
+    "product-item1": "DuftaFresh 500 ml kvapų šalinimo priemonė",
+    "product-item2": "DuftaFresh 1 L kvapų šalinimo priemonė",
+    "product-item3": "DuftaPet 500 ml kvapų šalinimo priemonė gyvūnams",
+    "product-item4": "DuftaPet 1 L kvapų šalinimo priemonė gyvūnams",
+    "products-link": "Pereiti į internetinę parduotuvę",
+
+    "uses-cases-title": "Kokius kvapus šalina Dufta",
+    "uses-cases-subtitle-1": "Žmonės",
+    "uses-cases-subtitle-2": "Gyvūnai",
+    "uses-cases-subtitle-3": "Patalpos",
+    "uses-cases-list-1-1": "Prakaitas ir šlapimas",
+    "uses-cases-list-1-2": "Drabužiai ir avalynė",
+    "uses-cases-list-1-3": "Tabakas",
+    "uses-cases-list-1-4": "Kosmetika",
+    "uses-cases-list-1-5": "ir kt.",
+    "uses-cases-list-2-1": "Katės šlapimas",
+    "uses-cases-list-2-2": "Kailis ir guolis",
+    "uses-cases-list-2-3": "Narvai ir dėžutės",
+    "uses-cases-list-2-4": "Sugedęs maistas",
+    "uses-cases-list-2-5": "ir kt.",
+    "uses-cases-list-3-1": "Šiukšlės ir virtuvė",
+    "uses-cases-list-3-2": "Drėgmė ir pelėsis",
+    "uses-cases-list-3-3": "Dūmai ir suodžiai",
+    "uses-cases-list-3-4": "Tualetas",
+    "uses-cases-list-3-5": "ir kt.",
+    "uses-cases-description-text":
+      "Dufta nemaskuoja nemalonių kvapų, kaip tai daro įprasti oro gaivikliai, o naikina jų šaltinį.",
+    "uses-cases-description-text-2":
+      "Saugu žmonėms ir gyvūnams, sudėtyje nėra toksinių medžiagų.",
+
+    "benefits-title": "Kodėl renkasi Dufta",
+    "benefit-item-1-title": "Paprasta ir veiksminga",
+    "benefit-item-1-text": "Nemaskuoja kvapų aromatais, o pašalina jų šaltinį.",
+    "benefit-item-2-title": "Šalina dėmes",
+    "benefit-item-2-text":
+      "Vienu metu neutralizuoja kvapus ir šalina organines dėmes.",
+    "benefit-item-3-title": "100 % biologinė formulė",
+    "benefit-item-3-text":
+      "Pagrindas – augaliniai fermentai be agresyvios chemijos.",
+    "benefit-item-4-title": "Saugu šeimai",
+    "benefit-item-4-text":
+      "Tinka vaikams, alergiškiems žmonėms ir augintiniams.",
+    "benefit-item-5-title": "Veganiška sudėtis",
+    "benefit-item-5-text": "Nėra gyvūninės kilmės ingredientų.",
+    "benefit-item-6-title": "Biologiškai suyranti",
+    "benefit-item-6-text": "Visiškai suyra ir yra saugi aplinkai.",
+    "benefit-item-7-title": "Poveikis nuo pirmo panaudojimo",
+    "benefit-item-7-text": "Pastebimas rezultatas iškart po pirmo naudojimo.",
+    "benefit-item-8-title": "Visiems paviršiams",
+    "benefit-item-8-text":
+      "Tinka tekstilei, baldams, avalynei ir kitoms medžiagoms.",
+    "benefit-item-9-title": "Daugiau nei 3000 kvapų",
+    "benefit-item-9-text":
+      "Veikia su tūkstančiais organinių kvapų įvairiose situacijose.",
+
+    "consist-title": "Paprasta ir saugi sudėtis",
+    "consist-item-1-title": "Augaliniai fermentai",
+    "consist-item-1-text":
+      "Organiniai baltymai suskaido kvapo molekules į neutralias sudedamąsias dalis.",
+    "consist-item-2-title": "Vandens pagrindas",
+    "consist-item-2-text":
+      "Padeda priemonei prasiskverbti į visą užterštumo gylį.",
+    "consist-item-3-title": "Maistiniai konservantai",
+    "consist-item-3-text":
+      "Išsaugo fermentų aktyvumą, naudojami minimaliais saugiais kiekiais.",
+    "consist-note-title": "Be agresyvios chemijos",
+    "consist-note-text":
+      "Nėra fosfatų, fenolių, agresyvių PAV, tirpiklių ir formaldehidų.",
+    "consist-note-2-title": "Dufta sudėtis visiškai hipoalerginė",
+    "consist-note-2-text":
+      "Priemonė atitinka griežtus Europos ekologinio saugumo standartus.",
+    "consist-note-3-title": "Ekologiška ir saugu",
+    "consist-note-3-text":
+      "Galima apdoroti vaikų maniežus, gyvūnų guolius ir virtuvės paviršius.",
+
+    "how-to-use-title": "Atsikratykite kvapo per 3 žingsnius",
+    "how-to-use-text-1":
+      "Užpurkškite priemonę tiesiai ant kvapo šaltinio. Jei tai minkšti baldai (sofa, kilimas, automobilio salonas), svarbu, kad priemonė prasiskverbtų tokiu pačiu gyliu kaip užterštumas.",
+    "how-to-use-text-2":
+      "Leiskite fermentams veikti. Sudėtingais atvejais uždenkite apdorotą vietą plėvele 60–90 minučių.",
+    "how-to-use-text-3":
+      "Tiesiog leiskite paviršiui išdžiūti natūraliai. Nuplauti vandeniu nereikia – priemonė biologiškai suyranti.",
+    "how-to-use-important-title": "Profesionalų patarimai:",
+    "how-to-use-important-1":
+      "Dufta veikia tik kvapo šaltinyje – apdorokite būtent užterštumą.",
+    "how-to-use-important-2":
+      "Jei kvapas stiprus, pakartokite naudojimą po 24 valandų.",
+
+    "blog-title": "Dufta tinklaraštis: patarimai ir sprendimai",
+    "blog-article-1-title": "Katės šlapimo kvapas: kaip jo atsikratyti",
+    "blog-link": "Pereiti į tinklaraštį",
+
+    "delivery-payment-title": "Pristatymas ir apmokėjimas",
+    "delivery-payment-delivery-title": "Pristatymas",
+    "delivery-payment-delivery-1": "1–2 darbo dienos Baltijos šalyse",
+    "delivery-payment-delivery-2": "Pristatymas į paštomatus",
+    "delivery-payment-delivery-3": "Pristatymas visoje Europoje",
+    "delivery-payment-payment-title": "Apmokėjimas",
+    "delivery-payment-payment-1": "Bankinis pavedimas",
+    "delivery-payment-payment-2": "Visa / Mastercard",
+    "delivery-payment-payment-3": "Apmokėjimas biure",
+    "delivery-payment-business-title": "Verslui",
+    "delivery-payment-business-1": "Didmeninis tiekimas",
+    "delivery-payment-business-2": "Individualios sąlygos",
+    "delivery-payment-business-3": "Distribucija",
+    "delivery-payment-link": "Pereiti į internetinę parduotuvę",
+
+    "footer-company-name": "Baltic Pro Company, SIA",
+    "footer-company-registration": "Reg. nr.: 40203544254",
+    "footer-company-address": "Jūrkalnes g. 12, LV-1046 Ryga, Latvija",
+    "contacts-title": "Susisiekite su mumis",
+    "footer-phone": "+37129109868 (pokalbis)",
+    "footer-rights": "Visos teisės saugomos",
+
+    "mobile-nav-about": "Apie Dufta",
+    "mobile-nav-shop": "Internetinė parduotuvė",
+    "mobile-nav-products": "Kvapų šalinimo priemonės",
+    "mobile-nav-blog": "Straipsniai",
+    "mobile-nav-contacts": "Kontaktai",
+  },
+
+  ee: {
+    "desc-content":
+      "Dufta – Saksa vahend ebameeldivate lõhnade eemaldamiseks. Sobib tekstiilile, mööblile, jalanõudele ja muudele pindadele.",
+    "keywords-content":
+      "Dufta, lõhna eemaldamine, ensüümsprei, tekstiil, mööbel, jalanõud",
+    "landing-title": "Dufta – Saksa vahend ebameeldivate lõhnade vastu",
+
+    "nav-about": "Dufta kohta",
+    "nav-shop": "E-pood",
+    "nav-products": "Lõhnaeemaldajad",
+    "nav-blog": "Artiklid",
+    "nav-contacts": "Kontaktid",
+
+    "hero-title": "Usaldusväärne vahend lõhnade vastu",
+    "hero-slogan": "Looduslik. Tõhus. Ohutu.",
+
+    about__title: "Mis on Dufta",
+    "about-text1":
+      "Dufta on hüpoallergeenne, biolagunev Saksa vahend orgaanilist päritolu lõhnade eemaldamiseks.",
+    "about-text3": "Ohutu inimestele ja lemmikloomadele.",
+    "about-how-title": "Kuidas Dufta eemaldab lõhnad",
+    "about-how-step-1-name": "Leiab allika",
+    "about-how-step-1-desc":
+      "Ensüümid tuvastavad orgaanilise mustuse – uriini, higi ja toidujäägid.",
+    "about-how-step-2-name": "Lahustab molekulid",
+    "about-how-step-2-desc":
+      "Aktiivsed koostisosad lagundavad lõhna põhjustavad ühendid.",
+    "about-how-step-3-name": "Eemaldab lõhna täielikult",
+    "about-how-step-3-desc": "Allikas kaob – lõhn ei tule tagasi.",
+    "about-shop-link": "Mine e-poodi",
+
+    "agreement-header": "Hindame teie privaatsust",
+    "agreement-text":
+      "Kasutame küpsiseid, et parandada sirvimiskogemust, isikupärastada reklaame ja sisu ning analüüsida liiklust. Nupule „Nõustun” vajutades nõustute küpsiste kasutamisega. ",
+    "agreement-link": "Küpsiste poliitika.",
+    "accept-btn": "Nõustun",
+    "reject-btn": "Keeldun",
+
+    "applications-title": "Kus Duftat kasutatakse",
+    "applications-subtitle-1": "Kodu ja igapäevaelu",
+    "applications-subtitle-2": "Avalikud ruumid",
+    "applications-subtitle-3": "Äri ja kaubandus",
+    "applications-list-1-1": "Loomade, higi ja toidu lõhnad",
+    "applications-list-1-2": "Mööbel, vaibad, madratsid",
+    "applications-list-1-3": "Jalanõud ja riided",
+    "applications-list-2-1": "Haiglad ja hooldekodud",
+    "applications-list-2-2": "Lasteaiad, koolid, kontorid",
+    "applications-list-2-3": "Riietusruumid ja spordisaalid",
+    "applications-list-3-1": "Hotellid ja restoranid",
+    "applications-list-3-2": "Kliinikud ja salongid",
+    "applications-list-3-3": "Tootmisruumid",
+
+    "products-title": "Valige Dufta vahend oma ülesande jaoks",
+    "product-item1": "DuftaFresh 500 ml lõhnaeemaldaja",
+    "product-item2": "DuftaFresh 1 l lõhnaeemaldaja",
+    "product-item3": "DuftaPet 500 ml lõhnaeemaldaja loomadele",
+    "product-item4": "DuftaPet 1 l lõhnaeemaldaja loomadele",
+    "products-link": "Mine e-poodi",
+
+    "uses-cases-title": "Milliseid lõhnu Dufta eemaldab",
+    "uses-cases-subtitle-1": "Inimesed",
+    "uses-cases-subtitle-2": "Loomad",
+    "uses-cases-subtitle-3": "Ruumid",
+    "uses-cases-list-1-1": "Higi ja uriin",
+    "uses-cases-list-1-2": "Riided ja jalanõud",
+    "uses-cases-list-1-3": "Tubakas",
+    "uses-cases-list-1-4": "Kosmeetika",
+    "uses-cases-list-1-5": "jm",
+    "uses-cases-list-2-1": "Kassi uriin",
+    "uses-cases-list-2-2": "Karv ja asemed",
+    "uses-cases-list-2-3": "Puurid ja liivakastid",
+    "uses-cases-list-2-4": "Rikutud toit",
+    "uses-cases-list-2-5": "jm",
+    "uses-cases-list-3-1": "Prügi ja köögilõhnad",
+    "uses-cases-list-3-2": "Niiskus ja hallitus",
+    "uses-cases-list-3-3": "Suits ja kõrbelõhn",
+    "uses-cases-list-3-4": "Tualett",
+    "uses-cases-list-3-5": "jm",
+    "uses-cases-description-text":
+      "Dufta ei maskeeri ebameeldivat lõhna, nagu teevad tavalised õhuvärskendajad, vaid eemaldab selle täielikult, hävitades allika.",
+    "uses-cases-description-text-2":
+      "Ohutu inimestele ja loomadele, ei sisalda toksilisi aineid.",
+
+    "benefits-title": "Miks valitakse Dufta",
+    "benefit-item-1-title": "Lihtne ja tõhus",
+    "benefit-item-1-text": "Ei maskeeri lõhna, vaid eemaldab selle allika.",
+    "benefit-item-2-title": "Eemaldab plekid",
+    "benefit-item-2-text":
+      "Neutraliseerib lõhnad ja eemaldab orgaanilised plekid korraga.",
+    "benefit-item-3-title": "100% bioloogiline valem",
+    "benefit-item-3-text":
+      "Põhineb taimsetel ensüümidel ilma agressiivse keemiata.",
+    "benefit-item-4-title": "Turvaline perele",
+    "benefit-item-4-text": "Sobib lastele, allergikutele ja lemmikloomadele.",
+    "benefit-item-5-title": "Vegankoostis",
+    "benefit-item-5-text": "Ei sisalda loomset päritolu koostisosi.",
+    "benefit-item-6-title": "Biolagunev",
+    "benefit-item-6-text": "Laguneb täielikult ja on keskkonnale ohutu.",
+    "benefit-item-7-title": "Mõju alates esimesest kasutusest",
+    "benefit-item-7-text": "Nähtav tulemus kohe pärast esimest kasutust.",
+    "benefit-item-8-title": "Kõigile pindadele",
+    "benefit-item-8-text":
+      "Sobib tekstiilile, mööblile, jalanõudele ja teistele materjalidele.",
+    "benefit-item-9-title": "Rohkem kui 3000 lõhna",
+    "benefit-item-9-text":
+      "Toimib tuhandete orgaaniliste lõhnade puhul eri olukordades.",
+
+    "consist-title": "Lihtne ja ohutu koostis",
+    "consist-item-1-title": "Taimsed ensüümid",
+    "consist-item-1-text":
+      "Orgaanilised valgud lagundavad lõhnamolekulid neutraalseteks osadeks.",
+    "consist-item-2-title": "Veepõhine koostis",
+    "consist-item-2-text": "Aitab vahendil tungida saaste kogu sügavusse.",
+    "consist-item-3-title": "Toidukonservandid",
+    "consist-item-3-text":
+      "Säilitavad ensüümide aktiivsuse minimaalses ohutus koguses.",
+    "consist-note-title": "Ilma agressiivse keemiata",
+    "consist-note-text":
+      "Ei sisalda fosfaate, fenoole, agressiivseid pindaktiivseid aineid, lahusteid ega formaldehüüdi.",
+    "consist-note-2-title": "Dufta koostis on täielikult hüpoallergeenne",
+    "consist-note-2-text":
+      "Vahendid vastavad rangetele Euroopa keskkonnaohutuse standarditele.",
+    "consist-note-3-title": "Keskkonnasõbralik ja ohutu",
+    "consist-note-3-text":
+      "Võib töödelda laste mänguaedu, loomade asemeid ja köögipindu.",
+
+    "how-to-use-title": "Vabaneme lõhnast 3 sammuga",
+    "how-to-use-text-1":
+      "Pihustage vahend otse lõhna allikale. Kui tegu on pehme mööbliga (diivan, vaip, auto salong), on oluline, et vahend jõuaks saastega samale sügavusele.",
+    "how-to-use-text-2":
+      "Laske ensüümidel töötada. Keeruliste pindade korral katke töödeldud koht kilega 60–90 minutiks.",
+    "how-to-use-text-3":
+      "Laske pinnal loomulikult kuivada. Veega loputamine pole vajalik – vahend on biolagunev.",
+    "how-to-use-important-title": "Professionaalsed nõuanded:",
+    "how-to-use-important-1":
+      "Dufta toimib ainult lõhna allikal – töödelge just saastet.",
+    "how-to-use-important-2":
+      "Kui lõhn on tugev, korrake töötlemist 24 tunni pärast.",
+
+    "blog-title": "Dufta blogi: nõuanded ja lahendused",
+    "blog-article-1-title": "Kassi uriini lõhn: kuidas sellest vabaneda",
+    "blog-link": "Mine blogisse",
+
+    "delivery-payment-title": "Tarne ja maksmine",
+    "delivery-payment-delivery-title": "Tarne",
+    "delivery-payment-delivery-1": "1–2 tööpäeva Baltikumis",
+    "delivery-payment-delivery-2": "Tarne pakiautomaatidesse",
+    "delivery-payment-delivery-3": "Tarne kogu Euroopas",
+    "delivery-payment-payment-title": "Maksmine",
+    "delivery-payment-payment-1": "Pangaülekanne",
+    "delivery-payment-payment-2": "Visa / Mastercard",
+    "delivery-payment-payment-3": "Maksmine kontoris",
+    "delivery-payment-business-title": "Ettevõtetele",
+    "delivery-payment-business-1": "Hulgitarne",
+    "delivery-payment-business-2": "Individuaalsed tingimused",
+    "delivery-payment-business-3": "Distribuutsioon",
+    "delivery-payment-link": "Mine e-poodi",
+
+    "footer-company-name": "Baltic Pro Company, SIA",
+    "footer-company-registration": "Reg. nr: 40203544254",
+    "footer-company-address": "Jūrkalnes tn 12, LV-1046 Riia, Läti",
+    "contacts-title": "Võtke meiega ühendust",
+    "footer-phone": "+37129109868 (chat)",
+    "footer-rights": "Kõik õigused kaitstud",
+
+    "mobile-nav-about": "Dufta kohta",
+    "mobile-nav-shop": "E-pood",
+    "mobile-nav-products": "Lõhnaeemaldajad",
+    "mobile-nav-blog": "Artiklid",
+    "mobile-nav-contacts": "Kontaktid",
   },
 
   en: {
-    "landing-title": "Erawadee - Thai medicine products in Latvia",
+    "desc-content":
+      "Dufta is a German odor remover suitable for textiles, furniture, shoes, and other surfaces.",
     "keywords-content":
-      "Erawadee, Thai medicine, Thai cosmetics, Thai balms, Thai herbs, Thai traditional medicine, online shop, Latvia",
-    "desc-content": "Erawadee - Thai medicine and cosmetics in Latvia",
+      "Dufta, odor remover, enzyme spray, textiles, furniture, shoes",
+    "landing-title": "Dufta – German Odor Remover",
 
-    // HEADER NAVIGATION
-    "nav-about": "about us",
-    "nav-shop": "online shop",
-    "nav-blog": "blog",
-    "nav-franchise": "franchise & distribution",
-    "nav-contacts": "contacts",
+    "nav-about": "About Dufta",
+    "nav-shop": "Online Store",
+    "nav-products": "Odor Removers",
+    "nav-blog": "Articles",
+    "nav-contacts": "Contacts",
 
-    // HERO BLOCK
-    "hero-title": "Traditional Thai medicine and cosmetics in Latvia",
-    "hero-slogan": "Health. Beauty. Strength.",
+    "hero-title": "A reliable solution for unpleasant odors",
+    "hero-slogan": "Natural. Effective. Safe.",
 
-    // ABOUT BLOCK
-    about__title: "What is Erawadee",
-    "about-text":
-      "Erawadee is an online store and a network of pharmacies specializing in Thai traditional medicine and natural cosmetics. In 1997, our production facility was established in Kanchanaburi Province, Thailand, in the area of the legendary River Kwai. For a long time, Erawadee products were available only there. To be closer to our customers, in 2012 we opened a pharmacy in Pattaya, on North Road. Today, we have a network of pharmacies in Thailand, an online store serving all continents, and a network of distributors in many countries across Europe and Asia. Every month, we serve thousands of customers. Our goal is to give customers around the world the opportunity to experience the power of Thai traditional medicine and cosmetics. Now we are also operating in Latvia!",
+    about__title: "What Is Dufta",
+    "about-text1":
+      "Dufta is a hypoallergenic, biodegradable German product designed to remove odors of organic origin.",
+    "about-text3": "Safe for people and pets.",
+    "about-how-title": "How Dufta Removes Odors",
+    "about-how-step-1-name": "Finds the source",
+    "about-how-step-1-desc":
+      "Enzymes identify organic contamination such as urine, sweat, and food residue.",
+    "about-how-step-2-name": "Breaks down molecules",
+    "about-how-step-2-desc":
+      "Active ingredients break down the compounds that cause odors.",
+    "about-how-step-3-name": "Eliminates odors completely",
+    "about-how-step-3-desc":
+      "The source is eliminated, so the odor does not return.",
+    "about-shop-link": "Go to Online Store",
 
-    // VIDEO SECTION
-    "video-hidden-title": "Video about Erawadee brand",
-    "video-title": "Brand's history",
+    "agreement-header": "We value your privacy",
+    "agreement-text":
+      "We use cookies to improve your browsing experience, personalize ads and content, and analyze traffic. By clicking 'Accept', you agree to the use of cookies. ",
+    "agreement-link": "Cookie Policy.",
+    "accept-btn": "Accept",
+    "reject-btn": "Reject",
 
-    // PRODUCTS SECTION
-    "products-title": "Erawadee Products",
-    "product-spices": "Thai cooking spices and seasoning blends",
-    "product-snake": "Thai Snake Medicine",
-    "product-balms": "Thai Balms",
-    "product-cosmetics": "Natural Cosmetics",
-    "product-healing": "Wellness Sets",
-    "product-aroma": "Essential Oils",
-    "product-traditional": "Traditional Medicine",
-    "product-care": "Personal Hygiene Products",
-    "product-tea": "Healing Teas",
-    "product-coconut": "Coconut Oil",
-    "product-collagen": "Collagen Products",
-    "products-retail-title": "For retail:",
-    "products-business-title": "For business:",
-    "products-text-1":
-      "Choose the right product and place your order in our online store. You can also purchase Dufta at our office.",
-    "products-text-2":
-      "Want to sign a contract for regular deliveries or become a Dufta distributor? Contact us in the Contacts section — we will discuss individual terms.",
-    "products-text":
-      "Our assortment includes dozens of products based on traditional Thai medicine. Balms, natural cosmetics and essential oils are among the most popular categories. Thousands of customers worldwide choose Erawadee. More details are available on the catalog page in the online store.",
-    "products-link": "Go to online store",
-    "products-contact-link": "Go to contacts",
+    "applications-title": "Where Dufta Is Used",
+    "applications-subtitle-1": "Home and everyday use",
+    "applications-subtitle-2": "Public spaces",
+    "applications-subtitle-3": "Business and commercial environments",
+    "applications-list-1-1": "Pet, sweat, and food odors",
+    "applications-list-1-2": "Furniture, carpets, and mattresses",
+    "applications-list-1-3": "Shoes and clothing",
+    "applications-list-2-1": "Hospitals and nursing homes",
+    "applications-list-2-2": "Kindergartens, schools, and offices",
+    "applications-list-2-3": "Locker rooms and gyms",
+    "applications-list-3-1": "Hotels and restaurants",
+    "applications-list-3-2": "Clinics and salons",
+    "applications-list-3-3": "Industrial facilities",
 
-    // DICTRIBUTION
-    "distribution-title": "Franchise & Distribution",
-    "distribution-text":
-      "Erawadee offers attractive terms for franchise and distribution partnerships. We provide full support, including product consultations, brand book, and training materials. If you are interested in expanding the assortment of your store or pharmacy with high-quality Thai traditional medicine and cosmetics, contact us to discuss the details of collaboration.",
-    "distribution-contact-text": "Contact us to discuss partnership",
-    "distribution-contact-btn": "Contact Erawadee",
+    "products-title": "Choose Dufta for Your Needs",
+    "product-item1": "DuftaFresh 500 ml Odor Remover",
+    "product-item2": "DuftaFresh 1 L Odor Remover",
+    "product-item3": "DuftaPet 500 ml Pet Odor Remover",
+    "product-item4": "DuftaPet 1 L Pet Odor Remover",
+    "products-link": "Go to Online Store",
 
-    // BENEFITS
+    "uses-cases-title": "What Odors Dufta Removes",
+    "uses-cases-subtitle-1": "People",
+    "uses-cases-subtitle-2": "Animals",
+    "uses-cases-subtitle-3": "Spaces",
+    "uses-cases-list-1-1": "Sweat and urine",
+    "uses-cases-list-1-2": "Clothing and shoes",
+    "uses-cases-list-1-3": "Tobacco smoke",
+    "uses-cases-list-1-4": "Cosmetics",
+    "uses-cases-list-1-5": "and more",
+    "uses-cases-list-2-1": "Cat urine",
+    "uses-cases-list-2-2": "Fur and bedding",
+    "uses-cases-list-2-3": "Cages and litter boxes",
+    "uses-cases-list-2-4": "Spoiled pet food",
+    "uses-cases-list-2-5": "and more",
+    "uses-cases-list-3-1": "Garbage and kitchen odors",
+    "uses-cases-list-3-2": "Dampness and mold",
+    "uses-cases-list-3-3": "Smoke and burnt odors",
+    "uses-cases-list-3-4": "Bathrooms and toilets",
+    "uses-cases-list-3-5": "and more",
+    "uses-cases-description-text":
+      "Dufta does not mask unpleasant odors, like ordinary air fresheners, but removes them completely.",
+    "uses-cases-description-text-2":
+      "Safe for people and animals, contains no toxic substances.",
 
-    "benefits-title": "Why Erawadee",
-    "benefits-text":
-      "All Erawadee products are made from plant-based ingredients. The company is a sanctuary where future components of remedies, cosmetics, and healing teas grow in natural conditions. We do not use pesticides, growth stimulants, mineral fertilizers, or greenhouses — only tropical sun and rain. Our products are environmentally friendly and fully certified. All herbs are hand-picked. The factory covers an area of 20,000 sq.m., employing over 300 people.",
-
-    "benefit-item-1-title": "Thai Traditions",
+    "benefits-title": "Why Choose Dufta",
+    "benefit-item-1-title": "Simple and effective",
     "benefit-item-1-text":
-      "Recipes, tested by centuries of Thai history, form the basis of each product",
-
-    "benefit-item-2-title": "Natural Ingredients",
-    "benefit-item-2-text": "Only natural components, tested for safety",
-
-    "benefit-item-3-title": "Scientific Innovations",
-    "benefit-item-3-text":
-      "Modern technologies that unlock the full potential of nature",
-
-    "benefit-item-4-title": "Wide Assortment",
+      "Does not mask odors with fragrances but removes their source.",
+    "benefit-item-2-title": "Removes stains",
+    "benefit-item-2-text":
+      "Neutralizes odors and removes organic stains at the same time.",
+    "benefit-item-3-title": "100% biological formula",
+    "benefit-item-3-text": "Based on plant enzymes without harsh chemicals.",
+    "benefit-item-4-title": "Safe for the whole family",
     "benefit-item-4-text":
-      "A diverse range of products for health, youth, and beauty",
+      "Suitable for children, allergy sufferers, and pets.",
+    "benefit-item-5-title": "Vegan formula",
+    "benefit-item-5-text": "Contains no ingredients of animal origin.",
+    "benefit-item-6-title": "Biodegradable",
+    "benefit-item-6-text": "Fully biodegradable and environmentally safe.",
+    "benefit-item-7-title": "Effective from the first use",
+    "benefit-item-7-text": "Visible results after the first application.",
+    "benefit-item-8-title": "For all surfaces",
+    "benefit-item-8-text":
+      "Suitable for textiles, furniture, shoes, and other materials.",
+    "benefit-item-9-title": "More than 3,000 odors",
+    "benefit-item-9-text":
+      "Effective against thousands of organic odors in different situations.",
 
-    "benefit-item-5-title": "Historical Roots",
-    "benefit-item-5-text": "Recipes passed down from generation to generation",
-
-    "benefit-item-6-title": "International Recognition",
-    "benefit-item-6-text":
-      "Products are exported to several European and Asian countries",
-
-    // CONSIST
-    "consist-title": "Dufta Composition",
-    "consist-lead":
-      "Dufta effectiveness comes from the power of nature, not aggressive chemicals.",
-    "consist-item-1-title": "Plant Enzymes",
-    "consist-item-1-text": "Break down odor molecules into neutral compounds.",
-    "consist-item-2-title": "Purified Water",
-    "consist-item-2-text": "A base for deep penetration into material pores.",
-    "consist-item-3-title": "Food-Grade Preservatives",
-    "consist-item-3-text": "In minimal amounts to preserve enzyme activity.",
-    "consist-note-title": "No Aggressive Chemicals",
+    "consist-title": "Simple and Safe Composition",
+    "consist-item-1-title": "Plant enzymes",
+    "consist-item-1-text":
+      "Organic proteins break odor molecules into neutral components.",
+    "consist-item-2-title": "Water-based formula",
+    "consist-item-2-text":
+      "Helps the product penetrate deep into contamination.",
+    "consist-item-3-title": "Food-grade preservatives",
+    "consist-item-3-text": "Maintain enzyme activity in minimal safe amounts.",
+    "consist-note-title": "No harsh chemicals",
     "consist-note-text":
-      "Contains no phosphates, phenols, aggressive surfactants, solvents, or formaldehyde.",
-    "consist-note-2-title": "Dufta composition is fully hypoallergenic",
+      "Contains no phosphates, phenols, harsh surfactants, solvents, or formaldehyde.",
+    "consist-note-2-title": "Fully hypoallergenic formula",
     "consist-note-2-text":
-      "The products comply with strict European environmental safety standards.",
+      "Products comply with strict European environmental safety standards.",
     "consist-note-3-title": "Eco-friendly and safe",
     "consist-note-3-text":
-      "Our products can be used on children's playpens, pet beds, and even kitchen surfaces without concern for your loved ones' health.",
+      "Suitable for baby play areas, pet beds, and kitchen surfaces.",
 
-    // NUMBERS
-    "numbers-area": "20,000 m²",
-    "numbers-area-text": "own production area in Thailand",
+    "how-to-use-title": "Remove Odors in 3 Steps",
+    "how-to-use-text-1":
+      "Spray directly onto the odor source. For soft furniture (sofas, carpets, car interiors), ensure the product penetrates as deeply as the contamination.",
+    "how-to-use-text-2":
+      "Allow the enzymes to work. For difficult surfaces, cover the treated area with plastic film for 60–90 minutes.",
+    "how-to-use-text-3":
+      "Let the surface dry naturally. No rinsing is required — the product is fully biodegradable.",
+    "how-to-use-important-title": "Professional tips:",
+    "how-to-use-important-1":
+      "Dufta works only at the odor source — treat the contamination itself.",
+    "how-to-use-important-2":
+      "If the odor is strong, repeat treatment after 24 hours.",
 
-    "numbers-production": ">4,000 m²",
-    "numbers-production-text": "own production area in Thailand",
+    "blog-title": "Dufta Blog: Tips and Solutions",
+    "blog-article-1-title": "Cat urine odor: how to remove it",
+    "blog-link": "Go to Blog",
 
-    "numbers-traffic": ">1000 people",
-    "numbers-traffic-text": "daily traffic on ERAWADEE.com",
+    "delivery-payment-title": "Delivery and Payment",
+    "delivery-payment-delivery-title": "Delivery",
+    "delivery-payment-delivery-1": "1–2 business days across the Baltics",
+    "delivery-payment-delivery-2": "Delivery to parcel lockers",
+    "delivery-payment-delivery-3": "Delivery across Europe",
+    "delivery-payment-payment-title": "Payment",
+    "delivery-payment-payment-1": "Bank transfer",
+    "delivery-payment-payment-2": "Visa / Mastercard",
+    "delivery-payment-payment-3": "Payment at the office",
+    "delivery-payment-business-title": "For Businesses",
+    "delivery-payment-business-1": "Wholesale supply",
+    "delivery-payment-business-2": "Individual terms",
+    "delivery-payment-business-3": "Distribution",
+    "delivery-payment-link": "Go to Online Store",
 
-    "numbers-staff": ">300",
-    "numbers-staff-text": "employees working in the company",
-
-    // TRADITIONS
-    "tradition-title": "Traditions",
-    "tradition-card1-title": "HERITAGE",
-    "tradition-card1-text":
-      "Our company operates with the support of the Thai royal family, particularly Princess Chulabhorn Walailak, who actively promotes the development of medicine. We produce high-quality remedies based on ancient recipes that are over 3000 years old. In our museum at the main Erawadee pharmacy in Pattaya, you can learn how healing concoctions were made in ancient times: from local herbs and minerals, using knowledge about balance and harmony. The museum features historical tools, original recipe scrolls, and the history of Thai medicine passed down from generation to generation. Today, we preserve these traditions by combining ancient recipes with modern technologies to make Thailand's unique heritage accessible to the whole world.",
-
-    "tradition-card2-title": "BRAND LEGEND",
-    "tradition-card2-text":
-      "Thailand’s rich mythology reflects deep spiritual and cultural values passed down through generations. One of its central symbols is Erawan (Airavata), the majestic three-headed elephant and sacred mount of the god Indra, patron of rain, thunder, and fertility. In Thai tradition, Erawan embodies wisdom, prosperity, protection, and harmony with nature.\n\nLegend tells that Erawan appeared during the “Churning of the Milk Ocean,” when gods and demons sought the elixir of immortality. His three heads symbolize the unity of past, present, and future, as well as the balance between heaven, earth, and the underworld — the foundation of the Thai worldview. In Thailand, the elephant, especially the white elephant, has long been seen as a sign of divine blessing, prosperity, and just rule.\n\nAn important role in mythology is also played by his mother — the celestial elephant Iravati, who embodies strength, compassion, and maternal love. She symbolizes care, inner stability, and vital energy, without which true harmony is impossible.\n\nThe image of Erawan remains alive in Thai culture today — temples and sacred sites are dedicated to him, where people pray for health, love, and prosperity. This ancient legend inspired the creators of the ERAWADEE brand, uniting the wisdom and power of Thailand’s cultural heritage with respect for nature, balance, and inner harmony.",
-
-    // MARQUEE
-    "marquee-title": "Our Awards",
-    award1: "Best Product of the Year 2016",
-    award2: "For promoting the heritage of King Rama IX",
-    award3: "For developing ASEAN country relations",
-    award4: "For preserving Thai cultural heritage",
-    award5: "Best Product of the Year 2017",
-    award6: "For developing Thailand-Cambodia relations",
-    award7: "Award from the National Council of Thai Women",
-    award8: '"Golden Bell". Person of the Year, 2017',
-    award9: "AEC - TOP CEO Awards 2018",
-    award10: "Best Product of the Year 2018",
-    award11: "Best ASEAN Product",
-    award12: "TOP BRAND AWARDS 2025",
-    award13: "CEO THAILAND AWARDS, 2018",
-
-    "awards-text":
-      "For its contribution to the preservation and promotion of Thai heritage, Erawadee has received numerous awards:",
-    "award-king-rama-ix": "National Award named after King Rama IX",
-    "award-product-year": "Product of the Year",
-    "award-thai-heritage": "Award for Enriching Thai Heritage",
-    "award-asean-biz": "ASEAN Best BIZ &amp; Product",
-    "award-thai-tradition": "Award for the Development of Thai Tradition",
-    "award-other": "and many others",
-    "awards-subtext":
-      "*Note: ASEAN — Association of Southeast Asian Nations, which includes Indonesia, Malaysia, the Philippines, Singapore, Thailand, Brunei, Vietnam, Laos, Myanmar, Cambodia.",
-
-    // BLOG
-    "blog-title": "Our Blog",
-    "blog-article-1-title": "Centella Asiatica - benefits, properties and use",
-    "blog-article-1-text":
-      'Centella is considered the "herb of longevity" and is one of the main products of traditional Thai, Chinese, and Ayurvedic medicine...',
-    "blog-info-text":
-      "In our blog, you will find dozens of detailed and informative articles dedicated to Erawadee products and Thai medical traditions. We discuss the composition and properties of natural remedies, share knowledge about ancient recipes, health principles, and the philosophy of the Thai approach to caring for the body and soul. The full range of materials is available on the online store website.",
-    "blog-link": "Go to blog erewadee.com",
-
-    // DELIVERY AND PAYMENT
-    "delivery-title": "Delivery",
-    "delivery-text":
-      "Erawadee delivers products worldwide. There is no minimum order amount. All packages are shipped directly from the factory warehouse in Thailand to your address. Each package is provided with a tracking code — you can follow its movement in your Erawadee account, on your country's postal website, or via one of the tracking services.",
-    "delivery-more":
-      "Details are available in the delivery section of the online store.",
-    "delivery-link": "Go to delivery",
-
-    "payment-title": "Payment Methods",
-    "payment-item-online": "Online payment on the website",
-    "payment-item-visa-mastercard": "Payment with Visa cards from any bank",
-    "payment-item-mastercard": "Payment with Mastercard cards from any bank",
-    "payment-item-paypal": "PayPal",
-    "payment-item-bank-moneytransfer": "Bank transfers",
-    "payment-item-bank-crypto": "Cryptocurrency",
-    "payment-item-card": "Other bank cards",
-    "payment-more":
-      "More details in the corresponding section of the online store.",
-    "payment-link": "Go to the payment section on erawadee.com",
-
-    // CONTACTS
-    "contacts-title": "Contacts",
-
-    // FOOTER
-    "footer-logo-alt": "Logo",
-    "footer-company-name": '"Erawadee", Ltd',
-    "footer-company-registration": "Registration number: 40203383879",
-    "footer-company-address":
-      "Address: Riga, Kr. Barona 37-11, LV-1011, Latvia",
-    "footer-phone": "Tel: +371 27067730",
-    "footer-email": "erawadee@gmail.com",
-    "footer-website": "www.erawadee.com",
+    "footer-company-name": "Baltic Pro Company, SIA",
+    "footer-company-registration": "Reg. No.: 40203544254",
+    "footer-company-address": "12 Jurkalnes Street, LV-1046 Riga, Latvia",
+    "contacts-title": "Contact Us",
+    "footer-phone": "+37129109868 (chat)",
     "footer-rights": "All rights reserved",
 
-    // MOBILE NAV
-    "mobile-nav-about": "about us",
-    "mobile-nav-shop": "online store",
-    "mobile-nav-blog": "blog",
-    "mobile-nav-distribution": "distribution & franchise",
-    "mobile-nav-contacts": "contacts",
+    "mobile-nav-about": "About Dufta",
+    "mobile-nav-shop": "Online Store",
+    "mobile-nav-products": "Odor Removers",
+    "mobile-nav-blog": "Articles",
+    "mobile-nav-contacts": "Contacts",
   },
 };
 
