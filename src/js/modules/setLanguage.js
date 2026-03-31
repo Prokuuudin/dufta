@@ -259,22 +259,25 @@ function setLanguage() {
     }
 
     const blogArticle1Url = getBlogArticle1UrlByLanguage(language);
-    const blogArticle1Link = document.querySelector("#blog-article-1-link");
-    if (blogArticle1Link) {
-      blogArticle1Link.setAttribute("href", blogArticle1Url);
-    }
+    document
+      .querySelectorAll('[data-blog-article-link="1"]')
+      .forEach((blogArticle1Link) => {
+        blogArticle1Link.setAttribute("href", blogArticle1Url);
+      });
 
     const blogArticle2Url = getBlogArticle2UrlByLanguage(language);
-    const blogArticle2Link = document.querySelector("#blog-article-2-link");
-    if (blogArticle2Link) {
-      blogArticle2Link.setAttribute("href", blogArticle2Url);
-    }
+    document
+      .querySelectorAll('[data-blog-article-link="2"]')
+      .forEach((blogArticle2Link) => {
+        blogArticle2Link.setAttribute("href", blogArticle2Url);
+      });
 
     const blogArticle3Url = getBlogArticle3UrlByLanguage(language);
-    const blogArticle3Link = document.querySelector("#blog-article-3-link");
-    if (blogArticle3Link) {
-      blogArticle3Link.setAttribute("href", blogArticle3Url);
-    }
+    document
+      .querySelectorAll('[data-blog-article-link="3"]')
+      .forEach((blogArticle3Link) => {
+        blogArticle3Link.setAttribute("href", blogArticle3Url);
+      });
 
     const agreementPolicyUrl = getAgreementPolicyUrlByLanguage(language);
     const agreementLink = document.querySelector('[data-key="agreement-link"]');

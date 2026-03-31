@@ -1,18 +1,4 @@
 @font-face {
-	font-family: ArialCE;
-	font-display: swap;
-	src: url("../fonts/ArialCE.woff2") format("woff2"), url("../fonts/ArialCE.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: arialceb;
-	font-display: swap;
-	src: url("../fonts/arialceb.woff2") format("woff2"), url("../fonts/arialceb.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
 	font-family: ArialCEBoldItalic;
 	font-display: swap;
 	src: url("../fonts/ArialCEBoldItalic.woff2") format("woff2"), url("../fonts/ArialCEBoldItalic.woff") format("woff");
@@ -20,9 +6,23 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: ArialCE;
+	font-display: swap;
+	src: url("../fonts/ArialCE.woff2") format("woff2"), url("../fonts/ArialCE.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
 	font-family: ArialCEItalic;
 	font-display: swap;
 	src: url("../fonts/ArialCEItalic.woff2") format("woff2"), url("../fonts/ArialCEItalic.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: arialceb;
+	font-display: swap;
+	src: url("../fonts/arialceb.woff2") format("woff2"), url("../fonts/arialceb.woff") format("woff");
 	font-weight: 400;
 	font-style: normal;
 }
