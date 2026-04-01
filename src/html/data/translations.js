@@ -146,8 +146,10 @@ const translations = {
 
     "blog-title": "Блог Dufta: советы и решения",
     "blog-article-1-title": "Запах кошачьей мочи: как от него избавиться",
-    "blog-article-2-title": "Наука ферментной очистки: как энзимы удаляют запахи и пятна",
-    "blog-article-3-title": "Запахи в матрасе: почему они появляются и как их удалить",
+    "blog-article-2-title":
+      "Наука ферментной очистки: как энзимы удаляют запахи и пятна",
+    "blog-article-3-title":
+      "Запахи в матрасе: почему они появляются и как их удалить",
     "blog-link": "Перейти в блог",
 
     "delivery-payment-title": "Доставка и оплата",
@@ -321,8 +323,10 @@ const translations = {
 
     "blog-title": "Dufta blogs: padomi un risinājumi",
     "blog-article-1-title": "Kaķa urīna smaka: kā no tās atbrīvoties",
-    "blog-article-2-title": "Fermentu tīrīšanas zinātne: kā enzīmi noņem smakas un traipus",
-    "blog-article-3-title": "Smakas matracī: kāpēc tās parādās un kā tās noņemt",
+    "blog-article-2-title":
+      "Fermentu tīrīšanas zinātne: kā enzīmi noņem smakas un traipus",
+    "blog-article-3-title":
+      "Smakas matracī: kāpēc tās parādās un kā tās noņemt",
     "blog-link": "Pāriet uz blogu",
 
     "delivery-payment-title": "Piegāde un apmaksa",
@@ -498,8 +502,10 @@ const translations = {
 
     "blog-title": "Dufta tinklaraštis: patarimai ir sprendimai",
     "blog-article-1-title": "Katės šlapimo kvapas: kaip jo atsikratyti",
-    "blog-article-2-title": "Fermentinio valymo mokslas: kaip fermentai pašalina kvapus ir dėmes",
-    "blog-article-3-title": "Kvapai čiužinyje: kodėl jie atsiranda ir kaip juos pašalinti",
+    "blog-article-2-title":
+      "Fermentinio valymo mokslas: kaip fermentai pašalina kvapus ir dėmes",
+    "blog-article-3-title":
+      "Kvapai čiužinyje: kodėl jie atsiranda ir kaip juos pašalinti",
     "blog-link": "Pereiti į tinklaraštį",
 
     "delivery-payment-title": "Pristatymas ir apmokėjimas",
@@ -673,8 +679,10 @@ const translations = {
 
     "blog-title": "Dufta blogi: nõuanded ja lahendused",
     "blog-article-1-title": "Kassi uriini lõhn: kuidas sellest vabaneda",
-    "blog-article-2-title": "Ensümaatilise puhastamise teadus: kuidas ensüümid eemaldavad lõhnu ja plekke",
-    "blog-article-3-title": "Lõhnad madratsis: miks need tekivad ja kuidas neid eemaldada",
+    "blog-article-2-title":
+      "Ensümaatilise puhastamise teadus: kuidas ensüümid eemaldavad lõhnu ja plekke",
+    "blog-article-3-title":
+      "Lõhnad madratsis: miks need tekivad ja kuidas neid eemaldada",
     "blog-link": "Mine blogisse",
 
     "delivery-payment-title": "Tarne ja maksmine",
@@ -850,8 +858,10 @@ const translations = {
 
     "blog-title": "Dufta Blog: Tips and Solutions",
     "blog-article-1-title": "Cat urine odor: how to remove it",
-    "blog-article-2-title": "The science of enzymatic cleaning: how enzymes remove odors and stains",
-    "blog-article-3-title": "Odors in a mattress: why they appear and how to remove them",
+    "blog-article-2-title":
+      "The science of enzymatic cleaning: how enzymes remove odors and stains",
+    "blog-article-3-title":
+      "Odors in a mattress: why they appear and how to remove them",
     "blog-link": "Go to Blog",
 
     "delivery-payment-title": "Delivery and Payment",
