@@ -17,7 +17,7 @@ const translations = {
 
     about__title: "Что такое Dufta",
     "about-text1":
-      "Dufta - гипоаллергенное, биоразлагаемое немецкое средство для удаления запахов органического происхождения.",
+      "Dufta - гипоаллергенное, биоразлагаемое немецкое средство для удаления запахов и пятен органического происхождения.",
     "about-text3": "Безопасно для людей и домашних животных.",
     "about-how-title": "Как Dufta устраняет запахи",
     "about-how-step-1-name": "Находит источник",
@@ -66,17 +66,15 @@ const translations = {
     "uses-cases-list-1-2": "Одежда и обувь",
     "uses-cases-list-1-3": "Табак",
     "uses-cases-list-1-4": "Косметика",
-    "uses-cases-list-1-5": "и др.",
     "uses-cases-list-2-1": "Кошачья моча",
     "uses-cases-list-2-2": "Шерсть и лежанка",
     "uses-cases-list-2-3": "Клетки и лотки",
     "uses-cases-list-2-4": "Испорченный корм",
-    "uses-cases-list-2-5": "и др.",
     "uses-cases-list-3-1": "Мусор и кухня",
     "uses-cases-list-3-2": "Сырость и плесень",
     "uses-cases-list-3-3": "Дым и гарь",
     "uses-cases-list-3-4": "Туалет",
-    "uses-cases-list-3-5": "и др.",
+    "uses-cases-description-title": "Самое важное:",
     "uses-cases-description-text":
       "Dufta не маскирует неприятный запах, как это делают обычные освежители, а уничтожает его источник.",
     "uses-cases-description-text-2":
@@ -131,6 +129,9 @@ const translations = {
       "Можно обрабатывать детские манежи, лежанки животных и кухонные поверхности.",
 
     "how-to-use-title": "Избавляемся от запаха за 3 шага",
+    "how-to-use-step-1": "Нанести:",
+    "how-to-use-step-2": "Подождать:",
+    "how-to-use-step-3": "Высушить:",
     "how-to-use-text-1":
       "Распылите средство непосредственно на источник запаха. Если это мягкая мебель (диван, ковер, салон авто), важно, чтобы средство проникло на ту же глубину, что и загрязнение.",
     "how-to-use-text-2":
@@ -145,6 +146,8 @@ const translations = {
 
     "blog-title": "Блог Dufta: советы и решения",
     "blog-article-1-title": "Запах кошачьей мочи: как от него избавиться",
+    "blog-article-2-title": "Наука ферментной очистки: как энзимы удаляют запахи и пятна",
+    "blog-article-3-title": "Запахи в матрасе: почему они появляются и как их удалить",
     "blog-link": "Перейти в блог",
 
     "delivery-payment-title": "Доставка и оплата",
@@ -194,7 +197,7 @@ const translations = {
 
     about__title: "Kas ir Dufta",
     "about-text1":
-      "Dufta ir hipoalerģisks, bioloģiski noārdāms vācu līdzeklis organiskas izcelsmes smaku noņemšanai.",
+      "Dufta ir hipoalerģisks, bioloģiski noārdāms vācu līdzeklis organiskas izcelsmes smaku un traipu noņemšanai.",
     "about-text3": "Drošs cilvēkiem un mājdzīvniekiem.",
     "about-how-title": "Kā Dufta novērš smakas",
     "about-how-step-1-name": "Atrod avotu",
@@ -243,17 +246,15 @@ const translations = {
     "uses-cases-list-1-2": "Apģērbs un apavi",
     "uses-cases-list-1-3": "Tabaka",
     "uses-cases-list-1-4": "Kosmētika",
-    "uses-cases-list-1-5": "u.c.",
     "uses-cases-list-2-1": "Kaķu urīns",
     "uses-cases-list-2-2": "Spalva un guļvieta",
     "uses-cases-list-2-3": "Būri un paplātes",
     "uses-cases-list-2-4": "Sabojāta barība",
-    "uses-cases-list-2-5": "u.c.",
     "uses-cases-list-3-1": "Atkritumi un virtuve",
     "uses-cases-list-3-2": "Mitrums un pelējums",
     "uses-cases-list-3-3": "Dūmi un deguma smaka",
     "uses-cases-list-3-4": "Tualete",
-    "uses-cases-list-3-5": "u.c.",
+    "uses-cases-description-title": "Vissvarīgākais:",
     "uses-cases-description-text":
       "Dufta nemaskē nepatīkamu smaku, kā to dara parastie gaisa atsvaidzinātāji, bet iznīcina tā avotu.",
     "uses-cases-description-text-2":
@@ -303,6 +304,9 @@ const translations = {
       "Var apstrādāt bērnu manēžas, dzīvnieku guļvietas un virtuves virsmas.",
 
     "how-to-use-title": "Atbrīvojamies no smakas 3 soļos",
+    "how-to-use-step-1": "Uzsmidzināt:",
+    "how-to-use-step-2": "Pagaidīt:",
+    "how-to-use-step-3": "Izžāvēt:",
     "how-to-use-text-1":
       "Izsmidziniet līdzekli tieši uz smakas avotu. Ja tā ir mīksta mēbele (dīvāns, paklājs, auto salons), svarīgi, lai līdzeklis iekļūtu tādā pašā dziļumā kā piesārņojums.",
     "how-to-use-text-2":
@@ -317,6 +321,8 @@ const translations = {
 
     "blog-title": "Dufta blogs: padomi un risinājumi",
     "blog-article-1-title": "Kaķa urīna smaka: kā no tās atbrīvoties",
+    "blog-article-2-title": "Fermentu tīrīšanas zinātne: kā enzīmi noņem smakas un traipus",
+    "blog-article-3-title": "Smakas matracī: kāpēc tās parādās un kā tās noņemt",
     "blog-link": "Pāriet uz blogu",
 
     "delivery-payment-title": "Piegāde un apmaksa",
@@ -357,7 +363,7 @@ const translations = {
 
     "nav-about": "Apie Dufta",
     "nav-shop": "Internetinė parduotuvė",
-    "nav-products": "Kvapų šalinimo priemonės",
+    "nav-products": "Kvapų šalintojai",
     "nav-blog": "Straipsniai",
     "nav-contacts": "Kontaktai",
 
@@ -366,7 +372,7 @@ const translations = {
 
     about__title: "Kas yra Dufta",
     "about-text1":
-      "Dufta – hipoalerginė, biologiškai suyranti vokiška priemonė organinės kilmės kvapams šalinti.",
+      "Dufta – hipoalerginė, biologiškai suyranti vokiška priemonė organinės kilmės kvapams ir dėmėms šalinti .",
     "about-text3": "Saugu žmonėms ir augintiniams.",
     "about-how-title": "Kaip Dufta pašalina kvapus",
     "about-how-step-1-name": "Randa šaltinį",
@@ -415,17 +421,15 @@ const translations = {
     "uses-cases-list-1-2": "Drabužiai ir avalynė",
     "uses-cases-list-1-3": "Tabakas",
     "uses-cases-list-1-4": "Kosmetika",
-    "uses-cases-list-1-5": "ir kt.",
     "uses-cases-list-2-1": "Katės šlapimas",
     "uses-cases-list-2-2": "Kailis ir guolis",
     "uses-cases-list-2-3": "Narvai ir dėžutės",
     "uses-cases-list-2-4": "Sugedęs maistas",
-    "uses-cases-list-2-5": "ir kt.",
     "uses-cases-list-3-1": "Šiukšlės ir virtuvė",
     "uses-cases-list-3-2": "Drėgmė ir pelėsis",
     "uses-cases-list-3-3": "Dūmai ir suodžiai",
     "uses-cases-list-3-4": "Tualetas",
-    "uses-cases-list-3-5": "ir kt.",
+    "uses-cases-description-title": "Svarbiausia:",
     "uses-cases-description-text":
       "Dufta nemaskuoja nemalonių kvapų, kaip tai daro įprasti oro gaivikliai, o naikina jų šaltinį.",
     "uses-cases-description-text-2":
@@ -477,6 +481,9 @@ const translations = {
       "Galima apdoroti vaikų maniežus, gyvūnų guolius ir virtuvės paviršius.",
 
     "how-to-use-title": "Atsikratykite kvapo per 3 žingsnius",
+    "how-to-use-step-1": "Užpurkšti:",
+    "how-to-use-step-2": "Palaukti:",
+    "how-to-use-step-3": "Išdžiovinti:",
     "how-to-use-text-1":
       "Užpurkškite priemonę tiesiai ant kvapo šaltinio. Jei tai minkšti baldai (sofa, kilimas, automobilio salonas), svarbu, kad priemonė prasiskverbtų tokiu pačiu gyliu kaip užterštumas.",
     "how-to-use-text-2":
@@ -491,6 +498,8 @@ const translations = {
 
     "blog-title": "Dufta tinklaraštis: patarimai ir sprendimai",
     "blog-article-1-title": "Katės šlapimo kvapas: kaip jo atsikratyti",
+    "blog-article-2-title": "Fermentinio valymo mokslas: kaip fermentai pašalina kvapus ir dėmes",
+    "blog-article-3-title": "Kvapai čiužinyje: kodėl jie atsiranda ir kaip juos pašalinti",
     "blog-link": "Pereiti į tinklaraštį",
 
     "delivery-payment-title": "Pristatymas ir apmokėjimas",
@@ -540,7 +549,7 @@ const translations = {
 
     about__title: "Mis on Dufta",
     "about-text1":
-      "Dufta on hüpoallergeenne, biolagunev Saksa vahend orgaanilist päritolu lõhnade eemaldamiseks.",
+      "Dufta on hüpoallergeenne, biolagunev Saksa vahend orgaanilise päritoluga lõhnade ja plekkide eemaldamiseks.",
     "about-text3": "Ohutu inimestele ja lemmikloomadele.",
     "about-how-title": "Kuidas Dufta eemaldab lõhnad",
     "about-how-step-1-name": "Leiab allika",
@@ -589,17 +598,15 @@ const translations = {
     "uses-cases-list-1-2": "Riided ja jalanõud",
     "uses-cases-list-1-3": "Tubakas",
     "uses-cases-list-1-4": "Kosmeetika",
-    "uses-cases-list-1-5": "jm",
     "uses-cases-list-2-1": "Kassi uriin",
     "uses-cases-list-2-2": "Karv ja asemed",
     "uses-cases-list-2-3": "Puurid ja liivakastid",
     "uses-cases-list-2-4": "Rikutud toit",
-    "uses-cases-list-2-5": "jm",
     "uses-cases-list-3-1": "Prügi ja köögilõhnad",
     "uses-cases-list-3-2": "Niiskus ja hallitus",
     "uses-cases-list-3-3": "Suits ja kõrbelõhn",
     "uses-cases-list-3-4": "Tualett",
-    "uses-cases-list-3-5": "jm",
+    "uses-cases-description-title": "Kõige olulisem:",
     "uses-cases-description-text":
       "Dufta ei maskeeri ebameeldivat lõhna, nagu teevad tavalised õhuvärskendajad, vaid eemaldab selle täielikult, hävitades allika.",
     "uses-cases-description-text-2":
@@ -649,6 +656,9 @@ const translations = {
       "Võib töödelda laste mänguaedu, loomade asemeid ja köögipindu.",
 
     "how-to-use-title": "Vabaneme lõhnast 3 sammuga",
+    "how-to-use-step-1": "Pihustada:",
+    "how-to-use-step-2": "Oodata:",
+    "how-to-use-step-3": "Kuivatada:",
     "how-to-use-text-1":
       "Pihustage vahend otse lõhna allikale. Kui tegu on pehme mööbliga (diivan, vaip, auto salong), on oluline, et vahend jõuaks saastega samale sügavusele.",
     "how-to-use-text-2":
@@ -663,6 +673,8 @@ const translations = {
 
     "blog-title": "Dufta blogi: nõuanded ja lahendused",
     "blog-article-1-title": "Kassi uriini lõhn: kuidas sellest vabaneda",
+    "blog-article-2-title": "Ensümaatilise puhastamise teadus: kuidas ensüümid eemaldavad lõhnu ja plekke",
+    "blog-article-3-title": "Lõhnad madratsis: miks need tekivad ja kuidas neid eemaldada",
     "blog-link": "Mine blogisse",
 
     "delivery-payment-title": "Tarne ja maksmine",
@@ -710,9 +722,9 @@ const translations = {
     "hero-title": "A reliable solution for unpleasant odors",
     "hero-slogan": "Natural. Effective. Safe.",
 
-    about__title: "What Is Dufta",
+    about__title: "What IsKvapų šalintojai Dufta",
     "about-text1":
-      "Dufta is a hypoallergenic, biodegradable German product designed to remove odors of organic origin.",
+      "Dufta is a hypoallergenic, biodegradable German product designed to remove odors and stains of organic origin.",
     "about-text3": "Safe for people and pets.",
     "about-how-title": "How Dufta Removes Odors",
     "about-how-step-1-name": "Finds the source",
@@ -762,17 +774,15 @@ const translations = {
     "uses-cases-list-1-2": "Clothing and shoes",
     "uses-cases-list-1-3": "Tobacco smoke",
     "uses-cases-list-1-4": "Cosmetics",
-    "uses-cases-list-1-5": "and more",
     "uses-cases-list-2-1": "Cat urine",
     "uses-cases-list-2-2": "Fur and bedding",
     "uses-cases-list-2-3": "Cages and litter boxes",
     "uses-cases-list-2-4": "Spoiled pet food",
-    "uses-cases-list-2-5": "and more",
     "uses-cases-list-3-1": "Garbage and kitchen odors",
     "uses-cases-list-3-2": "Dampness and mold",
     "uses-cases-list-3-3": "Smoke and burnt odors",
     "uses-cases-list-3-4": "Bathrooms and toilets",
-    "uses-cases-list-3-5": "and more",
+    "uses-cases-description-title": "Most important:",
     "uses-cases-description-text":
       "Dufta does not mask unpleasant odors, like ordinary air fresheners, but removes them completely.",
     "uses-cases-description-text-2":
@@ -823,6 +833,9 @@ const translations = {
       "Suitable for baby play areas, pet beds, and kitchen surfaces.",
 
     "how-to-use-title": "Remove Odors in 3 Steps",
+    "how-to-use-step-1": "Apply:",
+    "how-to-use-step-2": "Wait:",
+    "how-to-use-step-3": "Dry:",
     "how-to-use-text-1":
       "Spray directly onto the odor source. For soft furniture (sofas, carpets, car interiors), ensure the product penetrates as deeply as the contamination.",
     "how-to-use-text-2":
@@ -837,6 +850,8 @@ const translations = {
 
     "blog-title": "Dufta Blog: Tips and Solutions",
     "blog-article-1-title": "Cat urine odor: how to remove it",
+    "blog-article-2-title": "The science of enzymatic cleaning: how enzymes remove odors and stains",
+    "blog-article-3-title": "Odors in a mattress: why they appear and how to remove them",
     "blog-link": "Go to Blog",
 
     "delivery-payment-title": "Delivery and Payment",

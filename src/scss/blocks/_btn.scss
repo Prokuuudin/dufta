@@ -44,8 +44,9 @@ a.btn {
 	   font-weight: 700;
 	   text-transform: none;
 	   letter-spacing: 0.02em;
-	   transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
-	   box-shadow: 0 4px 18px rgba(255, 60, 111, 0.18);
+	   transition: all 0.2s ease-in;
+	   
+	//    box-shadow: 0 4px 18px rgba(255, 60, 111, 0.18);
 	   text-decoration: none;
 	   outline: none;
 	   border: none;
@@ -54,10 +55,11 @@ a.btn {
 	   &:hover, &:focus {
 		//    background: linear-gradient(90deg, #ff3c6f 0%, #ff7c2b 100%);
 		 background: var(--btn-link-hover-color);
-		   box-shadow: 0 6px 24px rgba(255, 60, 111, 0.28);
-		   transform: translateY(-2px) scale(1.06);
+		//    box-shadow: 0 6px 24px rgba(255, 60, 111, 0.28);
+		//    transform: translateY(-2px) scale(1.06);
 		   color: #fff;
 		   text-decoration: none;
+		   scale: 1.02;
 	   }
 
 	   @include mobile {

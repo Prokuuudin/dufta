@@ -12,10 +12,10 @@
 
 .hero__inner {
   margin-top: 100px;
-  background: pink;;
+  background: pink;
   background-image: url('./../../img/bg-main.jpg');
-  background-position: center;
-  background-size: 107% auto;
+  background-position: left center;
+  background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
   padding: 36px 20px 0;
@@ -23,15 +23,15 @@
   position: relative;
   overflow: hidden;
 
-  @include tablet {
-    background-size: cover;
-    background-position: center top;
-  }
+  // @include tablet {
+  //   background-size: cover;
+  //   background-position: center top;
+  // }
 
-  @include mobile {
-    background-size: cover;
-    background-position: -200px -150px;
-  }
+  // @include mobile {
+  //   background-size: cover;
+  //   background-position: -200px -150px;
+  // }
 
    &::after {
     content: "";
@@ -63,7 +63,7 @@
   right: 40px;
   bottom: 150px;
   width: min(calc(100% - 80px), max(60vw, 530px));
-  width: 55%;
+  // width: 100%;
   text-align: right;
   z-index: 2;
   opacity: 0;
@@ -83,7 +83,7 @@
   width: 100%;
   height: auto;
   aspect-ratio: 124.72 / 34.02;
-  margin: 0 0 16px auto;
+  margin: 0 0 16px 32px;
   fill: #000;  
   margin-bottom: 20px;
 
@@ -96,9 +96,9 @@
   margin: 0 0 10px;
   font-size: 18px;
   line-height: 1.4;
-  color: #000;  
+  color: #fff;  
   margin-bottom: 50px;
-
+  
   @include mobile {
     font-size: 16px;
     margin-bottom: 8px;

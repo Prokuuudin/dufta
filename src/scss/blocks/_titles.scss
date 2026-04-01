@@ -3,7 +3,6 @@ h1.title-1 {
 	font-size:clamp(2.5rem, 2.227rem + 1.36vw, 3.25rem);
 	font-weight: 300;
 	text-transform: uppercase;
-	font-family: var(--font-main);
 	color: #fff;
 }
 
@@ -13,8 +12,7 @@ h1.title-1 {
 	font-weight: 500;
 	line-height: 1.2;
 	font-family: var(--font-main);
-	text-transform: capitalize;
-	margin-bottom: 40px;
+	text-transform: initial;
 	text-align: center;	
 	display: flex;
 	align-items: flex-start;
@@ -60,7 +58,8 @@ h1.title-1 {
 }
 
 h1.hero__title.title-1 {
-  color: #000;
+  color: #fff;
+  font-weight: 600;
   margin: 0;
   margin-bottom: 40px;
 }

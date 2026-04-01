@@ -1,14 +1,5 @@
 .how-to-use {
-  padding: 48px 0;
   overflow-x: hidden;
-
-  @include tablet {
-    padding: 40px 0;
-  }
-
-  @include mobile {
-    padding: 28px 0;
-  }
 }
 
 .how-to-use__content {

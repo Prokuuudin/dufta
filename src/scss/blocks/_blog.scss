@@ -1,23 +1,13 @@
 /* ===== SECTION DIVIDER ===== */
 .blog-section {
     position: relative;
-    padding: 48px 0;
-
-    @include tablet {
-        padding: 40px 0;
-    }
-
-    @include mobile {
-        padding: 28px 0;
-    }
 }
 
 /* ===== GRID ===== */
 .blog-section__container{
-    margin-bottom: 24px;
+    margin-bottom: 0;
     
     @include mobile {
-        margin-bottom: 16px;
         padding: 0;
     }
 }

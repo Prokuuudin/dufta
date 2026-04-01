@@ -30,7 +30,7 @@
     display: flex;
     gap: 30px;
 
-    @include tablet {
+    @include tablet-small {
         display: none;
     }
 }
@@ -62,12 +62,6 @@
     @include mobile {
         display: none;
     }
-}
-
-.header__socials {
-    display: flex;    
-    margin-top: 5px;
-    gap: 5px;    
 }
 
 .nav__list a::after {

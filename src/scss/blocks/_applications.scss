@@ -24,16 +24,7 @@
 }
  
 .applications{
-  padding: 48px 0;
   background-color: #fff;
-
-  @include tablet-small {
-    padding: 40px 0;
-  }
-  
-  @include mobile {
-    padding: 28px 0;
-  }
 }
 
 .applications__content {

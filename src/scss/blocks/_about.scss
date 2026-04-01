@@ -1,14 +1,5 @@
 .about {
-  padding: 48px 0;
   background-color: #fff;
-
-  @include tablet {
-    padding: 40px 0;
-  }
-
-  @include mobile {
-    padding: 28px 0;
-  }
 }
 
 .about__row {
@@ -105,7 +96,7 @@ p.about__text {
 .about__how-title {
   font-size: 18px;
   font-weight: 700;
-  margin: 0 0 6px;
+  margin: 0 0 10px;
   color: #111;
 
   @include mobile {

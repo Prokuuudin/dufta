@@ -54,6 +54,28 @@ p {
 	}
 }
 
+main > section:not(.hero) {
+	padding: var(--section-space-y) 0;
+
+	@include tablet {
+		padding: var(--section-space-y-tablet) 0;
+	}
+
+	@include mobile {
+		padding: var(--section-space-y-mobile) 0;
+	}
+}
+
+main > section:not(.hero) > .container {
+	> :first-child {
+		margin-top: 0;
+	}
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
 main > section + section {
 	position: relative;
 

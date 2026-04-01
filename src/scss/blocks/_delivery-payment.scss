@@ -1,13 +1,4 @@
 .delivery-payment {
-	padding: 48px 0;
-
-	@include tablet {
-		padding: 40px 0;
-	}
-
-	@include mobile {
-		padding: 28px 0;
-	}
 }
 
 .delivery-payment__container {
@@ -33,7 +24,7 @@
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 0;
 
-	@include tablet {
+	@include tablet-small {
 		grid-template-columns: 1fr;
 	}
 
