@@ -18,6 +18,11 @@
     padding: 30px 24px;
   }
 
+  @include mobile-large {
+		flex-direction: column;
+		
+	}
+
   @include mobile {
     gap: 16px;
     padding: 20px 14px;
@@ -70,7 +75,7 @@
   }
 }
 
-@include mobile {
+@include mobile-large {
   .how-to-use__item {
     flex-basis: 100%;
     padding-bottom: 14px;
@@ -147,7 +152,7 @@
   }
 }
 
-@include mobile {
+@include mobile-large {
   .how-to-use__item::after {
     display: none;
   }

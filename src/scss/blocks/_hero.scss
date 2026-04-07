@@ -9,8 +9,15 @@
     margin-bottom: 24px;
   }
 }
+.hero__container{
+
+  @include mobile {
+      padding: 0;
+  }
+}
 
 .hero__inner {
+  position: relative;
   margin-top: 100px;
   background: pink;
   background-image: url('./../../img/bg-main.jpg');
@@ -20,18 +27,14 @@
   min-height: 100vh;
   padding: 36px 20px 0;
   color: #000;
-  position: relative;
   overflow: hidden;
-
-  // @include tablet {
-  //   background-size: cover;
-  //   background-position: center top;
-  // }
-
-  // @include mobile {
-  //   background-size: cover;
-  //   background-position: -200px -150px;
-  // }
+ 
+  @include mobile {
+    background-size: cover; 
+    background-position: -40px -50px;
+    margin-top: 86px;
+    background-color: #fff;
+  }
 
    &::after {
     content: "";
@@ -54,41 +57,64 @@
   @include mobile {
     padding: 20px 12px 0;
   }
+
+  @include mobile-small {
+    background-size: cover; 
+    background-position: -186px -68px;
+    margin-top: 75px;
+    padding: 0;
+  }
 }
 
 .hero__content {
-  position: absolute;
   display: flex;
   flex-direction: column;
   right: 40px;
   bottom: 150px;
-  width: min(calc(100% - 80px), max(60vw, 530px));
-  // width: 100%;
+  width: 100%;
+  align-items: end;
   text-align: right;
   z-index: 2;
   opacity: 0;
   transform: translateY(12px);
   animation: heroFadeIn 0.7s ease-out 0.12s forwards;
 
+  @include tablet-middle {    
+    bottom: 70px;
+  }
+
   @include mobile {
     right: 12px;
     bottom: 8px;
-    width: calc(100% - 24px);
-    text-align: center;
+    width: calc(100% - 12px);
   }
+  
 }
 
 .hero__logo {
   display: block;
-  width: 100%;
+  max-width: 800px;
   height: auto;
   aspect-ratio: 124.72 / 34.02;
-  margin: 0 0 16px 32px;
-  fill: #000;  
-  margin-bottom: 20px;
+  margin: 0 0 20px auto;
+  
 
   @include mobile {
-    margin: 0 auto 12px;
+    margin-bottom: 170px;
+  }
+
+  @include mobile-small {
+    margin-top: 25px;   
+  }
+}
+
+
+.hero__title {
+  width: 60%;
+  overflow-wrap: anywhere;
+
+  @include tablet-small {
+    width: 100%;
   }
 }
 
@@ -99,10 +125,20 @@
   color: #fff;  
   margin-bottom: 50px;
   
+@include mobile-large {
+    margin-bottom: -64px;
+}
+
   @include mobile {
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 50px;
   }
+
+  @include mobile-small {
+    margin-bottom: 82px;
+  }
+
+
 }
 
 @keyframes heroFadeIn {
@@ -138,4 +174,3 @@
     animation: none;
   }
 }
-

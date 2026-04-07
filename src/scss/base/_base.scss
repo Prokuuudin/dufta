@@ -7,11 +7,29 @@ html {
 	scroll-margin-top: 20px;
 }
 
+#about,
+#products,
+#blog {
+	scroll-margin-top: 96px;
+
+	@include tablet {
+		scroll-margin-top: 88px;
+	}
+
+	@include mobile-large {
+		scroll-margin-top: 76px;
+	}
+
+	@include mobile {
+		scroll-margin-top: 68px;
+	}
+}
+
 body {
 	background-color: var(--page-bg);
 	color: var(--text-color);
 	font-family: var(--font-main);
-	// text-wrap: balance;
+	text-wrap: balance;
 }
 
 img {

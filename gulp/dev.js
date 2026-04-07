@@ -216,13 +216,6 @@ gulp.task("js:dev", function() {
   );
 });
 
-gulp.task("adminJs:dev", function() {
-  return gulp
-    .src(["./src/js/admin-standalone.js", "./src/js/admin-overrides-hotfix.js"])
-    .pipe(changed("./build/js/"))
-    .pipe(gulp.dest("./build/js/"));
-});
-
 const serverOptions = {
   livereload: {
     enable: true,
@@ -243,10 +236,6 @@ gulp.task("watch:dev", function() {
   );
   gulp.watch("./src/img/**/*", gulp.parallel("images:dev"));
   gulp.watch("./src/files/**/*", gulp.parallel("files:dev"));
-  gulp.watch(
-    ["./src/js/admin-standalone.js", "./src/js/admin-overrides-hotfix.js"],
-    gulp.parallel("adminJs:dev"),
-  );
   gulp.watch("./src/js/**/*.js", gulp.parallel("js:dev"));
   gulp.watch(
     "./src/img/svgicons/*",

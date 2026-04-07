@@ -1,9 +1,11 @@
 h1.title-1 {
 	margin: 1em 0 0.5em;
 	font-size:clamp(2.5rem, 2.227rem + 1.36vw, 3.25rem);
+	font-size: clamp(2.563rem, 2.313rem + 1.25vw, 3.25rem);
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #fff;
+	
 }
 
 .title-2 {
@@ -48,6 +50,12 @@ h1.title-1 {
 	}
 	
 }
+
+h2.about__title.title-2 {
+	margin: 0;
+	margin-bottom: 40px;	
+}
+
 .title-3 {
 	margin: 1em 0 0.5em;
 	font-size: clamp(1.313rem, 1.199rem + 0.57vw, 1.625rem);
@@ -62,6 +70,10 @@ h1.hero__title.title-1 {
   font-weight: 600;
   margin: 0;
   margin-bottom: 40px;
+
+  @include mobile {
+	  margin-bottom: 8px;
+  }
 }
 
 h3.applications__subtitle,

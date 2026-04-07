@@ -55,10 +55,11 @@ function scrollRevealFunc() {
   });
 
   ScrollReveal().reveal(
-    `.about__content, .applications__textcol, .products-info__column, .blog-info__text, .how-to-use__pro-tip`,
+    `.about__content, .applications__textcol, .products-info__column, .blog-info__text`,
     {
       delay: 150,
-      origin: "right",
+      origin: "bottom",
+      distance: "18px",
     },
   );
 
@@ -78,7 +79,8 @@ function scrollRevealFunc() {
   const benefitsGrid = document.querySelector(".benefits__content");
 
   if (benefitsGrid && benefitsItems.length) {
-    const benefitsIconInterval = 220;
+    const benefitsIconStartDelay = 380;
+    const benefitsIconInterval = 300;
 
     const runBenefitsIconAnimation = () => {
       benefitsItems.forEach((item, index) => {
@@ -95,7 +97,7 @@ function scrollRevealFunc() {
         (entries, observer) => {
           entries.forEach((entry) => {
             if (entry.isIntersecting) {
-              runBenefitsIconAnimation();
+              setTimeout(runBenefitsIconAnimation, benefitsIconStartDelay);
               observer.disconnect();
             }
           });
@@ -105,7 +107,7 @@ function scrollRevealFunc() {
 
       benefitsObserver.observe(benefitsGrid);
     } else {
-      runBenefitsIconAnimation();
+      setTimeout(runBenefitsIconAnimation, benefitsIconStartDelay);
     }
   }
 
@@ -116,8 +118,34 @@ function scrollRevealFunc() {
     distance: "16px",
   });
 
+  ScrollReveal().reveal(`.consist__notes`, {
+    delay: 190,
+    interval: 120,
+    origin: "left",
+    distance: "24px",
+    duration: 780,
+  });
+
+  ScrollReveal().reveal(`.how-to-use__important`, {
+    delay: 180,
+    origin: "bottom",
+    distance: "24px",
+    duration: 780,
+    scale: 0.97,
+    opacity: 0,
+  });
+
   ScrollReveal().reveal(
-    `.benefits__content, .delivery-payment__card, .consist__list-item, .consist__note`,
+    `.products-slider, .blog-section__slider, .uses-cases__description, .consist__cards`,
+    {
+      delay: 120,
+      origin: "bottom",
+      distance: "18px",
+    },
+  );
+
+  ScrollReveal().reveal(
+    `.benefits__content, .delivery-payment__card, .consist__list-item`,
     {
       delay: 120,
       interval: 90,

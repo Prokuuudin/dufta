@@ -222,13 +222,6 @@ gulp.task("js:docs", function() {
     .pipe(gulp.dest("./docs/js/"));
 });
 
-gulp.task("adminJs:docs", function() {
-  return gulp
-    .src(["./src/js/admin-standalone.js", "./src/js/admin-overrides-hotfix.js"])
-    .pipe(changed("./docs/js/"))
-    .pipe(gulp.dest("./docs/js/"));
-});
-
 const serverOptions = {
   livereload: {
     enable: true,
