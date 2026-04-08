@@ -1,10 +1,10 @@
 const translations = {
   ru: {
-    "desc-content":
-      "Dufta - немецкое средство против неприятных запахов. Подходит для текстиля, мебели, обуви и других материалов.",
-    "keywords-content":
-      "Dufta, удаление запахов, энзимный спрей, текстиль, мебель, обувь",
-    "landing-title": "Dufta - немецкое средство против неприятных запахов",
+    "desc-content": "Средство Dufta эффективно удаляет запах мочи, кошек, собак и других животных. Подходит для мебели, ковров, текстиля и обуви. Устраняет другие неприятные запахи. Безопасно для дома и питомцев.",
+
+    "keywords-content": "средство от запаха, удаление запаха, убрать неприятный запах, запах мочи, запах кошки, запах собаки, запах животных, Dufta, удалить запах с мебели, удалить запах с дивана, удалить запах с ковра, удалить запах с текстиля",
+    
+    "landing-title": "Средство от запаха — удаление запаха мочи, кошек и животных | Dufta",
 
     "nav-about": "о Dufta",
     "nav-shop": "интернет-магазин",
@@ -15,7 +15,7 @@ const translations = {
     "hero-title": "надежное средство против неприятных запахов",
     "hero-slogan": "Натурально. Эффективно. Безопасно.",
 
-    about__title: "Что такое Dufta",
+    "about-title": "Что такое Dufta",
     "about-text1":
       "Dufta - гипоаллергенное, биоразлагаемое немецкое средство для удаления запахов и пятен органического происхождения.",
     "about-text3": "Безопасно для людей и домашних животных.",
@@ -54,8 +54,11 @@ const translations = {
     "products-title": "Выберите средство Dufta под вашу задачу",
     "product-item1": "DuftaFresh 500 ml удалитель запаха",
     "product-item2": "DuftaFresh 1L удалитель запаха",
-    "product-item3": "DuftaPet 500 ml удалитель запаха для животных",
-    "product-item4": "DuftaPet 1L удалитель запаха для животных",
+    "product-item3": "DuftaPet 500 ml удалитель запаха животных",
+    "product-item4": "DuftaPet 1L удалитель запаха животных",
+    "product-item5": "DuftaFresh средство для удаления запахов 500 мл + 1 л (набор)",
+    "product-item6": "DuftaPet средство для удаления запахов животных 500 мл + 1 л (набор)",
+
     "products-link": "Перейти в интернет магазин",
 
     "uses-cases-title": "Какие запахи удаляет Dufta",
@@ -182,11 +185,11 @@ const translations = {
   },
 
   lv: {
-    "desc-content":
-      "Dufta — vācu līdzeklis nepatīkamu smaku noņemšanai. Piemērots tekstilam, mēbelēm, apaviem un citām virsmām.",
-    "keywords-content":
-      "Dufta, smaku noņemšana, enzīmisks sprejs, tekstils, mēbeles, apavi",
-    "landing-title": "Dufta — vācu līdzeklis nepatīkamu smaku noņemšanai",
+    "desc-content":      "Dufta ir efektīvs līdzeklis pret urīna, kaķu, suņu un citu dzīvnieku smaku. Piemērots mēbelēm, paklājiem, tekstilam un apaviem. Ātri noņem nepatīkamas smakas, drošs mājām un mājdzīvniekiem.",
+
+    "keywords-content":      "līdzeklis pret smaku, smaku noņemšana, nepatīkamas smakas likvidēšana, urīna smaka, kaķu smaka, suņu smaka, dzīvnieku smaka, Dufta, noņemt smaku no mēbelēm, noņemt smaku no dīvāna, noņemt smaku no paklāja, noņemt smaku no tekstila",
+
+    "landing-title": "Līdzeklis pret smaku — urīna, kaķu un dzīvnieku smaku noņemšana | Dufta",
 
     "nav-about": "Par Dufta",
     "nav-shop": "Interneta veikals",
@@ -197,7 +200,7 @@ const translations = {
     "hero-title": "Uzticams līdzeklis pret nepatīkamu smaku",
     "hero-slogan": "Dabīgs. Efektīvs. Drošs.",
 
-    about__title: "Kas ir Dufta",
+    "about-title": "Kas ir Dufta",
     "about-text1":
       "Dufta ir hipoalerģisks, bioloģiski noārdāms vācu līdzeklis organiskas izcelsmes smaku un traipu noņemšanai.",
     "about-text3": "Drošs cilvēkiem un mājdzīvniekiem.",
@@ -236,8 +239,10 @@ const translations = {
     "products-title": "Izvēlieties Dufta līdzekli savam uzdevumam",
     "product-item1": "DuftaFresh 500 ml smaku noņēmējs",
     "product-item2": "DuftaFresh 1 L smaku noņēmējs",
-    "product-item3": "DuftaPet 500 ml smaku noņēmējs dzīvniekiem",
-    "product-item4": "DuftaPet 1 L smaku noņēmējs dzīvniekiem",
+    "product-item3": "DuftaPet 500 ml dzīvnieku smaku noņēmējs",
+    "product-item4": "DuftaPet 1 L dzīvnieku smaku noņēmējs",
+    "product-item5": "DuftaFresh smaku noņēmējs 500 ml + 1L (komplekts)",
+    "product-item6": "DuftaPet dzīvnieku smaku noņēmējs 500 ml + 1L (komplekts)",
     "products-link": "Pāriet uz interneta veikalu",
 
     "uses-cases-title": "Kādas smakas noņem Dufta",
@@ -359,12 +364,12 @@ const translations = {
   },
 
   lt: {
-    "desc-content":
-      "Dufta – vokiška kvapų šalinimo priemonė. Tinka tekstilei, baldams, avalynei ir kitiems paviršiams.",
-    "keywords-content":
-      "Dufta, kvapų šalinimas, enzimatinė priemonė, tekstilė, baldai, avalynė",
-    "landing-title": "Dufta – vokiška priemonė nuo nemalonių kvapų",
+    "desc-content": "Dufta yra efektyvus priemonė nuo šlapimo, kačių, šunų ir kitų gyvūnų kvapų. Tinka baldams, kilimams, tekstilėms ir avalynei. Greitai pašalina nemalonius kvapus, saugu namams ir augintiniams.",
 
+    "keywords-content": "priemonė nuo kvapo, kvapo šalinimas, nemalonių kvapų likvidavimas, šlapimo kvapas, kačių kvapas, šunų kvapas, gyvūnų kvapas, Dufta, pašalinti kvapą nuo baldų, pašalinti kvapą nuo sofos, pašalinti kvapą nuo kilimo, pašalinti kvapą nuo tekstilės",
+    
+    "landing-title": "Priemonė nuo kvapo — šlapimo, kačių ir gyvūnų kvapo šalinimas | Dufta",
+    
     "nav-about": "Apie Dufta",
     "nav-shop": "Internetinė parduotuvė",
     "nav-products": "Kvapų šalintojai",
@@ -374,7 +379,7 @@ const translations = {
     "hero-title": "Patikima priemonė nuo nemalonių kvapų",
     "hero-slogan": "Natūralu. Veiksminga. Saugu.",
 
-    about__title: "Kas yra Dufta",
+    "about-title": "Kas yra Dufta",
     "about-text1":
       "Dufta – hipoalerginė, biologiškai suyranti vokiška priemonė organinės kilmės kvapams ir dėmėms šalinti .",
     "about-text3": "Saugu žmonėms ir augintiniams.",
@@ -413,8 +418,10 @@ const translations = {
     "products-title": "Pasirinkite Dufta priemonę savo užduočiai",
     "product-item1": "DuftaFresh 500 ml kvapų šalinimo priemonė",
     "product-item2": "DuftaFresh 1 L kvapų šalinimo priemonė",
-    "product-item3": "DuftaPet 500 ml kvapų šalinimo priemonė gyvūnams",
-    "product-item4": "DuftaPet 1 L kvapų šalinimo priemonė gyvūnams",
+    "product-item3": "DuftaPet 500 ml gyvūnų kvapų šalintojas",
+    "product-item4": "DuftaPet 1 L gyvūnų kvapų šalintojas",
+    "product-item5": "DuftaFresh kvapų šalinimo priemonė 500 ml + 1L (rinkinys)",
+    "product-item6": "DuftaPet gyvūnų kvapų šalintojas 500 ml + 1L (rinkinys)",
     "products-link": "Pereiti į internetinę parduotuvę",
 
     "uses-cases-title": "Kokius kvapus šalina Dufta",
@@ -538,11 +545,11 @@ const translations = {
   },
 
   ee: {
-    "desc-content":
-      "Dufta – Saksa vahend ebameeldivate lõhnade eemaldamiseks. Sobib tekstiilile, mööblile, jalanõudele ja muudele pindadele.",
-    "keywords-content":
-      "Dufta, lõhna eemaldamine, ensüümsprei, tekstiil, mööbel, jalanõud",
-    "landing-title": "Dufta – Saksa vahend ebameeldivate lõhnade vastu",
+    "desc-content": "Dufta on tõhus vahend uriini, kasside, koerte ja teiste loomade lõhnade vastu. Sobib mööblile, vaipadele, tekstiilidele ja jalanõudele. Eemaldab kiiresti ebameeldivad lõhnad, ohutu kodudele ja lemmikloomadele.",
+
+    "keywords-content": "lõhnade eemaldaja, lõhnade neutraliseerimine, ebameeldivate lõhnade likvideerimine, uriini lõhn, kasside lõhn, koerte lõhn, loomade lõhn, Dufta, eemaldada lõhna mööblilt, eemaldada lõhna diivanilt, eemaldada lõhna vaipalt, eemaldada lõhna tekstiililt",
+    
+    "landing-title": "Lõhnade eemaldaja — uriini, kasside ja loomade lõhnade eemaldamine | Dufta",
 
     "nav-about": "Dufta kohta",
     "nav-shop": "E-pood",
@@ -553,7 +560,7 @@ const translations = {
     "hero-title": "Usaldusväärne vahend lõhnade vastu",
     "hero-slogan": "Looduslik. Tõhus. Ohutu.",
 
-    about__title: "Mis on Dufta",
+    "about-title": "Mis on Dufta",
     "about-text1":
       "Dufta on hüpoallergeenne, biolagunev Saksa vahend orgaanilise päritoluga lõhnade ja plekkide eemaldamiseks.",
     "about-text3": "Ohutu inimestele ja lemmikloomadele.",
@@ -592,8 +599,10 @@ const translations = {
     "products-title": "Valige Dufta vahend oma ülesande jaoks",
     "product-item1": "DuftaFresh 500 ml lõhnaeemaldaja",
     "product-item2": "DuftaFresh 1 l lõhnaeemaldaja",
-    "product-item3": "DuftaPet 500 ml lõhnaeemaldaja loomadele",
-    "product-item4": "DuftaPet 1 l lõhnaeemaldaja loomadele",
+    "product-item3": "DuftaPet 500 ml loomade lõhnade eemaldaja",
+    "product-item4": "DuftaPet 1 l loomade lõhnade eemaldaja",
+    "product-item5": "DuftaFresh lõhnaeemaldaja 500 ml + 1L (komplekt)",
+    "product-item6": "DuftaPet loomade lõhnade eemaldaja 500 ml + 1L (komplekt)",
     "products-link": "Mine e-poodi",
 
     "uses-cases-title": "Milliseid lõhnu Dufta eemaldab",
@@ -715,11 +724,12 @@ const translations = {
   },
 
   en: {
-    "desc-content":
-      "Dufta is a German odor remover suitable for textiles, furniture, shoes, and other surfaces.",
-    "keywords-content":
-      "Dufta, odor remover, enzyme spray, textiles, furniture, shoes",
-    "landing-title": "Dufta – German Odor Remover",
+    
+      "desc-content": "Dufta is an effective solution for eliminating urine, cat, dog, and other animal odors. Suitable for furniture, carpets, textiles, and footwear. Quickly removes unpleasant odors, safe for homes and pets.",
+
+    "keywords-content": "odor remover, odor elimination, unpleasant smell neutralization, urine odor, cat odor, dog odor, animal odor, Dufta, remove odor from furniture, remove odor from sofa, remove odor from carpet, remove odor from textiles",
+
+    "landing-title": "Odor Remover — Urine, Cat, and Animal Odor Elimination | Dufta",
 
     "nav-about": "About Dufta",
     "nav-shop": "Online Store",
@@ -728,11 +738,12 @@ const translations = {
     "nav-contacts": "Contacts",
 
     "hero-title": "A reliable solution for unpleasant odors",
+    
     "hero-slogan": "Natural. Effective. Safe.",
 
-    about__title: "What IsKvapų šalintojai Dufta",
+    "about__title": "What Is Dufta",
     "about-text1":
-      "Dufta is a hypoallergenic, biodegradable German product designed to remove odors and stains of organic origin.",
+    "Dufta is a hypoallergenic, biodegradable German product designed to remove odors and stains of organic origin.",
     "about-text3": "Safe for people and pets.",
     "about-how-title": "How Dufta Removes Odors",
     "about-how-step-1-name": "Finds the source",
@@ -772,6 +783,8 @@ const translations = {
     "product-item2": "DuftaFresh 1 L Odor Remover",
     "product-item3": "DuftaPet 500 ml Pet Odor Remover",
     "product-item4": "DuftaPet 1 L Pet Odor Remover",
+    "product-item5": "DuftaFresh odor remover 500 ml + 1L refill (set)",
+    "product-item6": "DuftaPet pet odor remover 500 ml + 1L refill (set)",
     "products-link": "Go to Online Store",
 
     "uses-cases-title": "What Odors Dufta Removes",
